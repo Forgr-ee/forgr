@@ -57,6 +57,9 @@ header.masthead:before {
   -webkit-background-size: cover;
   background-size: contain; }
 
+.center-content {
+  justify-content: center; }
+
 .showcase .showcase-text {
   padding: 3rem; }
 
