@@ -80,7 +80,7 @@ header.masthead:before {
   .quote:before {
     content: "“";
     position: absolute;
-    left: -.7em; }
+    left: -.4em; }
   .quote:after {
     content: "”";
     margin-right: -1rem; }
