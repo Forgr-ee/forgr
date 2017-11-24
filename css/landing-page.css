@@ -64,7 +64,8 @@ header.masthead:before {
 
 .quote {
   font-family: 'EB Garamond';
-  font-size: 32px;
+  color: #868e96 !important;
+  font-size: 22px;
   line-height: 1.4rem;
   height: 100%;
   padding: .5rem;
