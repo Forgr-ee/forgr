@@ -50,12 +50,12 @@ header.masthead:before {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-  background-position: 50% 0;
+  background-position: 50% 30px;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
-  background-size: cover; }
+  background-size: contain; }
 
 .showcase .showcase-text {
   padding: 3rem; }
@@ -116,12 +116,12 @@ header.masthead:before {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-  background-position: 50% 0;
+  background-position: 50% 30px;
   -ms-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
-  background-size: cover; }
+  background-size: contain; }
 
 footer.footer {
   padding-top: 4rem;
