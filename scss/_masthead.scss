@@ -69,6 +69,8 @@ justify-content: center;
   
   &:after {
       content: "”";
+      position: relative;
+      left: .1em;
       margin-right: -1rem;
   }
 }
