@@ -3,6 +3,8 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
  */
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond|Droid+Serif|Playfair+Display|Open+Sans+Condensed:300);
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
@@ -59,6 +61,30 @@ header.masthead:before {
 
 .center-content {
   justify-content: center; }
+
+.quote {
+  font-family: 'EB Garamond';
+  font-size: 32px;
+  line-height: 1.4rem;
+  height: 100%;
+  padding: .5rem;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-kerning: normal;
+  color: #1A222F;
+  background: #F4FFF3;
+  position: relative;
+  letter-spacing: .03em;
+  margin-bottom: .5rem; }
+  .quote:before {
+    content: "“";
+    position: absolute;
+    left: -.7em; }
+  .quote:after {
+    content: "”";
+    margin-right: -1rem; }
 
 .showcase .showcase-text {
   padding: 3rem; }
