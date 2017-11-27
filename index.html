@@ -26,7 +26,7 @@
     <meta name="msapplication-TileImage" content="img/icon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <title>Digital Shift</title>
+    <title>{{ $t("common.company_name") }}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -43,11 +43,12 @@
 
   <body>
 
+    <div id="app">
     <!-- Navigation -->
     <nav class="navbar navbar-light bg-light static-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Digital Shift</a>
-        <a class="typeform-share button btn btn-lg btn-danger" href="https://riderx.typeform.com/to/xBQRdl" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">Sign up </a>
+        <a class="navbar-brand" href="#">{{ $t("common.company_name") }}</a>
+        <a class="typeform-share button btn btn-lg btn-danger" href="https://riderx.typeform.com/to/xBQRdl" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
       </div>
     </nav>
 
@@ -56,15 +57,15 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
-            <h1 class="mb-5">Build your MVP <br/>
-              <b>Quickly and efficiently</b>
+            <h1 class="mb-5">{{ $t("value_proposition.first") }} <br/>
+              <b>{{ $t("value_proposition.second") }}</b>
             </h1>
           </div>
           <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
             <form>
               <div class="form-row center-content">
                 <div class="col-12 col-md-3">
-                  <a class="typeform-share button btn btn-block btn-lg btn-danger" href="https://riderx.typeform.com/to/xBQRdl" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank">Sign up </a>
+                  <a class="typeform-share button btn btn-block btn-lg btn-danger" href="https://riderx.typeform.com/to/xBQRdl" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank">{{ $t("common.signup") }}</a>
                 </div>
               </div>
             </form>
@@ -82,9 +83,9 @@
               <div class="features-icons-icon d-flex">
                 <i class="icon-screen-desktop m-auto text-primary"></i>
               </div>
-              <h3>Fully Responsive</h3>
+              <h3>{{ $t("grid.1.title") }}</h3>
               <p class="lead mb-0">
-                This theme will look great on any device, no matter the size!
+                  {{ $t("grid.1.subtitle") }}
             </p>
             </div>
           </div>
@@ -93,9 +94,9 @@
               <div class="features-icons-icon d-flex">
                 <i class="icon-layers m-auto text-primary"></i>
               </div>
-              <h3>Future Ready</h3>
+              <h3>{{ $t("grid.2.title") }}</h3>
               <p class="lead mb-0">
-                Featuring the latest Tech stack framework!
+                  {{ $t("grid.2.subtitle") }}
               </p>
             </div>
           </div>
@@ -104,9 +105,9 @@
               <div class="features-icons-icon d-flex">
                 <i class="icon-check m-auto text-primary"></i>
               </div>
-              <h3>Easy to Use</h3>
+              <h3>{{ $t("grid.3.title") }}</h3>
               <p class="lead mb-0">
-                  Ready to use, simple to customize for your team!
+                  {{ $t("grid.3.subtitle") }}
               </p>
             </div>
           </div>
@@ -261,7 +262,7 @@
             <form>
               <div class="form-row center-content">
                 <div class="col-12 col-md-3">
-                    <a class="typeform-share button btn btn-block btn-lg btn-danger" href="https://riderx.typeform.com/to/xBQRdl" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank">Sign up </a>
+                    <a class="typeform-share button btn btn-block btn-lg btn-danger" href="https://riderx.typeform.com/to/xBQRdl" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank">{{ $t("common.signup") }}</a>
                 </div>
               </div>
             </form>
@@ -296,7 +297,7 @@
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSegXHjwus5qdwwlB2PfsegpMGXhAA8jYmFRSvd0VweoD7IH4A/viewform" target="_blank">Jobs</a>
               </li>              
             </ul>
-            <p class="text-muted small mb-4 mb-lg-0">&copy; Digital shift 2017. All Rights Reserved.</p>
+            <p class="text-muted small mb-4 mb-lg-0">&copy; {{ $t("common.company_name") }} 2017. All Rights Reserved.</p>
           </div>
           <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
             <ul class="list-inline mb-0">
@@ -320,12 +321,102 @@
         </div>
       </div>
     </footer>
+    </div>>
 
-    <!-- Bootstrap core JavaScript -->
+    <script src="https://unpkg.com/vue@2.5.8/dist/vue.min.js"></script>
+    <script src="https://unpkg.com/vue-i18n/dist/vue-i18n.js"></script>
+    <script>
+        const language = window.navigator.userLanguage || window.navigator.language;
+        const selectedLang = language.split('-')[0] == 'en' ? 'en' : 'fr';
+        const messages = {
+              en: {
+                common: {
+                  company_name: 'Digital shift',
+                  signup_sentence: 'Ready to get started? Sign up now!',
+                  signup: 'Signup'
+                },
+                header: {
+                },
+                value_proposition: {
+                  first: 'Build your MVP',
+                  second: 'Quickly and efficiently'
+                },
+                grid: {
+                  '1': {
+                    title: 'Fully Responsive',
+                    subtitle: 'This theme will look great on any device, no matter the size!'
+                  },
+                  '2': {
+                    title: 'Future Ready',
+                    subtitle: 'Featuring the latest Tech stack framework!'
+                  },
+                  '3': {
+                    title: 'Easy to Use',
+                    subtitle: 'Ready to use, simple to customize for your team!'
+                  },
+                },
+                showcase: {
+                  '1': {
+                    title: 'IDEATION',
+                    subtitle: 'This theme will look great on any device, no matter the size!',
+                    content: 'We believe that every idea has a potential. Success is reachable by everyone but you need to start somewhere. Please, use the chat or the contact form to tell us more about your project. In this way, we will be able to get back to you quickly with a tailor-made proposition including an estimate. Of course, at this step, a non-disclosure agreement (NDA) can be signed if needed.'
+                  },
+                  '2': {
+                    title: 'SCOPING',
+                    subtitle: 'This theme will look great on any device, no matter the size!',
+                    content: 'This is the first and most crucial phase of building your MVP and will help us fully understand your vision. Together with you, we will assess your idea, define the requirements of your project and plan the next steps in the process, including clear deliverables.'
+                  },
+                  '3': {
+                    title: 'USER EXPERIENCE',
+                    subtitle: 'This theme will look great on any device, no matter the size!',
+                    content: 'During this phase, we will provide you with a fully clickable prototype created using the best practices and latest trends in user experience. At the end of the UX process, your project will already have a solid base, which is necessary to begin the design process.'
+                  },
+                  '4': {
+                    title: 'VISUAL DESIGN',
+                    subtitle: 'This theme will look great on any device, no matter the size!',
+                    content: 'Once you have validated the prototype, our designers will prepare several design proposals that will perfectly capture your project vision. Based on your preference, we will then focus on one design and make further iterations, if necessary. Once approved, we will deliver a design that’s ready for implementation.              We can help turn your idea into reality with a Minimum Viable Product (MVP) for mobile or web. Save time, money and risk with a streamlined version of your product featuring just the core features, so you can test it with your target audience or pitch it directly to investors. We build systems that can be scaled up so you can gain valuable insight and funding to develop further. It’s time to find out just how strong your idea is.'
+                  },
+                  '5': {
+                    title: 'DEVELOPMENT',
+                    subtitle: 'This theme will look great on any device, no matter the size!',
+                    content: 'This step involves building your MVP. By selecting the technology that best suits the needs of your project, the end-product will be easily extendable and scalable. We always keep the development process as transparent as possible, which means that you will be able to follow its progress.'
+                  },
+                  '6': {
+                    title: 'DELIVERY',
+                    subtitle: 'All set to conquest the sky',
+                    content: 'At this point, your MVP is ready. We will produce the deliverable the way you want it by making it live and handing the project to you. During this phase, we will test the product several times making sure it is stable and sustainable.'
+                  },
+                  '7': {
+                    title: 'VIDEO PRODUCTION',
+                    subtitle: 'Boost your impact',
+                    content: 'This is an additional service that includes the preparation of a script, storyboards, voice-over, video production and post-production, and starts just after the discovery phase. It is carried out simultaneously with the other steps.'
+                  },
+                },
+                footer: {
+                  about: 'About',
+                  jobs: 'Jobs',
+                  contact: 'Contact',
+                  terms: 'Terms of Use',
+                  privacy: 'Privacy Policy'
+                }
+              },
+              fr: {
+                message: {
+                  hello: 'Bonjour'
+                }
+              }
+            }
+        const i18n = new VueI18n({
+          locale: selectedLang,
+          messages,
+        })
+        new Vue({ i18n }).$mount('#app')
+    </script>
+    <!-- Bootstrap core JavaScript -->    
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
     <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+    
   </body>
 
 </html>
