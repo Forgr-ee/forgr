@@ -1,8 +1,9 @@
 const fr = {
     common: {
-      company_name: 'Digital shift',
-      signup_sentence: 'Pret a commencer ? Souscris maintenant!',
-      signup: 'Souscrire'
+        typeform_id: 'xBQRdl',
+        company_name: 'Digital shift',
+        signup_sentence: 'Pret a commencer ? Souscris maintenant!',
+        signup: 'Souscrire'
     },
     header: {
     },

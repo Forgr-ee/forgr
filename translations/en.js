@@ -1,5 +1,6 @@
 const en = {
         common: {
+          typeform_id: 'xBQRdl',
           company_name: 'Digital shift',
           signup_sentence: 'Ready to get started? Sign up now!',
           signup: 'Signup'

@@ -1,8 +1,9 @@
-var ee = {
+const ee = {
     common: {
-      company_name: 'Digital shift',
-      signup_sentence: 'Pret a commencer ? Souscris maintenant!',
-      signup: 'Souscrire'
+        typeform_id: 'xBQRdl',
+        company_name: 'Digital shift',
+        signup_sentence: 'Pret a commencer ? Souscris maintenant!',
+        signup: 'Souscrire'
     },
     header: {
     },
@@ -85,6 +86,6 @@ var ee = {
     }
   }
 
-module.exports = lang;if (!window.landing)
+if (!window.landing)
     window.landing = {}
 window.landing.ee = ee;

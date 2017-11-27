@@ -48,7 +48,7 @@
     <nav class="navbar navbar-light bg-light static-top">
       <div class="container">
         <a class="navbar-brand" href="#">{{ $t("common.company_name") }}</a>
-        <a class="typeform-share button btn btn-lg btn-danger" href="https://riderx.typeform.com/to/xBQRdl" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
+        <a class="typeform-share button btn btn-lg btn-danger" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
       </div>
     </nav>
 
@@ -343,7 +343,7 @@
     
     <script>
         const browserLanguagePropertyKeys = ['languages', 'language', 'browserLanguage', 'userLanguage', 'systemLanguage'];
-        const availableLanguages = ['fr', 'ee'];
+        const availableLanguages = ['fr', 'ee', 'en'];
         var getLangs = function () {
           var langs = []
           for (let index = 0; index < browserLanguagePropertyKeys.length; index++) {
@@ -360,7 +360,8 @@
         }
         const langs = getLangs();
         function isLocal(element) {
-          return element == 'fr' || element == 'en' || element == 'ee';
+          return availableLanguages.indexOf(element)
+          // return element == 'fr' || element == 'en' || element == 'ee';
         }
         const detectedLocale = langs.find(isLocal)
         const locale = detectedLocale || 'en';
@@ -368,7 +369,15 @@
           locale: locale,
           messages: window.landing,
         })
-        new Vue({ i18n }).$mount('#app')
+        new Vue({ 
+          i18n,
+          computed: {
+            typeform_url: function () {
+              const url = 'https://riderx.typeform.com/to/' + window.landing[locale].common.typeform_id
+              return url;
+            }
+          }
+        }).$mount('#app')
     </script>
     <script src="vendor/jquery/jquery.min.js"></script>    
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
