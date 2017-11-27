@@ -1,6 +1,7 @@
 const fr = {
     common: {
         typeform_id: 'xBQRdl',
+        dialogflow_id: '2723521a53224638813099c3080687aa',
         company_name: 'Digital shift',
         signup_sentence: 'Pret a commencer ? Souscris maintenant!',
         signup: 'Souscrire'

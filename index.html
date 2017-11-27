@@ -236,7 +236,7 @@
         width="100%"
         height="430"
         style="border: none;"
-        src="https://app.talky.cards/?api=38022ca2551e4aa28711a25bb9639eb8"></iframe>
+        :src="dialowflow_url"></iframe>
         <!-- <div class="row">
           <div class="col-lg-4">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
@@ -374,6 +374,11 @@
           computed: {
             typeform_url: function () {
               const url = 'https://riderx.typeform.com/to/' + window.landing[locale].common.typeform_id
+              return url;
+            },
+            dialowflow_url: function () {
+              const url = 'https://app.talky.cards/?api=' + window.landing[locale].common.dialogflow_id
+              console.log(url)
               return url;
             }
           }
