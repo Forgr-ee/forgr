@@ -123,7 +123,7 @@
           <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');background-position:center;"></div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
             <h1>{{ $t("showcase.1.title") }}</h1>
-            <h3 class="quote">{{ $t("showcase.1.title") }}</h3>
+            <h3 class="quote">{{ $t("showcase.1.subtitle") }}</h3>
             <br>
             <p class="lead mb-0">
                 {{ $t("showcase.1.content") }}
@@ -133,23 +133,22 @@
         <div class="row no-gutters">
           <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/discovery3.gif');background-position:center;"></div>
           <div class="col-lg-6 my-auto showcase-text">
-            <h1>SCOPING</h1>
-            <h3 class="quote">Turn on the power</h3>
+            <h1>{{ $t("showcase.2.title") }}</h1>
+            <h3 class="quote">{{ $t("showcase.2.subtitle") }}</h3>
             <br>
             <p class="lead mb-0">
-                Here you go. Before reaching the sky, we need to be fully aligned with your vision and objectives. Let's meet, grab a coffee, sit somewhere and discuss it. This is a big moment in your MVP life.
-During this meeting, we will go through every aspects of your project so as to match your expectations and our expertise. It will give us solid basics to start building the MVP you need. Concretely, we will measure the feasibility, define the requirements, plan the next steps and give you a clear view on the deliverables.
+                {{ $t("showcase.2.content") }}
             </p>
           </div>
         </div>
         <div class="row no-gutters">
           <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h1>USER EXPERIENCE</h1>
-            <h3 class="quote">Add magic to the project</h3>
+            <h1>{{ $t("showcase.3.title") }}</h1>
+            <h3 class="quote">{{ $t("showcase.3.subtitle") }}</h3>
             <br>
             <p class="lead mb-0">
-                Now it's time to create a unique experience for your future users. User experience is essential to design a high value solution. It will ensure that your product matches with users' expectations. To do so, we will use specific UX design tools and our knowledge of the latest trends and good practices to conceive the best user experience for your MVP. At this point, we will produce a fully functional prototype giving you a valuable overview of your product.
+                {{ $t("showcase.3.content") }}
             </p>
           </div>
         </div>
@@ -158,11 +157,11 @@ During this meeting, we will go through every aspects of your project so as to m
 
             <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/production.png');"></div>
             <div class="col-lg-6 my-auto showcase-text">
-              <h2>VISUAL DESIGN</h2>
-              <h3 class="quote">Propel the project to the sky</h3>
+              <h2>{{ $t("showcase.4.title") }}</h2>
+              <h3 class="quote">{{ $t("showcase.4.subtitle") }}</h3>
               <br>
               <p class="lead mb-0">
-                  Now we've built the skeleton, let's add the skin. Once you've approved the prototype, our User Interface Designers will brainstorm and create several visual designs that fit both your vision and product value (don't worry we won't use too much pink, stars and unicorns). Based on your preferences, we will focus on one specific design and make few iterations if it's necessary. At the end of this stage, we will deliver a visual design kit ready to be implemented.                  
+                  {{ $t("showcase.4.content") }}
                 </p>
             </div>
           </div>
@@ -194,32 +193,32 @@ During this meeting, we will go through every aspects of your project so as to m
               </div>
             </div>
             <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-              <h1>DEVELOPMENT</h1>
-              <h3 class="quote">Forge a strong solution</h3>
+              <h1>{{ $t("showcase.5.title") }}</h1>
+              <h3 class="quote">{{ $t("showcase.5.subtitle") }}</h3>
               <br>
               <p class="lead mb-0">
-                  This step involves building your MVP. By selecting the technology that best suits the needs of your project, the end-product will be easily extendable and scalable. We always keep the development process as transparent as possible, which means that you will be able to follow its progress.
+                  {{ $t("showcase.5.content") }}
                 </p>
             </div>
           </div>
         <div class="row no-gutters">
             <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/video4.gif');background-position:center;"></div>
             <div class="col-lg-6 my-auto showcase-text">
-                <h1>DELIVERY</h1>
-              <h3 class="quote">All set to conquest the sky</h3>
+                <h1>{{ $t("showcase.6.title") }}</h1>
+              <h3 class="quote">{{ $t("showcase.6.subtitle") }}</h3>
               <br>
                 <p class="lead mb-0">
-                    At this point, your MVP is ready. We will produce the deliverable the way you want it by making it live and handing the project to you. During this phase, we will test the product several times making sure it is stable and sustainable.
+                  {{ $t("showcase.6.content") }}                  
                   </p>
             </div>          
         <div class="row no-gutters">  
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/video.jpg');background-position:center;"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h1>VIDEO PRODUCTION</h1>
-            <h3 class="quote">Boost your impact</h3>
+            <h1>{{ $t("showcase.7.title") }}</h1>
+            <h3 class="quote">{{ $t("showcase.7.subtitle") }}</h3>
           <br>
             <p class="lead mb-0">
-                This is an additional service that includes the preparation of a script, storyboards, voice-over, video production and post-production, and starts just after the discovery phase. It is carried out simultaneously with the other steps.
+                {{ $t("showcase.7.content") }}                                  
               </p>
         </div>
       </div>
@@ -429,8 +428,89 @@ During this meeting, we will go through every aspects of your project so as to m
                 }
               },
               fr: {
-                message: {
-                  hello: 'Bonjour'
+                common: {
+                  company_name: 'Digital shift',
+                  signup_sentence: 'Ready to get started? Sign up now!',
+                  signup: 'Signup'
+                },
+                header: {
+                },
+                value_proposition: {
+                  first: 'Your MVP, in 4 weeks.',
+                  second: 'Nothing more, nothing less.'
+                },
+                grid: {
+                  '1': {
+                    title: 'Fully Responsive',
+                    subtitle: 'This theme will look great on any device, no matter the size!'
+                  },
+                  '2': {
+                    title: 'Future Ready',
+                    subtitle: 'Featuring the latest Tech stack framework!'
+                  },
+                  '3': {
+                    title: 'Easy to Use',
+                    subtitle: 'Ready to use, simple to customize for your team!'
+                  },
+                },
+                showcase: {
+                  '1': {
+                    title: 'IDEATION',
+                    subtitle: 'Initiate success',
+                    content: 'We believe that every idea has a potential. Success is reachable by everyone but you need to start somewhere. Please, use the chat or the contact form to tell us more about your project. In this way, we will be able to get back to you quickly with a tailor-made proposition including an estimate. Of course, at this step, a non-disclosure agreement (NDA) can be signed if needed.'
+                  },
+                  '2': {
+                    title: 'SCOPING',
+                    subtitle: 'Turn on the power',
+                    content: 'Here you go. Before reaching the sky, we need to be fully aligned with your vision and objectives. Let\'s meet, grab a coffee, sit somewhere and discuss it. This is a big moment in your MVP life.\bDuring this meeting, we will go through every aspects of your project so as to match your expectations and our expertise. It will give us solid basics to start building the MVP you need. Concretely, we will measure the feasibility, define the requirements, plan the next steps and give you a clear view on the deliverables.'
+                  },
+                  '3': {
+                    title: 'USER EXPERIENCE',
+                    subtitle: 'Add magic to the project',
+                    content: 'Now it\'s time to create a unique experience for your future users. User experience is essential to design a high value solution. It will ensure that your product matches with users\' expectations. To do so, we will use specific UX design tools and our knowledge of the latest trends and good practices to conceive the best user experience for your MVP. At this point, we will produce a fully functional prototype giving you a valuable overview of your product.'
+                  },
+                  '4': {
+                    title: 'VISUAL DESIGN',
+                    subtitle: 'Propel the project to the sky',
+                    content: 'Now we\'ve built the skeleton, let\'s add the skin. Once you\'ve approved the prototype, our User Interface Designers will brainstorm and create several visual designs that fit both your vision and product value (don\'t worry we won\'t use too much pink, stars and unicorns). Based on your preferences, we will focus on one specific design and make few iterations if it\'s necessary. At the end of this stage, we will deliver a visual design kit ready to be implemented.'
+                  },
+                  '5': {
+                    title: 'DEVELOPMENT',
+                    subtitle: 'Forge a strong solution',
+                    content: 'This step involves building your MVP. By selecting the technology that best suits the needs of your project, the end-product will be easily extendable and scalable. We always keep the development process as transparent as possible, which means that you will be able to follow its progress.'
+                  },
+                  '6': {
+                    title: 'DELIVERY',
+                    subtitle: 'All set to conquest the sky',
+                    content: 'At this point, your MVP is ready. We will produce the deliverable the way you want it by making it live and handing the project to you. During this phase, we will test the product several times making sure it is stable and sustainable.'
+                  },
+                  '7': {
+                    title: 'VIDEO PRODUCTION',
+                    subtitle: 'Boost your impact',
+                    content: 'This is an additional service that includes the preparation of a script, storyboards, voice-over, video production and post-production, and starts just after the discovery phase. It is carried out simultaneously with the other steps.'
+                  }
+                },
+                testimonial: {
+                  header: '',
+                  '1': {
+                    title: '',
+                    content: ''
+                  },
+                  '2': {
+                    title: '',
+                    content: ''
+                  },
+                  '3': {
+                    title: '',
+                    content: ''
+                  }
+                },
+                footer: {
+                  about: 'About',
+                  jobs: 'Jobs',
+                  contact: 'Contact',
+                  terms: 'Terms of Use',
+                  privacy: 'Privacy Policy'
                 }
               }
             }
@@ -441,7 +521,7 @@ During this meeting, we will go through every aspects of your project so as to m
         new Vue({ i18n }).$mount('#app')
     </script>
     <!-- Bootstrap core JavaScript -->    
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 
