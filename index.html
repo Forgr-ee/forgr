@@ -333,13 +333,36 @@
         </div>
       </div>
     </footer>
-    </div>>
+    </div>
 
     <script src="https://unpkg.com/vue@2.5.8/dist/vue.min.js"></script>
     <script src="https://unpkg.com/vue-i18n/dist/vue-i18n.js"></script>
     <script>
-        const language = window.navigator.userLanguage || window.navigator.language;
-        const selectedLang = language.split('-')[0] == 'en' ? 'en' : 'fr';
+        const browserLanguagePropertyKeys = ['languages', 'language', 'browserLanguage', 'userLanguage', 'systemLanguage'];
+
+        const availableLanguages = ['fr', 'ee'];
+        var getLangs = function () {
+          var langs = []
+          for (let index = 0; index < browserLanguagePropertyKeys.length; index++) {
+            const element = browserLanguagePropertyKeys[index];
+            if (window.navigator[element]) {
+              if (typeof window.navigator[element] === 'string') {
+                langs.push(window.navigator[element])
+              } else {
+                langs = langs.concat(window.navigator[element])
+              }
+            }
+          }
+          return langs;
+        }
+        const langs = getLangs();
+        // console.log('test', langs)
+        function isLocal(element) {
+          return element == 'fr' || element == 'en' || element == 'ee';
+        }
+        const detectedLocale = langs.find(isLocal)
+        const locale = detectedLocale || 'en';
+        // console.log('locale', locale);    
         const messages = {
               en: {
                 common: {
@@ -350,7 +373,7 @@
                 header: {
                 },
                 value_proposition: {
-                  first: 'Your MVP, in 4 weeks.',
+                  first: 'Votre MVP, in 4 weeks.',
                   second: 'Nothing more, nothing less.'
                 },
                 grid: {
@@ -515,16 +538,15 @@
               }
             }
         const i18n = new VueI18n({
-          locale: selectedLang,
+          locale: locale,
           messages,
         })
         new Vue({ i18n }).$mount('#app')
+        i18n.setLocaleMessage(locale);        
     </script>
-    <!-- Bootstrap core JavaScript -->    
-    <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+    <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-
   </body>
 
 </html>
