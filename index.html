@@ -26,7 +26,7 @@
     <meta name="msapplication-TileImage" content="img/icon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <title>{{ $t("common.company_name") }}</title>
+    <title>Digital Shift</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -122,10 +122,11 @@
 
           <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');background-position:center;"></div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h1>IDEATION</h1>
-            <h3 class="quote">Initiate success</h3>
+            <h1>{{ $t("showcase.1.title") }}</h1>
+            <h3 class="quote">{{ $t("showcase.1.title") }}</h3>
+            <br>
             <p class="lead mb-0">
-                We believe that every idea has a potential. Success is reachable by everyone but you need to start somewhere. Please, use the chat or the contact form to tell us more about your project. In this way, we will be able to get back to you quickly with a tailor-made proposition including an estimate. Of course, at this step, a non-disclosure agreement (NDA) can be signed if needed.  
+                {{ $t("showcase.1.content") }}
             </p>
           </div>
         </div>
@@ -134,8 +135,10 @@
           <div class="col-lg-6 my-auto showcase-text">
             <h1>SCOPING</h1>
             <h3 class="quote">Turn on the power</h3>
+            <br>
             <p class="lead mb-0">
-                This is the first and most crucial phase of building your MVP and will help us fully understand your vision. Together with you, we will assess your idea, define the requirements of your project and plan the next steps in the process, including clear deliverables.
+                Here you go. Before reaching the sky, we need to be fully aligned with your vision and objectives. Let's meet, grab a coffee, sit somewhere and discuss it. This is a big moment in your MVP life.
+During this meeting, we will go through every aspects of your project so as to match your expectations and our expertise. It will give us solid basics to start building the MVP you need. Concretely, we will measure the feasibility, define the requirements, plan the next steps and give you a clear view on the deliverables.
             </p>
           </div>
         </div>
@@ -144,8 +147,9 @@
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
             <h1>USER EXPERIENCE</h1>
             <h3 class="quote">Add magic to the project</h3>
+            <br>
             <p class="lead mb-0">
-                During this phase, we will provide you with a fully clickable prototype created using the best practices and latest trends in user experience. At the end of the UX process, your project will already have a solid base, which is necessary to begin the design process.
+                Now it's time to create a unique experience for your future users. User experience is essential to design a high value solution. It will ensure that your product matches with users' expectations. To do so, we will use specific UX design tools and our knowledge of the latest trends and good practices to conceive the best user experience for your MVP. At this point, we will produce a fully functional prototype giving you a valuable overview of your product.
             </p>
           </div>
         </div>
@@ -156,8 +160,9 @@
             <div class="col-lg-6 my-auto showcase-text">
               <h2>VISUAL DESIGN</h2>
               <h3 class="quote">Propel the project to the sky</h3>
+              <br>
               <p class="lead mb-0">
-                  Once you have validated the prototype, our designers will prepare several design proposals that will perfectly capture your project vision. Based on your preference, we will then focus on one design and make further iterations, if necessary. Once approved, we will deliver a design that’s ready for implementation.              We can help turn your idea into reality with a Minimum Viable Product (MVP) for mobile or web. Save time, money and risk with a streamlined version of your product featuring just the core features, so you can test it with your target audience or pitch it directly to investors. We build systems that can be scaled up so you can gain valuable insight and funding to develop further. It’s time to find out just how strong your idea is.                  
+                  Now we've built the skeleton, let's add the skin. Once you've approved the prototype, our User Interface Designers will brainstorm and create several visual designs that fit both your vision and product value (don't worry we won't use too much pink, stars and unicorns). Based on your preferences, we will focus on one specific design and make few iterations if it's necessary. At the end of this stage, we will deliver a visual design kit ready to be implemented.                  
                 </p>
             </div>
           </div>
@@ -191,6 +196,7 @@
             <div class="col-lg-6 order-lg-1 my-auto showcase-text">
               <h1>DEVELOPMENT</h1>
               <h3 class="quote">Forge a strong solution</h3>
+              <br>
               <p class="lead mb-0">
                   This step involves building your MVP. By selecting the technology that best suits the needs of your project, the end-product will be easily extendable and scalable. We always keep the development process as transparent as possible, which means that you will be able to follow its progress.
                 </p>
@@ -201,6 +207,7 @@
             <div class="col-lg-6 my-auto showcase-text">
                 <h1>DELIVERY</h1>
               <h3 class="quote">All set to conquest the sky</h3>
+              <br>
                 <p class="lead mb-0">
                     At this point, your MVP is ready. We will produce the deliverable the way you want it by making it live and handing the project to you. During this phase, we will test the product several times making sure it is stable and sustainable.
                   </p>
@@ -210,6 +217,7 @@
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
             <h1>VIDEO PRODUCTION</h1>
             <h3 class="quote">Boost your impact</h3>
+          <br>
             <p class="lead mb-0">
                 This is an additional service that includes the preparation of a script, storyboards, voice-over, video production and post-production, and starts just after the discovery phase. It is carried out simultaneously with the other steps.
               </p>
@@ -224,8 +232,13 @@
     <!-- Testimonials -->
     <section class="testimonials text-center bg-light">
       <div class="container">
-        <h2 class="mb-5">What people are saying...</h2>
-        <div class="row">
+        <h2 class="mb-5">Any question ? Ask our lovely bot</h2>
+        <iframe
+        width="100%"
+        height="430"
+        style="border: none;"
+        src="https://app.talky.cards/?api=38022ca2551e4aa28711a25bb9639eb8"></iframe>
+        <!-- <div class="row">
           <div class="col-lg-4">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
               <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
@@ -247,7 +260,7 @@
               <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -338,8 +351,8 @@
                 header: {
                 },
                 value_proposition: {
-                  first: 'Build your MVP',
-                  second: 'Quickly and efficiently'
+                  first: 'We craft your MVP in 4 weeks',
+                  second: 'Reach success faster'
                 },
                 grid: {
                   '1': {
@@ -358,27 +371,27 @@
                 showcase: {
                   '1': {
                     title: 'IDEATION',
-                    subtitle: 'This theme will look great on any device, no matter the size!',
+                    subtitle: 'Initiate success',
                     content: 'We believe that every idea has a potential. Success is reachable by everyone but you need to start somewhere. Please, use the chat or the contact form to tell us more about your project. In this way, we will be able to get back to you quickly with a tailor-made proposition including an estimate. Of course, at this step, a non-disclosure agreement (NDA) can be signed if needed.'
                   },
                   '2': {
                     title: 'SCOPING',
-                    subtitle: 'This theme will look great on any device, no matter the size!',
-                    content: 'This is the first and most crucial phase of building your MVP and will help us fully understand your vision. Together with you, we will assess your idea, define the requirements of your project and plan the next steps in the process, including clear deliverables.'
+                    subtitle: 'Turn on the power',
+                    content: 'Here you go. Before reaching the sky, we need to be fully aligned with your vision and objectives. Let\'s meet, grab a coffee, sit somewhere and discuss it. This is a big moment in your MVP life.\bDuring this meeting, we will go through every aspects of your project so as to match your expectations and our expertise. It will give us solid basics to start building the MVP you need. Concretely, we will measure the feasibility, define the requirements, plan the next steps and give you a clear view on the deliverables.'
                   },
                   '3': {
                     title: 'USER EXPERIENCE',
-                    subtitle: 'This theme will look great on any device, no matter the size!',
-                    content: 'During this phase, we will provide you with a fully clickable prototype created using the best practices and latest trends in user experience. At the end of the UX process, your project will already have a solid base, which is necessary to begin the design process.'
+                    subtitle: 'Add magic to the project',
+                    content: 'Now it\'s time to create a unique experience for your future users. User experience is essential to design a high value solution. It will ensure that your product matches with users\' expectations. To do so, we will use specific UX design tools and our knowledge of the latest trends and good practices to conceive the best user experience for your MVP. At this point, we will produce a fully functional prototype giving you a valuable overview of your product.'
                   },
                   '4': {
                     title: 'VISUAL DESIGN',
-                    subtitle: 'This theme will look great on any device, no matter the size!',
-                    content: 'Once you have validated the prototype, our designers will prepare several design proposals that will perfectly capture your project vision. Based on your preference, we will then focus on one design and make further iterations, if necessary. Once approved, we will deliver a design that’s ready for implementation.              We can help turn your idea into reality with a Minimum Viable Product (MVP) for mobile or web. Save time, money and risk with a streamlined version of your product featuring just the core features, so you can test it with your target audience or pitch it directly to investors. We build systems that can be scaled up so you can gain valuable insight and funding to develop further. It’s time to find out just how strong your idea is.'
+                    subtitle: 'Propel the project to the sky',
+                    content: 'Now we\'ve built the skeleton, let\'s add the skin. Once you\'ve approved the prototype, our User Interface Designers will brainstorm and create several visual designs that fit both your vision and product value (don\'t worry we won\'t use too much pink, stars and unicorns). Based on your preferences, we will focus on one specific design and make few iterations if it\'s necessary. At the end of this stage, we will deliver a visual design kit ready to be implemented.'
                   },
                   '5': {
                     title: 'DEVELOPMENT',
-                    subtitle: 'This theme will look great on any device, no matter the size!',
+                    subtitle: 'Forge a strong solution',
                     content: 'This step involves building your MVP. By selecting the technology that best suits the needs of your project, the end-product will be easily extendable and scalable. We always keep the development process as transparent as possible, which means that you will be able to follow its progress.'
                   },
                   '6': {
@@ -390,7 +403,22 @@
                     title: 'VIDEO PRODUCTION',
                     subtitle: 'Boost your impact',
                     content: 'This is an additional service that includes the preparation of a script, storyboards, voice-over, video production and post-production, and starts just after the discovery phase. It is carried out simultaneously with the other steps.'
+                  }
+                },
+                testimonial: {
+                  header: '',
+                  '1': {
+                    title: '',
+                    content: ''
                   },
+                  '2': {
+                    title: '',
+                    content: ''
+                  },
+                  '3': {
+                    title: '',
+                    content: ''
+                  }
                 },
                 footer: {
                   about: 'About',
@@ -416,7 +444,7 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-    
+
   </body>
 
 </html>
