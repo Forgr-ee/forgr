@@ -15,8 +15,8 @@ const fr = {
     },
     grid: {
       '1': {
-        title: 'Entierement ',
-        subtitle: 'This theme will look great on any device, no matter the size!'
+        title: 'Completement mobile',
+        subtitle: 'Votre mvp aura fière allure sur n\'importe quel appareil, peu importe la taille!'
       },
       '2': {
         title: 'Pret pour le futur',
@@ -34,7 +34,7 @@ const fr = {
         content: 'We believe that every idea has a potential. Success is reachable by everyone but you need to start somewhere. Please, use the chat or the contact form to tell us more about your project. In this way, we will be able to get back to you quickly with a tailor-made proposition including an estimate. Of course, at this step, a non-disclosure agreement (NDA) can be signed if needed.'
       },
       '2': {
-        title: 'SCOPING',
+        title: 'CIBLAGE',
         subtitle: 'Mettre le contact',
         content: 'Here you go. Before reaching the sky, we need to be fully aligned with your vision and objectives. Let\'s meet, grab a coffee, sit somewhere and discuss it. This is a big moment in your MVP life.\bDuring this meeting, we will go through every aspects of your project so as to match your expectations and our expertise. It will give us solid basics to start building the MVP you need. Concretely, we will measure the feasibility, define the requirements, plan the next steps and give you a clear view on the deliverables.'
       },
@@ -44,7 +44,7 @@ const fr = {
         content: 'Now it\'s time to create a unique experience for your future users. User experience is essential to design a high value solution. It will ensure that your product matches with users\' expectations. To do so, we will use specific UX design tools and our knowledge of the latest trends and good practices to conceive the best user experience for your MVP. At this point, we will produce a fully functional prototype giving you a valuable overview of your product.'
       },
       '4': {
-        title: 'VISUAL DESIGN',
+        title: 'ASPECT VISUEL',
         subtitle: 'Propulser jusqu\'au ciel',
         content: 'Now we\'ve built the skeleton, let\'s add the skin. Once you\'ve approved the prototype, our User Interface Designers will brainstorm and create several visual designs that fit both your vision and product value (don\'t worry we won\'t use too much pink, stars and unicorns). Based on your preferences, we will focus on one specific design and make few iterations if it\'s necessary. At the end of this stage, we will deliver a visual design kit ready to be implemented.'
       },
@@ -80,8 +80,8 @@ const fr = {
       }
     },
     footer: {
-      about: 'About',
-      jobs: 'Jobs',
+      about: 'A propos',
+      jobs: 'Taff',
       contact: 'Contact',
       terms: 'Terms of Use',
       privacy: 'Privacy Policy'

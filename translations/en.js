@@ -15,7 +15,7 @@ const en = {
         grid: {
           '1': {
             title: 'Fully Responsive',
-            subtitle: 'This theme will look great on any device, no matter the size!'
+            subtitle: 'Your MVP will look great on any device, no matter the size!'
           },
           '2': {
             title: 'Future Ready',
