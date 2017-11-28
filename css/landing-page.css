@@ -39,7 +39,7 @@ header.masthead {
         font-size: 3rem; } }
 
 header.masthead:before {
-  background: url("../img/bg-masthead.png") no-repeat center center;
+  background: url("../img/ds_bg.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -133,7 +133,7 @@ header.masthead:before {
     opacity: 0; }
 
 .call-to-action:before {
-  background: url("../img/bg-masthead.png") no-repeat center center;
+  background: url("../img/ds_bg.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
