@@ -354,9 +354,11 @@
         })
         new Vue({ 
           i18n,
-          data: {
-            loaded: false
-          },
+          data: function(){
+                return {
+                  loaded: false
+                }
+              },
           computed: {
             typeform_url: function () {
               const url = 'https://riderx.typeform.com/to/' + window.landing[locale].common.typeform_id
@@ -368,7 +370,7 @@
               return url;
             }
           },
-          mounted() {
+          mounted() { 
             i18n.setLocaleMessage(locale, window.landing[locale])
             console.log('lang', locale)
             this.loaded = true;            
