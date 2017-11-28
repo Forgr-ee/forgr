@@ -4,6 +4,7 @@ const en = {
           dialogflow_id: '38022ca2551e4aa28711a25bb9639eb8',
           company_name: 'Digital shift',
           signup_sentence: 'Ready to get started? Sign up now!',
+          faq: 'Any question ? Ask our lovely bot',
           signup: 'Signup'
         },
         header: {

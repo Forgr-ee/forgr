@@ -5,6 +5,7 @@ const fr = {
         dialogflow_id: '38022ca2551e4aa28711a25bb9639eb8',
         company_name: 'Digital shift',
         signup_sentence: 'Pret a commencer ? Souscris maintenant!',
+        faq: 'Des questions ? viens discuter avec notre 🤖 sur messenger',
         signup: 'Souscrire'
     },
     header: {
