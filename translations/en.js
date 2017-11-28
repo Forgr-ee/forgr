@@ -9,7 +9,7 @@ const en = {
         header: {
         },
         value_proposition: {
-          first: 'Votre MVP, in 4 weeks.',
+          first: 'Your MVP, in 4 weeks.',
           second: 'Nothing more, nothing less.'
         },
         grid: {
