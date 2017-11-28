@@ -19,7 +19,7 @@ const en = {
           },
           '2': {
             title: 'Future Ready',
-            subtitle: 'Featuring the latest Tech stack framework!'
+            subtitle: 'Featuring the latest Technology!'
           },
           '3': {
             title: 'Easy to Use',

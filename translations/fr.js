@@ -20,11 +20,11 @@ const fr = {
       },
       '2': {
         title: 'Pret pour le futur',
-        subtitle: 'Featuring the latest Tech stack framework!'
+        subtitle: 'Doté de la dernière technologie!'
       },
       '3': {
         title: 'Facile a utiliser',
-        subtitle: 'Ready to use, simple to customize for your team!'
+        subtitle: 'Prêt à l\'emploi, simple à personnaliser pour votre équipe!'
       },
     },
     showcase: {
