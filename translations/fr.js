@@ -83,8 +83,8 @@ const fr = {
       about: 'A propos',
       jobs: 'Taff',
       contact: 'Contact',
-      terms: 'Terms of Use',
-      privacy: 'Privacy Policy'
+      terms: 'Conditions d\'utilisation',
+      privacy: 'Politique de confidentialité'
     }
   }
 
