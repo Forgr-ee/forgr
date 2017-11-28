@@ -229,7 +229,7 @@
     </section>
 
     <!-- Testimonials -->
-    <section class="testimonials text-center bg-light">
+    <section class="testimonials text-center bg-light" v-if="locale() == 'en'">
       <div class="container">
         <h2 class="mb-5">Any question ? Ask our lovely bot</h2>
         <iframe
@@ -359,6 +359,11 @@
                   loaded: false
                 }
               },
+          methods: {
+            locale: function () {
+              return locale;
+            }
+          },
           computed: {
             typeform_url: function () {
               const url = 'https://riderx.typeform.com/to/' + window.landing[locale].common.typeform_id
