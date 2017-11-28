@@ -31,37 +31,37 @@ const fr = {
       '1': {
         title: 'IDEE',
         subtitle: 'Provoquer le succès',
-        content: 'We believe that every idea has a potential. Success is reachable by everyone but you need to start somewhere. Please, use the chat or the contact form to tell us more about your project. In this way, we will be able to get back to you quickly with a tailor-made proposition including an estimate. Of course, at this step, a non-disclosure agreement (NDA) can be signed if needed.'
+        content: 'Nous croyons que chaque idée a un potentiel. Le succès est accessible à tous, mais vous devez commencer quelque part. S\'il vous plaît, utilisez le chat ou le formulaire de contact pour nous en dire plus sur votre projet. De cette manière, nous pourrons vous répondre rapidement avec une proposition sur mesure incluant une estimation. Bien sûr, à cette étape, un accord de non-divulgation (NDA) peut être signé si nécessaire.'
       },
       '2': {
         title: 'CIBLAGE',
         subtitle: 'Mettre le contact',
-        content: 'Here you go. Before reaching the sky, we need to be fully aligned with your vision and objectives. Let\'s meet, grab a coffee, sit somewhere and discuss it. This is a big moment in your MVP life.\bDuring this meeting, we will go through every aspects of your project so as to match your expectations and our expertise. It will give us solid basics to start building the MVP you need. Concretely, we will measure the feasibility, define the requirements, plan the next steps and give you a clear view on the deliverables.'
+        content: 'Voici. Avant d\'atteindre le ciel, nous devons être entièrement alignés avec votre vision et vos objectifs. Rendez-vous, prenez un café, asseyez-vous quelque part et discutez-en. C\'est un grand moment dans votre vie de MVP. Au cours de cette réunion, nous allons parcourir tous les aspects de votre projet afin de répondre à vos attentes et à notre expertise. Cela nous donnera des bases solides pour commencer à construire le MVP dont vous avez besoin. Concrètement, nous allons mesurer la faisabilité, définir les exigences, planifier les prochaines étapes et vous donner une vision claire des livrables.'
       },
       '3': {
         title: 'EXPERIENCE UTILISATEUR',
         subtitle: 'Ajouter de la magie',
-        content: 'Now it\'s time to create a unique experience for your future users. User experience is essential to design a high value solution. It will ensure that your product matches with users\' expectations. To do so, we will use specific UX design tools and our knowledge of the latest trends and good practices to conceive the best user experience for your MVP. At this point, we will produce a fully functional prototype giving you a valuable overview of your product.'
+        content: 'Il est maintenant temps de créer une expérience unique pour vos futurs utilisateurs. L\'expérience utilisateur est essentielle pour concevoir une solution à haute valeur ajoutée. Cela garantira que votre produit correspond aux attentes des utilisateurs. Pour ce faire, nous utiliserons des outils de conception UX spécifiques et notre connaissance des dernières tendances et bonnes pratiques pour concevoir la meilleure expérience utilisateur pour votre MVP. À ce stade, nous allons produire un prototype entièrement fonctionnel vous donnant un aperçu précieux de votre produit.'
       },
       '4': {
         title: 'ASPECT VISUEL',
         subtitle: 'Propulser jusqu\'au ciel',
-        content: 'Now we\'ve built the skeleton, let\'s add the skin. Once you\'ve approved the prototype, our User Interface Designers will brainstorm and create several visual designs that fit both your vision and product value (don\'t worry we won\'t use too much pink, stars and unicorns). Based on your preferences, we will focus on one specific design and make few iterations if it\'s necessary. At the end of this stage, we will deliver a visual design kit ready to be implemented.'
+        content: 'Maintenant nous avons construit le squelette, ajoutons la peau. Une fois que vous avez approuvé le prototype, nos concepteurs d\'interface utilisateur réfléchissent et créent plusieurs conceptions visuelles qui correspondent à votre vision et à la valeur de votre produit (ne vous inquiétez pas, nous n\'utiliserons pas trop de roses, étoiles et licornes). En fonction de vos préférences, nous nous concentrerons sur une conception spécifique et ferons quelques itérations si nécessaire. À la fin de cette étape, nous livrerons un kit de conception visuelle prêt à être mis en œuvre.'
       },
       '5': {
         title: 'DEVELOPPEMENT',
         subtitle: 'Forger une solution viable',
-        content: 'This step involves building your MVP. By selecting the technology that best suits the needs of your project, the end-product will be easily extendable and scalable. We always keep the development process as transparent as possible, which means that you will be able to follow its progress.'
+        content: 'Cette étape implique la construction de votre MVP. En sélectionnant la technologie la mieux adaptée aux besoins de votre projet, le produit final sera facilement extensible et évolutif. Nous gardons toujours le processus de développement aussi transparent que possible, ce qui signifie que vous serez en mesure de suivre ses progrès.'
       },
       '6': {
         title: 'LIVRAISON',
         subtitle: 'Prêt à conquérir le ciel',
-        content: 'At this point, your MVP is ready. We will produce the deliverable the way you want it by making it live and handing the project to you. During this phase, we will test the product several times making sure it is stable and sustainable.'
+        content: 'À ce stade, votre MVP est prêt. Nous produirons le livrable comme vous le souhaitez en le faisant vivre et en vous transmettant le projet. Au cours de cette phase, nous allons tester le produit plusieurs fois en s\'assurant qu\'il est stable et durable.'
       },
       '7': {
         title: 'PRODUCTION VIDEO',
         subtitle: 'Maximiser l\'impact',
-        content: 'This is an additional service that includes the preparation of a script, storyboards, voice-over, video production and post-production, and starts just after the discovery phase. It is carried out simultaneously with the other steps.'
+        content: 'Il s\'agit d\'un service supplémentaire qui comprend la préparation d\'un script, de storyboards, de voix off, de production vidéo et de post-production, et commence juste après la phase de découverte. Il est effectué simultanément avec les autres étapes.'
       }
     },
     testimonial: {
