@@ -229,7 +229,7 @@
     </section>
 
     <!-- Testimonials -->
-    <section class="testimonials text-center bg-light" v-if="locale() == 'en'">
+    <section class="testimonials text-center bg-light" v-if="locale() === 'en'">
       <div class="container">
         <h2 class="mb-5">Any question ? Ask our lovely bot</h2>
         <iframe
@@ -240,6 +240,12 @@
         :src="dialowflow_url"></iframe>
       </div>
     </section>
+    <section class="testimonials text-center bg-light" v-if="locale() === 'fr'">
+        <div class="container">
+          <h2 class="mb-5">Any question ? Ask our lovely bot on messeger</h2>
+          <i class="fa fa-facebook-official fa-5x" aria-hidden="true"></i>
+        </div>
+      </section>
 
     <!-- Call to Action -->
     <section class="call-to-action text-white text-center">
@@ -350,6 +356,7 @@
         const locale = detectedLocale || 'en';
         const i18n = new VueI18n({
           locale: 'en',
+          fallbackLocale: 'en',
           messages: window.landing,
         })
         new Vue({ 
@@ -376,7 +383,7 @@
             }
           },
           mounted() { 
-            i18n.setLocaleMessage(locale, window.landing[locale])
+            i18n.locale = locale;
             console.log('lang', locale)
             this.loaded = true;            
           }
