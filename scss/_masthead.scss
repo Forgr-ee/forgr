@@ -23,7 +23,6 @@ header.masthead {
   }
 }
 header.masthead:before{
-  background: url('../img/ds_bg.png') no-repeat center center;
   @include background-cover;
   content: ' ';
   display: block;
@@ -32,13 +31,16 @@ header.masthead:before{
   top: 0;
   width: 100%;
   height: 100%;
-  background-repeat: no-repeat;
-  background-position: 50% 30px;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: contain;
+  @media screen and (min-width: 768px) {
+    background: url('../img/ds_bg.png') no-repeat center center;
+    background-repeat: no-repeat;
+    background-position: 200px 110px;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: inherit;
+  }
 }
 
 .center-content {
