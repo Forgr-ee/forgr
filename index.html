@@ -65,7 +65,7 @@
             <form>
               <div class="form-row center-content">
                 <div class="col-12 col-md-3">
-                  <a class="typeform-share button btn btn-block btn-lg btn-danger" href="https://riderx.typeform.com/to/xBQRdl" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank">{{ $t("common.signup") }}</a>
+                    <a class="typeform-share button btn btn-lg btn-danger" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
                 </div>
               </div>
             </form>
@@ -254,13 +254,13 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
-            <h2 class="mb-4">Ready to get started? Sign up now!</h2>
+            <h2 class="mb-4">{{ $t("signup_sentence") }}</h2>
           </div>
           <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
             <form>
               <div class="form-row center-content">
                 <div class="col-12 col-md-3">
-                    <a class="typeform-share button btn btn-block btn-lg btn-danger" href="https://riderx.typeform.com/to/xBQRdl" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank">{{ $t("common.signup") }}</a>
+                    <a class="typeform-share button btn btn-lg btn-danger" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
                 </div>
               </div>
             </form>
@@ -276,7 +276,7 @@
           <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
             <ul class="list-inline mb-2">
               <li class="list-inline-item">
-                <a href="#">About</a>
+                <a href="#">About{{ $t("signup_sentence") }}</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
