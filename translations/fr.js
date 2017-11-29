@@ -24,7 +24,7 @@ const fr = {
       },
       '2': {
         title: 'Pret pour le futur',
-        subtitle: 'Supportez aussi bien 1 ou 1 millions, grace aux dernières technologies!'
+        subtitle: 'Grace aux dernières technologies, supportez aussi bien 1 ou 1 millions d\'utilisateurs!'
       },
       '3': {
         title: 'Facile a utiliser',
