@@ -13,6 +13,10 @@ const ee = {
       first: 'Votre MVP, en 4 semaines.',
       second: 'Ni plus, ni moins.'
     },
+    cta: {
+        first: 'Your MVP, in 4 weeks.',
+        second: 'Nothing more, nothing less.'
+    },
     grid: {
       '1': {
         title: 'Fully Responsive',

@@ -6,13 +6,17 @@ const fr = {
         company_name: 'Sky Forge',
         signup_sentence: 'Pret a commencer ? Souscris maintenant!',
         faq: 'Des questions ? viens discuter avec notre 🤖 sur messenger',
-        signup: 'Souscrire'
+        signup: 'Lancement'
     },
     header: {
     },
     value_proposition: {
-      first: 'Votre MVP, en 4 semaines.',
-      second: 'Ni plus, ni moins.'
+      first: 'YOU\'RE HERE BECAUSE YOU NEED AN MVP.',
+      second: 'WE WANT TO BUILD IT IN A MONTH.'
+    },
+    cta: {
+        first: 'Your MVP, in 4 weeks.',
+        second: 'Nothing more, nothing less.'
     },
     grid: {
       '1': {
