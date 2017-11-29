@@ -1,5 +1,6 @@
 .call-to-action {
   position: relative;
+  @include body-font;
   background-color: black;
   // background-color: $blue;
   padding-top: 7rem;

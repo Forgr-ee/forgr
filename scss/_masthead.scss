@@ -59,7 +59,7 @@ justify-content: center;
 }
 
 .quote {
-  font-family: 'Open Sans Condensed';
+  @include body-font;
   color: $gray-600 !important;
   font-size: 22px;
   line-height: 1.4rem;

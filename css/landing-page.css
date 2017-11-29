@@ -4,9 +4,9 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
  */
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=EB+Garamond|Droid+Serif|Playfair+Display|Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond|Droid+Serif|Playfair+Display|Open+Sans+Condensed:300|Encode+Sans+Condensed|Titillium+Web);
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Titillium Web', 'Helvetica Neue', Helvetica, Arial, sans-serif !important; }
 
 h1,
 h2,
@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Titillium Web', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
   font-weight: 700; }
 
 header.masthead {
@@ -51,7 +51,7 @@ header.masthead {
   justify-content: center; }
 
 .quote {
-  font-family: 'Open Sans Condensed';
+  font-family: 'Titillium Web', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
   color: #868e96 !important;
   font-size: 22px;
   line-height: 1.4rem;
@@ -109,6 +109,7 @@ header.masthead {
 
 .call-to-action {
   position: relative;
+  font-family: 'Titillium Web', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
   background-color: black;
   padding-top: 7rem;
   padding-bottom: 7rem; }
