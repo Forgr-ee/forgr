@@ -4,7 +4,7 @@ const fr = {
         // dialogflow_id: '2723521a53224638813099c3080687aa',
         dialogflow_id: '38022ca2551e4aa28711a25bb9639eb8',
         company_name: 'Sky Forge',
-        faq: 'Des questions ? viens discuter avec notre 🤖 sur messenger',
+        faq: 'Des questions ? venez discuter avec notre 🤖 sur messenger',
         signup: 'Lancer'
     },
     header: {
@@ -20,11 +20,11 @@ const fr = {
     grid: {
       '1': {
         title: 'Completement mobile',
-        subtitle: 'Votre mvp aura fière allure sur n\'importe quel appareil, peu importe la taille!'
+        subtitle: 'Ayez fière allure sur n\'importe quel appareil, peu importe la taille!'
       },
       '2': {
         title: 'Pret pour le futur',
-        subtitle: 'Doté de la dernière technologie!'
+        subtitle: 'Supportez aussi bien 1 ou 1 millions, grace aux dernières technologies!'
       },
       '3': {
         title: 'Facile a utiliser',
