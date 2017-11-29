@@ -56,7 +56,7 @@
     <nav class="navbar navbar-light bg-light static-top">
       <div class="container">
         <a class="navbar-brand" href="#">{{ $t("common.company_name") }}</a>
-        <a class="typeform-share button btn btn-lg btn-danger" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
+        <a class="typeform-share button btn btn-lg btn-primary" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
       </div>
     </nav>
 
@@ -73,7 +73,7 @@
             <form>
               <div class="form-row center-content">
                 <div class="col-12 col-md-3">
-                    <a class="typeform-share button btn btn-lg btn-danger" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
+                    <a class="typeform-share button btn btn-lg btn-primary" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
                 </div>
               </div>
             </form>
@@ -257,13 +257,16 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
-            <h2 class="mb-4">{{ $t("common.signup_sentence") }}</h2>
+              <h2 class="mb-5">{{ $t("cta.first") }} <br/>
+                <b>{{ $t("cta.second") }}</b>
+              </h2>
+            <!-- <h2 class="mb-4">{{ $t("common.signup_sentence") }}</h2> -->
           </div>
           <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
             <form>
               <div class="form-row center-content">
                 <div class="col-12 col-md-3">
-                    <a class="typeform-share button btn btn-lg btn-danger" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
+                    <a class="typeform-share button btn btn-lg btn-primary" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
                 </div>
               </div>
             </form>
@@ -380,7 +383,7 @@
             }
           },
           mounted() { 
-            i18n.locale = locale;
+            // i18n.locale = locale;
             console.log('lang', locale)
             this.loaded = true;            
           }
