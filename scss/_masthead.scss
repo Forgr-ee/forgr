@@ -4,15 +4,15 @@ header.masthead {
   background-color: black;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  @media screen and (min-width: 768px) {
-    background: url('../img/sky.jpg') no-repeat center center;
-    background-repeat: no-repeat;
-    background-position: 0px -260px;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
+  background: url('../img/sky.jpg') no-repeat center center;
+  background-repeat: no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  @media screen and (min-width: 1440px) {
+    background-position: 0px -260px;    
   }
   .overlay {
     position: absolute;
