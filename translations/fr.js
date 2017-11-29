@@ -3,7 +3,7 @@ const fr = {
         typeform_id: 'SVgBZq',
         // dialogflow_id: '2723521a53224638813099c3080687aa',
         dialogflow_id: '38022ca2551e4aa28711a25bb9639eb8',
-        company_name: 'Digital shift',
+        company_name: 'Sky Forge',
         signup_sentence: 'Pret a commencer ? Souscris maintenant!',
         faq: 'Des questions ? viens discuter avec notre 🤖 sur messenger',
         signup: 'Souscrire'
