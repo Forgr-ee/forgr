@@ -291,7 +291,17 @@
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSegXHjwus5qdwwlB2PfsegpMGXhAA8jYmFRSvd0VweoD7IH4A/viewform" target="_blank">{{ $t("footer.jobs") }}</a>
-              </li>              
+              </li>                            
+              <li class="list-inline-item">&sdot;</li>            
+              <li class="list-inline-item" v-if="locale() !== 'fr'">
+                <a href="#" v-on:click="switchLocale('fr')">🇫🇷</a>
+              </li>
+              <li class="list-inline-item" v-if="locale() !== 'en'">
+                <a href="#" v-on:click="switchLocale('en')">🇬🇧</a>
+              </li>
+              <li class="list-inline-item" v-if="locale() !== 'ee'">
+                <a href="#" v-on:click="switchLocale('ee')">🇪🇪</a>
+              </li>
             </ul>
             <p class="text-muted small mb-4 mb-lg-0">&copy; {{ $t("common.company_name") }} 2017. All Rights Reserved.</p>
           </div>
@@ -369,6 +379,9 @@
           methods: {
             locale: function () {
               return i18n.locale;
+            },
+            switchLocale: function (locale) {
+              i18n.locale = locale;
             }
           },
           computed: {
@@ -383,7 +396,7 @@
             }
           },
           mounted() { 
-            // i18n.locale = locale;
+            i18n.locale = locale;
             console.log('lang', locale)
             this.loaded = true;            
           }

@@ -10,12 +10,12 @@ const fr = {
     header: {
     },
     value_proposition: {
-      first: 'YOU\'RE HERE BECAUSE YOU NEED AN MVP.',
-      second: 'WE WANT TO BUILD IT IN A MONTH.'
+      first: 'VOUS AVEZ BESOIN D\'UN MVP.',
+      second: 'NOUS CONSTRUISONS EN 4 SEMAINES AVEC UN PRIX MENSUEL.'
     },
     cta: {
-        first: 'Your MVP, in 4 weeks.',
-        second: 'Nothing more, nothing less.'
+        first: 'Votre MVP, dans 4 semaines.',
+        second: 'Ni plus ni moins.'
     },
     grid: {
       '1': {
