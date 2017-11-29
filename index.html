@@ -247,7 +247,7 @@
           style="border: none;"
           :src="dialowflow_url"></iframe>
           <a v-else href="https://www.messenger.com/t/digitalshift.ee" target="_blanc">
-          <i class="icon-social-facebook fa-2x fa-fw" aria-hidden="true"></i>
+          <i class="icon-social-facebook fa-4x fa-fw" aria-hidden="true"></i>
           </a>
         </div>
       </section>
@@ -293,13 +293,13 @@
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSegXHjwus5qdwwlB2PfsegpMGXhAA8jYmFRSvd0VweoD7IH4A/viewform" target="_blank">{{ $t("footer.jobs") }}</a>
               </li>                            
               <li class="list-inline-item">&sdot;</li>            
-              <li class="list-inline-item" v-if="locale() !== 'fr'">
+              <li class="list-inline-item fa-2x" v-if="locale() !== 'fr'">
                 <a href="#" v-on:click="switchLocale('fr')">🇫🇷</a>
               </li>
-              <li class="list-inline-item" v-if="locale() !== 'en'">
+              <li class="list-inline-item fa-2x" v-if="locale() !== 'en'">
                 <a href="#" v-on:click="switchLocale('en')">🇬🇧</a>
               </li>
-              <li class="list-inline-item" v-if="locale() !== 'ee'">
+              <li class="list-inline-item fa-2x" v-if="locale() !== 'ee'">
                 <a href="#" v-on:click="switchLocale('ee')">🇪🇪</a>
               </li>
             </ul>
