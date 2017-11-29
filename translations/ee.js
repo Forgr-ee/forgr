@@ -9,12 +9,12 @@ const ee = {
     header: {
     },
     value_proposition: {
-      first: 'Votre MVP, en 4 semaines.',
-      second: 'Ni plus, ni moins.'
+      first: 'VAJUTA MVP.',
+      second: 'OLEME EHITADA 4 NÄDALA PÄEVAKS.'
     },
     cta: {
-        first: 'Your MVP, in 4 weeks.',
-        second: 'Nothing more, nothing less.'
+        first: 'Teie MVP, 4 nädala pärast.',
+        second: 'Mitte midagi muud, mitte vähem.'
     },
     grid: {
       '1': {
