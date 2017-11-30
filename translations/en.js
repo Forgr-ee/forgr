@@ -58,12 +58,12 @@ const en = {
           '6': {
             title: 'DELIVERY',
             subtitle: 'All set to conquest the sky',
-            content: 'At this point, your MVP is ready. We will produce the deliverable the way you want it by making it live and handing the project to you. During this phase, we will test the product several times making sure it is stable and sustainable.'
+            content: 'Now, your MVP is ready to hit the market! We will produce the deliverable and ensure it arrives in your hands in a perfect shape. To do so, we will do a range of tests in order to ensure the quality.'
           },
           '7': {
             title: 'VIDEO PRODUCTION',
             subtitle: 'Boost your impact',
-            content: 'This is an additional service that includes the preparation of a script, storyboards, voice-over, video production and post-production, and starts just after the discovery phase. It is carried out simultaneously with the other steps.'
+            content: 'Nowadays videos are everywhere (you know they\'re flooding your Facebook feed too much). They are considered as the ultimate media because of their powerful impacts on people. We are deeply attached to them because we are convinced that they will bring life and professionalism to your communication, a high value to your MVP, and finally, ensure your success. Convinced? Let\'s talk about it.'
           }
         },
         testimonial: {
