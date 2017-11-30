@@ -32,19 +32,19 @@ const fr = {
     },
     showcase: {
       '1': {
-        title: 'IDEE',
-        subtitle: 'Provoquer le succès',
-        content: 'Nous croyons que chaque idée a un potentiel. Le succès est accessible à tous, mais vous devez commencer quelque part. S\'il vous plaît, utilisez le chat ou le formulaire de contact pour nous en dire plus sur votre projet. De cette manière, nous pourrons vous répondre rapidement avec une proposition sur mesure incluant une estimation. Bien sûr, à cette étape, un accord de non-divulgation (NDA) peut être signé si nécessaire.'
+        title: 'IDEATION',
+        subtitle: 'Impulser le succès',
+        content: 'Nous sommes persuadés que votre idée a du potentiel. Le succès est à la portée de tous les entrepreneurs, mais il faut commencer par le début, vous avez besoin d\'un MVP. Alors, discutons ! Commencez par remplir le formulaire ou utiliser le module de tchat afin que nous puissions vous répondre rapidement avec une proposition sur mesure incluant un devis. Bien sûr, à cette étape, un accord de non-divulgation (NDA) peut être signé si nécessaire.'
       },
       '2': {
         title: 'CIBLAGE',
         subtitle: 'Mettre le contact',
-        content: 'Voici. Avant d\'atteindre le ciel, nous devons être entièrement alignés avec votre vision et vos objectifs. Rendez-vous, prenez un café, asseyez-vous quelque part et discutez-en. C\'est un grand moment dans votre vie de MVP. Au cours de cette réunion, nous allons parcourir tous les aspects de votre projet afin de répondre à vos attentes et à notre expertise. Cela nous donnera des bases solides pour commencer à construire le MVP dont vous avez besoin. Concrètement, nous allons mesurer la faisabilité, définir les exigences, planifier les prochaines étapes et vous donner une vision claire des livrables.'
+        content: 'Et voilà, nous y sommes ! Avant d\'atteindre les étoiles, nous devons être entièrement alignés avec votre vision et vos objectifs. Alors rencontrons-nous, prenons un café et discutons de votre projet. C\'est un grand moment dans la vie de votre MVP. Au cours de cet échange, nous allons parcourir tous les aspects de votre projet afin de s\'assurer que vos attentes et enjeux sont bien définis. De cette façon, nous aurons des bases solides pour commencer à construire le MVP dont vous avez besoin. Concrètement, nous allons mesurer la faisabilité, définir les besoins, planifier les prochaines étapes et vous donner une vision claire sur les livrables.'
       },
       '3': {
         title: 'EXPERIENCE UTILISATEUR',
         subtitle: 'Ajouter de la magie',
-        content: 'Il est maintenant temps de créer une expérience unique pour vos futurs utilisateurs. L\'expérience utilisateur est essentielle pour concevoir une solution à haute valeur ajoutée. Cela garantira que votre produit correspond aux attentes des utilisateurs. Pour ce faire, nous utiliserons des outils de conception UX spécifiques et notre connaissance des dernières tendances et bonnes pratiques pour concevoir la meilleure expérience utilisateur pour votre MVP. À ce stade, nous allons produire un prototype entièrement fonctionnel vous donnant un aperçu précieux de votre produit.'
+        content: 'Il est temps de créer une expérience unique pour vos futurs utilisateurs. L\'expérience utilisateur est essentielle pour concevoir une solution à haute valeur ajoutée. Au delà de l\'esthétisme, cela garantira que votre produit correspond aux attentes des utilisateurs. Pour ce faire, nous utiliserons des outils de conception UX spécifiques et notre connaissance des dernières tendances et bonnes pratiques pour concevoir la meilleure expérience utilisateur pour votre MVP. À ce stade, nous produirons un prototype entièrement fonctionnel vous donnant un aperçu de votre produit.'
       },
       '4': {
         title: 'ASPECT VISUEL',
@@ -59,12 +59,12 @@ const fr = {
       '6': {
         title: 'LIVRAISON',
         subtitle: 'Prêt à conquérir le ciel',
-        content: 'À ce stade, votre MVP est prêt. Nous produirons le livrable comme vous le souhaitez en le faisant vivre et en vous transmettant le projet. Au cours de cette phase, nous allons tester le produit plusieurs fois en s\'assurant qu\'il est stable et durable.'
+        content: 'À ce stade, votre MVP est prêt. Après avoir finalisé le livrable, nous nous assurerons qu\'il arrive parfaitement bien entre vos mains. Pour ce faire, nous réaliserons une série de test pour constater et valider la qualité de votre MVP. '
       },
       '7': {
         title: 'PRODUCTION VIDEO',
         subtitle: 'Maximiser l\'impact',
-        content: 'Il s\'agit d\'un service supplémentaire qui comprend la préparation d\'un script, de storyboards, de voix off, de production vidéo et de post-production, et commence juste après la phase de découverte. Il est effectué simultanément avec les autres étapes.'
+        content: 'Aujourd\'hui, les vidéos sont partout (même qu\'elles noient ton fil d\'actualité Facebook). Elles sont considérées comme un média riche de par leur excellent impact sur les individus. Nous sommes profondément attachés à elles car nous sommes convaincus qu\'elles apporteront de la vie et du professionnalisme à votre communication ainsi qu\'une forte valeur ajoutée à votre MVP. Pour nous, elles contribuent beaucoup au succès d\'un projet. Convaincu ? Discutons-en !'
       }
     },
     testimonial: {
