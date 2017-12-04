@@ -34,7 +34,7 @@ const fr = {
       '1': {
         title: 'IDEATION',
         subtitle: 'Impulser le succès',
-        content: 'Nous sommes persuadés que votre idée a du potentiel ! Le succès est à la portée de tous les entrepreneurs, mais il faut commencer par le début, vous avez besoin d\'un MVP. Alors, discutons ! Commencez par remplir le formulaire ou utiliser le module de tchat afin que nous puissions vous répondre rapidement avec une proposition sur mesure incluant un devis. Bien sûr, à cette étape, un accord de non-divulgation (NDA) peut être signé si nécessaire.'
+        content: 'Nous croyons déjà au potentiel de votre projet ! Le succès est à la portée de tous les entrepreneurs, mais il faut commencer par le début : il vous faut un MVP. Alors, discutons ! Commencez par remplir le formulaire ou utiliser le module de tchat afin que nous puissions vous répondre rapidement avec une proposition sur mesure incluant un devis. Bien sûr, à cette étape, un accord de non-divulgation (NDA) peut être signé si nécessaire.'
       },
       '2': {
         title: 'CIBLAGE',
