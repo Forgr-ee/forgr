@@ -6,8 +6,10 @@
   "homepage": "https://github.com/riderx/forgr",
   "private": true,
   "scripts": {
+    "gh-pages": "node build/gh-pages.js",
     "deploy": "node ./node_modules/vue-gh-pages/index.js",
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "prod": "webpack-dev-server --inline --progress --config build/webpack.prod.conf.js",
     "start": "yarn run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js"
