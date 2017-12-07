@@ -18,8 +18,8 @@ const fr = {
   },
   grid: {
     1: {
-      title: 'Completement mobile',
-      subtitle: 'Ayez fière allure sur n\'importe quel appareil, peu importe la taille!',
+      title: 'Pensé mobile',
+      subtitle: 'Peu importe la taille et la marque, le rendu seras parfait!',
     },
     2: {
       title: 'Pret pour le futur',
