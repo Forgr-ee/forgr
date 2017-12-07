@@ -68,7 +68,7 @@
             <div class="container-fluid p-0">
               <div class="row no-gutters">
 
-                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('src/img/idea.jpg');background-position:center;"></div>
+                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('../src/img/idea.jpg');background-position:center;"></div>
                 <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                   <h1>{{ $t("showcase.1.title") }}</h1>
                   <h3 class="quote">{{ $t("showcase.1.subtitle") }}</h3>
