@@ -1,0 +1,89 @@
+header.masthead {
+  position: inherit;
+  // background-color: $blue;
+  background-color: black;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: url('./img/sky.jpg') no-repeat center center;
+  background-repeat: no-repeat;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  @media screen and (min-width: 1440px) {
+    background-position: 0px -260px;
+  }
+  .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  @media (min-width: 768px) {
+    // padding-top: 12rem;
+    padding-bottom: 12rem;
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
+header.masthead:before{
+  // @include background-cover;
+  // content: ' ';
+  // display: block;
+  // position: absolute;
+  // left: 0;
+  // top: 0;
+  // width: 100%;
+  // height: 100%;
+  @media screen and (min-width: 768px) {
+    // background: url('../img/sky.jpg') no-repeat center center;
+    // background-repeat: no-repeat;
+    // background-position: 0px 150px;
+    // -ms-background-size: cover;
+    // -o-background-size: cover;
+    // -moz-background-size: cover;
+    // -webkit-background-size: cover;
+    // background-size: cover;
+  }
+}
+
+.center-content {
+justify-content: center;
+}
+
+.quote {
+  @include headline-font;
+  color: $gray-600 !important;
+  font-size: 22px;
+  line-height: 1.4rem;
+  height: 100%;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: auto;
+   -webkit-font-smoothing: antialiased;
+           font-smoothing: antialiased;
+  font-kerning: normal;
+  color: #1A222F;
+  position: relative;
+  letter-spacing: .03em;
+  margin-bottom: .5rem;
+
+  &:before {
+      content: "“";
+      position: absolute;
+      left: -.4em;
+  }
+
+  &:after {
+      content: "”";
+      position: relative;
+      left: .1em;
+      margin-right: -1rem;
+  }
+}
