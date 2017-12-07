@@ -1,3 +1,19 @@
+requirejs.config({
+  //By default load any module IDs from js/lib
+  baseUrl: 'js',
+  //except, if the module ID starts with "app",
+  //load it from the js/app directory. paths
+  //config is relative to the baseUrl, and
+  //never includes a ".js" extension since
+  //the paths config could be for a directory.
+  paths: {
+      app: '../app'
+  }
+});
+
+var home = requirejs('@/pages/home');
+var privacy = requirejs('@/pages/privacypolicy');
+
 const browserLanguagePropertyKeys = ['languages', 'language', 'browserLanguage', 'userLanguage', 'systemLanguage'];
 const availableLanguages = ['fr', 'ee', 'en'];
 var getLangs = function () {
@@ -31,7 +47,16 @@ const i18n = new VueI18n({
   fallbackLocale: 'en',
   messages: window.landing,
 })
-new Vue({ 
+const Foo = { template: '<div>foo</div>' }
+const Bar = { template: '<div>bar</div>' }
+const routes = [
+  { path: '/privacy', component: privacy },
+  { path: '/', component: home }
+]
+const router = new VueRouter({routes})
+
+new Vue({
+  router,
   i18n,
   data: function(){
         return {
