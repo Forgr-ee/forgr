@@ -46,26 +46,6 @@ function editForProduction() {
       });
     });
   })
-  fs.readFile('docs/static/index.html', 'utf-8', function (err, data) {
-    if (err) throw err;
-
-    var newValue = data.replace(/src=\//g, 'src=');
-
-    fs.writeFile('docs/index.html', newValue, 'utf-8', function (err) {
-      if (err) throw err;
-      fs.readFile('docs/index.html', 'utf-8', function (err, data) {
-        if (err) throw err;
-        var newValue2 = data.replace(/href=\//, 'href=');
-        fs.writeFile('docs/index.html', newValue2, 'utf-8', function (err) {
-          if (err) {
-            console.error(err);
-          } else {
-            console.log('upload it on github');
-          }
-        });
-      });
-    });
-  })
 }
 
 function runBuild() {
