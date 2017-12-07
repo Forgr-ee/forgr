@@ -1,3 +1,8 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css');
+// @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,900|Encode+Sans+Condensed:300,900&effect=emboss');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css');
+
 // Core variables and mixins
 @import "variables.scss";
 @import "mixins.scss";
@@ -11,7 +16,3 @@
 @import "call-to-action.scss";
 @import "footer.scss";
 
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,900|Encode+Sans+Condensed:300,900&effect=emboss');
-// @import "simple-line-icons/css/simple-line-icons.css";
-@import url('https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css');
-// @import url('https://use.fontawesome.com/fe042b821f.js');

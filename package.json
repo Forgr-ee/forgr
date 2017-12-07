@@ -13,9 +13,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "font-awesome": "^4.7.0",
+    "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
-    "simple-line-icons": "^2.4.1",
     "vue": "^2.5.2",
     "vue-gh-pages": "^1.6.4",
     "vue-i18n": "^7.3.2",

@@ -99,11 +99,6 @@ export default {
 };
 </script>
 
-<style lang="css">
-@import "bootstrap/dist/css/bootstrap.css";
-@import "bootstrap-vue/dist/bootstrap-vue.css";
-</style>
-
 <style lang="scss">
 @import "scss/landing-page.scss";
 </style>
