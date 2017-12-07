@@ -68,7 +68,7 @@
             <div class="container-fluid p-0">
               <div class="row no-gutters">
 
-                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('../src/img/idea.jpg');background-position:center;"></div>
+                <div class="col-lg-6 order-lg-2 text-white showcase-img tile1"></div>
                 <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                   <h1>{{ $t("showcase.1.title") }}</h1>
                   <h3 class="quote">{{ $t("showcase.1.subtitle") }}</h3>
@@ -79,7 +79,7 @@
                 </div>
               </div>
               <div class="row no-gutters">
-                <div class="col-lg-6 text-white showcase-img" style="background-image: url('src/img/discovery.gif');background-position:center;"></div>
+                <div class="col-lg-6 text-white showcase-img tile2"></div>
                 <div class="col-lg-6 my-auto showcase-text">
                   <h1>{{ $t("showcase.2.title") }}</h1>
                   <h3 class="quote">{{ $t("showcase.2.subtitle") }}</h3>
@@ -90,7 +90,7 @@
                 </div>
               </div>
               <div class="row no-gutters">
-                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('src/img/blueprint.jpg');"></div>
+                <div class="col-lg-6 order-lg-2 text-white showcase-img tile3"></div>
                 <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                   <h1>{{ $t("showcase.3.title") }}</h1>
                   <h3 class="quote">{{ $t("showcase.3.subtitle") }}</h3>
@@ -103,7 +103,7 @@
 
               <div class="row no-gutters">
 
-                  <div class="col-lg-6 text-white showcase-img" style="background-image: url('src/img/ui.png');"></div>
+                  <div class="col-lg-6 text-white showcase-img tile4"></div>
                   <div class="col-lg-6 my-auto showcase-text">
                     <h2>{{ $t("showcase.4.title") }}</h2>
                     <h3 class="quote">{{ $t("showcase.4.subtitle") }}</h3>
@@ -150,7 +150,7 @@
                   </div>
                 </div>
               <div class="row no-gutters">
-                  <div class="col-lg-6 text-white showcase-img" style="background-image: url('src/img/demo-app.gif');background-position:center;"></div>
+                  <div class="col-lg-6 text-white showcase-img tile5"></div>
                   <div class="col-lg-6 my-auto showcase-text">
                       <h1>{{ $t("showcase.6.title") }}</h1>
                     <h3 class="quote">{{ $t("showcase.6.subtitle") }}</h3>
@@ -160,7 +160,7 @@
                         </p>
                   </div>
               <div class="row no-gutters">
-              <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('src/img/video.gif');background-position:center;"></div>
+              <div class="col-lg-6 order-lg-2 text-white showcase-img tile6"></div>
               <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                   <h1>{{ $t("showcase.7.title") }}</h1>
                   <h3 class="quote">{{ $t("showcase.7.subtitle") }}</h3>
