@@ -60,7 +60,9 @@ justify-content: center;
 
 .quote {
   @include headline-font;
-  color: $gray-600 !important;
+  display: inline;
+  background-color: $blue-light-forgr;
+  color: white !important;
   font-size: 22px;
   line-height: 1.4rem;
   height: 100%;
@@ -74,16 +76,20 @@ justify-content: center;
   letter-spacing: .03em;
   margin-bottom: .5rem;
 
-  &:before {
-      content: "“";
-      position: absolute;
-      left: -.4em;
-  }
+  // &:before {
+  //     content: "“";
+  //     position: absolute;
+  //     left: -.4em;
+  // }
 
-  &:after {
-      content: "”";
-      position: relative;
-      left: .1em;
-      margin-right: -1rem;
-  }
+  // &:after {
+  //     content: "”";
+  //     position: relative;
+  //     left: .1em;
+  //     margin-right: -1rem;
+  // }
+}
+
+.space {
+  margin-top: 20px;
 }

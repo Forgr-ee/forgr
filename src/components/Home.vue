@@ -74,7 +74,7 @@
                   <h1>{{ $t("showcase.1.title") }}</h1>
                   <h3 class="quote">{{ $t("showcase.1.subtitle") }}</h3>
                   <br>
-                  <p class="lead mb-0">
+                  <p class="lead mb-0 space">
                       {{ $t("showcase.1.content") }}
                   </p>
                 </div>
@@ -85,7 +85,7 @@
                   <h1>{{ $t("showcase.2.title") }}</h1>
                   <h3 class="quote">{{ $t("showcase.2.subtitle") }}</h3>
                   <br>
-                  <p class="lead mb-0">
+                  <p class="lead mb-0 space">
                       {{ $t("showcase.2.content") }}
                   </p>
                 </div>
@@ -96,7 +96,7 @@
                   <h1>{{ $t("showcase.3.title") }}</h1>
                   <h3 class="quote">{{ $t("showcase.3.subtitle") }}</h3>
                   <br>
-                  <p class="lead mb-0">
+                  <p class="lead mb-0 space">
                       {{ $t("showcase.3.content") }}
                   </p>
                 </div>
@@ -109,7 +109,7 @@
                     <h2>{{ $t("showcase.4.title") }}</h2>
                     <h3 class="quote">{{ $t("showcase.4.subtitle") }}</h3>
                     <br>
-                    <p class="lead mb-0">
+                    <p class="lead mb-0 space">
                         {{ $t("showcase.4.content") }}
                       </p>
                   </div>
@@ -145,7 +145,7 @@
                     <h1>{{ $t("showcase.5.title") }}</h1>
                     <h3 class="quote">{{ $t("showcase.5.subtitle") }}</h3>
                     <br>
-                    <p class="lead mb-0">
+                    <p class="lead mb-0 space">
                         {{ $t("showcase.5.content") }}
                       </p>
                   </div>
@@ -156,7 +156,7 @@
                       <h1>{{ $t("showcase.6.title") }}</h1>
                     <h3 class="quote">{{ $t("showcase.6.subtitle") }}</h3>
                     <br>
-                      <p class="lead mb-0">
+                      <p class="lead mb-0 space">
                         {{ $t("showcase.6.content") }}
                         </p>
                   </div>
@@ -166,7 +166,7 @@
                   <h1>{{ $t("showcase.7.title") }}</h1>
                   <h3 class="quote">{{ $t("showcase.7.subtitle") }}</h3>
                 <br>
-                  <p class="lead mb-0">
+                  <p class="lead mb-0 space">
                       {{ $t("showcase.7.content") }}
                     </p>
               </div>

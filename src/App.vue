@@ -29,14 +29,14 @@
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSegXHjwus5qdwwlB2PfsegpMGXhAA8jYmFRSvd0VweoD7IH4A/viewform" target="_blank">{{ $t("footer.jobs") }}</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item fa-2x" v-if="locale() !== 'fr'">
-                <a href="#" v-on:click="switchLocale('fr')">🇫🇷</a>
+              <li class="list-inline-item fa-1x" v-if="locale() !== 'fr'">
+                <a href="#" class="lang-icons" v-on:click="switchLocale('fr')">🇫🇷</a>
               </li>
-              <li class="list-inline-item fa-2x" v-if="locale() !== 'en'">
-                <a href="#" v-on:click="switchLocale('en')">🇬🇧</a>
+              <li class="list-inline-item fa-1x" v-if="locale() !== 'en'">
+                <a href="#" class="lang-icons" v-on:click="switchLocale('en')">🇬🇧</a>
               </li>
-              <li class="list-inline-item fa-2x" v-if="locale() !== 'ee'">
-                <a href="#" v-on:click="switchLocale('ee')">🇪🇪</a>
+              <li class="list-inline-item fa-1x" v-if="locale() !== 'ee'">
+                <a href="#" class="lang-icons" v-on:click="switchLocale('ee')">🇪🇪</a>
               </li>
             </ul>
             <p class="text-muted small mb-4 mb-lg-0">&copy; Forgr 2017. All Rights Reserved.</p>
