@@ -19,7 +19,7 @@
 </style>
 
 <template>
-  <div class="bg-light container">
+  <div class="bg-forgr container">
     <div class="row">
      <div class="text-center form-row center-content">
         <div id='ppHeader'> Privacy Policy</div><div id='ppBody'><div class='ppConsistencies'><div class='col-2'>

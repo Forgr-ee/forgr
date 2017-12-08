@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <!-- Navigation -->
-    <nav class="navbar navbar-light bg-light static-top">
+    <nav class="navbar navbar-light bg-forgr static-top">
       <div class="container">
+        <img src="./img/logo-forgr.png" class="brand-logo">
         <a class="navbar-brand" href="#">Forgr</a>
         <a class="typeform-share button btn btn-lg btn-primary" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
       </div>
@@ -10,7 +11,7 @@
     <!-- <img src="./assets/logo.png"> -->
     <router-view/>
 
-     <footer class="footer bg-light">
+     <footer class="footer bg-forgr">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 h-100 text-center text-lg-left my-auto">

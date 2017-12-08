@@ -5,6 +5,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-xl-9 mx-auto">
+                  <!-- <img src="./assets/logo.png"> -->
                   <h1 class="mb-5">{{ $t("value_proposition.first") }} <br/>
                     <b>{{ $t("value_proposition.second") }}</b>
                   </h1>
@@ -23,7 +24,7 @@
           </header>
 
           <!-- Icons Grid -->
-          <section class="features-icons bg-light text-center">
+          <section class="features-icons bg-forgr text-center">
             <div class="container">
               <div class="row">
                 <div class="col-lg-4">
@@ -178,8 +179,9 @@
 
           <!-- Testimonials -->
           <section class="testimonials text-center bg-light">
+            <!-- <div class> -->
               <div class="container">
-                <h2 class="mb-5">{{ $t("common.faq") }}</h2>
+                <h2 class="mb-5 light-forgr-text">{{ $t("common.faq") }}</h2>
                 <iframe
                 v-if="loaded && locale() === 'en'"
                 width="100%"

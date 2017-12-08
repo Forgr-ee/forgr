@@ -1,5 +1,6 @@
 body {
   @include body-font;
+  color: white;
 }
 
 h1,
@@ -13,5 +14,42 @@ h6 {
 }
 
 .navbar-brand {
+color: $blue-light-forgr !important;
+}
+
+.navbar-brand {
   font-weight: bold;
+}
+
+.forgr {
+  background-color: $blue-forgr;
+}
+
+.light-forgr {
+  background-color: $blue-light-forgr;
+}
+
+.forgr-text {
+  color: $blue-forgr;
+}
+
+.light-forgr-text {
+  color: $blue-light-forgr;
+}
+
+.btn-primary {
+  background-color: $blue-light-forgr;
+  border-color: $blue-light-forgr;
+}
+
+.text-primary {
+  color: $blue-light-forgr !important;
+}
+
+a {
+  color: $blue-light-forgr;
+}
+
+.brand-logo {
+  width: 40px;
 }
