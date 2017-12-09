@@ -19,11 +19,11 @@ const fr = {
   grid: {
     1: {
       title: 'Pensé mobile',
-      subtitle: 'Peu importe la taille et la marque, le rendu seras parfait!',
+      subtitle: 'Peu importe la taille et la marque, le rendu sera parfait!',
     },
     2: {
-      title: 'Pret pour le futur',
-      subtitle: 'Grace aux dernières technologies, supportez aussi bien 1 ou 1 millions d\'utilisateurs!',
+      title: 'Prêt pour le futur',
+      subtitle: 'Grâce aux dernières technologies, supportez aussi bien 1 ou 1 millions d\'utilisateurs!',
     },
     3: {
       title: 'Facile a utiliser',
@@ -39,7 +39,7 @@ const fr = {
     2: {
       title: 'CIBLAGE',
       subtitle: 'Mettre le contact',
-      content: 'Et voilà, nous y sommes ! Avant d\'atteindre les étoiles, nous devons être entièrement alignés avec votre vision et vos objectifs. Alors rencontrons-nous, prenons un café et discutons de votre projet. C\'est un grand moment dans la vie de votre MVP. Au cours de cet échange, nous allons parcourir tous les aspects de votre projet afin de s\'assurer que vos attentes et enjeux sont bien définis. De cette façon, nous aurons des bases solides pour commencer à construire le MVP dont vous avez besoin. Concrètement, nous allons mesurer la faisabilité, définir les besoins, planifier les prochaines étapes et vous donner une vision claire sur les livrables.',
+      content: 'Et voilà, nous y sommes ! Avant d\'atteindre les étoiles, nous devons être entièrement aligné avec votre vision et vos objectifs. Alors rencontrons-nous, prenons un café et discutons de votre projet. C\'est un grand moment dans la vie de votre MVP. Au cours de cet échange, nous allons parcourir tous les aspects de votre projet afin de s\'assurer que vos attentes et enjeux sont bien défini. De cette façon, nous aurons des bases solides pour commencer à construire le MVP dont vous avez besoin. Concrètement, nous allons mesurer la faisabilité, définir les besoins, planifier les prochaines étapes et vous donner une vision claire sur les livrables.',
     },
     3: {
       title: 'EXPERIENCE UTILISATEUR',
