@@ -59,7 +59,7 @@ justify-content: center;
 }
 
 .quote {
-  @include headline-font;
+  @include body-font;
   display: inline;
   background-color: $blue-light-forgr;
   color: white !important;

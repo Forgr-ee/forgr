@@ -84,7 +84,7 @@ const fr = {
   },
   footer: {
     about: 'A propos',
-    jobs: 'Taff',
+    jobs: 'Job',
     contact: 'Contact',
     terms: 'Conditions d\'utilisation',
     privacy: 'Politique de confidentialité',
