@@ -18,7 +18,7 @@ const fr = {
   },
   grid: {
     1: {
-      title: 'Pensé mobile',
+      title: 'Pensé pour les mobiles',
       subtitle: 'Peu importe la taille et la marque, le rendu sera parfait!',
     },
     2: {
@@ -26,7 +26,7 @@ const fr = {
       subtitle: 'Grâce aux dernières technologies, supportez aussi bien 1 ou 1 millions d\'utilisateurs!',
     },
     3: {
-      title: 'Facile a utiliser',
+      title: 'Facile à utiliser',
       subtitle: 'Prêt à l\'emploi, simple à personnaliser pour votre équipe!',
     },
   },
@@ -34,7 +34,7 @@ const fr = {
     1: {
       title: 'IDEATION',
       subtitle: 'Impulser le succès',
-      content: 'Nous croyons déjà au potentiel de votre projet ! Le succès est à la portée de tous les entrepreneurs, mais il faut commencer par le début : il vous faut un MVP. Alors, discutons ! Commencez par remplir le formulaire ou utiliser le module de tchat afin que nous puissions vous répondre rapidement avec une proposition sur mesure incluant un devis. Bien sûr, à cette étape, un accord de non-divulgation (NDA) peut être signé si nécessaire.',
+      content: 'Nous croyons déjà au potentiel de votre projet ! Le succès est à la portée de tous les entrepreneurs, mais il faut commencer par le début : il vous faut un MVP. Alors, discutons ! Commencez par remplir le formulaire ou utilisez notre bot afin que nous puissions vous répondre rapidement avec une proposition sur mesure incluant un devis. Bien sûr, à cette étape, un accord de non-divulgation (NDA) peut être signé si nécessaire.',
     },
     2: {
       title: 'CIBLAGE',
