@@ -6,40 +6,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Forgr</title>
-  <link rel="icon" type="image/png" sizes="32x32" href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="static/img/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="static/img/icons/favicon-16x16.png">
   <!--[if IE]><link rel="shortcut icon" href="/static/img/icons/favicon.ico"><![endif]-->
   <!-- Add to home screen for Android and modern mobile browsers -->
-  <link rel="manifest" href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/manifest.json">
+  <link rel="manifest" href="static/img/icons/manifest.json">
   <meta name="theme-color" content="#1c2255">
 
   <!-- Add to home screen for Safari on iOS -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="Forgr">
-  <link rel="apple-touch-icon" href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/apple-icon-152x152.png">
-  <!-- <link rel="mask-icon" href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/safari-pinned-tab.svg" color="#1c2255"> -->
+  <link rel="apple-touch-icon" href="static/img/icons/apple-icon-152x152.png">
   <!-- Add to home screen for Windows -->
-  <meta name="msapplication-TileImage" content="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/msapplication-icon-144x144.png">
+  <meta name="msapplication-TileImage" content="static/img/icons/ms-icon-144x144.png">
   <meta name="msapplication-TileColor" content="#1c2255">
-  <% for (var chunk of webpack.chunks) {
-          for (var file of chunk.files) {
-            if (file.match(/\.(js|css)$/)) { %>
-    <link rel="<%= chunk.initial?'preload':'prefetch' %>" href="<%= htmlWebpackPlugin.files.publicPath + file %>" as="<%= file.match(/\.css$/)?'style':'script' %>">
-    <% }}} %>
-      <meta name="description" content="">
-      <meta name="author" content="Forgr">
 
+  <meta name="description" content="">
+  <meta name="author" content="Forgr">
 
-
-      <meta property="og:url" content="http://forgr.ee/" />
-      <meta property="og:type" content="article" />
-      <meta property="og:title" content="Votre MVP, en 4 semaines" />
-      <meta property="og:description" content="Ni plus, ni moins" />
-      <meta property="og:image" content="http://forgr.ee/static/img/logo-forgr.png" />
-      <meta property="fb:app_id" content="1954598607889653" />
-      <meta property="og:locale:alternate" content="en_GB" />
-      <meta property="og:locale" content="fr_FR" />
+  <meta property="og:url" content="http://forgr.ee/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Votre MVP, en 4 semaines" />
+  <meta property="og:description" content="Ni plus, ni moins" />
+  <meta property="og:image" content="static/img/logo-forgr.png" />
+  <meta property="fb:app_id" content="1954598607889653" />
+  <meta property="og:locale:alternate" content="en_GB" />
+  <meta property="og:locale" content="fr_FR" />
 
 
 </head>
