@@ -1,7 +1,7 @@
 <style>
 #ppBody {
   font-size: 11pt;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   text-align: justify;
 }
@@ -9,7 +9,7 @@
 #ppHeader {
   font-family: verdana;
   font-size: 21pt;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
 }
 

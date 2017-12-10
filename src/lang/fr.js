@@ -54,12 +54,12 @@ const fr = {
     5: {
       title: 'DEVELOPPEMENT',
       subtitle: 'Forger une solution viable',
-      content: 'Cette étape implique la construction de votre MVP. Nous croyons fortement que certaines technologies sont plus adaptee pour la construction d\'un MVP, c\'est pour cela que nous nous sommes specialiser dans celle ci et qu\'un rendu en 4 semaine deviens possible, le produit final sera robuste, facilement extensible et évolutive. Nous gardons toujours le processus de développement aussi transparent que possible, ce qui signifie que vous serez en mesure de suivre ses progrès.',
+      content: 'Cette étape implique la construction de votre MVP. Nous croyons fortement que certaines technologies sont plus adaptées pour la construction d\'un MVP, c\'est pour cela que nous nous sommes spécialisés dans celles-ci et qu\'un rendu en 4 semaines devient possible, le produit final sera robuste, facilement extensible et évolutif. Nous gardons toujours le processus de développement aussi transparent que possible, ce qui signifie que vous serez en mesure de suivre ses progrès.',
     },
     6: {
       title: 'LIVRAISON',
       subtitle: 'Prêt à conquérir le ciel',
-      content: 'À ce stade, votre MVP est prêt ! Après avoir finalisé le livrable, nous nous assurerons qu\'il arrive en bonne et due forme entre vos mains. Pour ce faire, nous réaliserons une série de test pour constater et valider la qualité de votre MVP. ',
+      content: 'À ce stade, votre MVP est prêt ! Après avoir finalisé le livrable, nous nous assurerons qu\'il arrive en bonne et due forme entre vos mains. Pour ce faire, nous réaliserons une série de tests pour constater et valider la qualité de votre MVP. ',
     },
     7: {
       title: 'PRODUCTION VIDEO',

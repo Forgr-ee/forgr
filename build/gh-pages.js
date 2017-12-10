@@ -3,7 +3,6 @@ var ncp = require('ncp').ncp;
 var fs = require('fs');
 var exec = require('child_process').exec;
 var rimraf = require('rimraf');
-var ghpages = require('gh-pages');
 var path = require('path');
 
 function copy404() {
