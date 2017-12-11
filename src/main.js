@@ -1,32 +1,13 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue';
-// import * from 'font-awesome/css/font-awesome.css';
-// import * from 'simple-line-icons/css/simple-line-icons.css';
-// import VueI18n from 'vue-i18n';
 import { i18n, translations } from "./setup/i18n";
 import App from './App';
 import router from './router';
 
-
-// require('font-awesome/css/font-awesome.css');
-
-// import "font-awesome/scss/font-awesome.scss";
-// import "simple-line-icons/scss/simple-line-icons.scss";
-
-// import 'vuetify/dist/vuetify.min.css';
-// import fr from './lang/fr';
-// import en from './lang/en';
-// import ee from './lang/ee';
-// import BootstrapVue from 'bootstrap-vue';
-
-
-// const messages = { fr, ee, en };
+require("./setup/fb");
 
 Vue.config.productionTip = false;
-// Vue.use(VueI18n);
-// Vue.use(BootstrapVue);
-
 
 /* eslint-disable no-new */
 new Vue({

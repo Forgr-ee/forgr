@@ -188,9 +188,15 @@
                 height="430"
                 style="border: none;"
                 :src="dialowflow_url"></iframe>
-                <a v-else href="https://www.messenger.com/t/Forgr-2054932541405651" target="_blanc">
-                <i class="icon-social-facebook fa-4x fa-fw" aria-hidden="true"></i>
-                </a>
+                <div v-else class="fb-messengermessageus"
+  messenger_app_id="1954598607889653"
+  page_id="Forgr-2054932541405651"
+  color="blue"
+  size="standard">
+</div>
+                <!-- <a v-else href="http://m.me/Forgr-2054932541405651" target="_blanc"> -->
+                <!-- <i class="icon-social-facebook fa-4x fa-fw" aria-hidden="true"></i>
+                </a> -->
               </div>
             </section>
 
