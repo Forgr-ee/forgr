@@ -192,11 +192,8 @@
                   messenger_app_id="1954598607889653"
                   page_id="2054932541405651"
                   color="blue"
-                  size="standard">
+                  size="xlarge">
                 </div>
-                <!-- <a v-else href="http://m.me/2054932541405651" target="_blanc">
-                <i class="icon-social-facebook fa-4x fa-fw" aria-hidden="true"></i>
-                </a> -->
               </div>
             </section>
 
