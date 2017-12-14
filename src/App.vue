@@ -65,9 +65,9 @@
     </footer>
     <div v-if="locale() === 'fr'"
     class="fb-customerchat"x if fr
-  page_id="Forgr-2054932541405651"
- minimized="true">
-</div>
+    page_id="Forgr-2054932541405651"
+    minimized="true">
+    </div>
   </div>
 </template>
 

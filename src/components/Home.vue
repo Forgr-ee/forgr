@@ -189,12 +189,12 @@
                 style="border: none;"
                 :src="dialowflow_url"></iframe>
                 <div v-else class="fb-messengermessageus"
-  messenger_app_id="1954598607889653"
-  page_id="Forgr-2054932541405651"
-  color="blue"
-  size="standard">
-</div>
-                <!-- <a v-else href="http://m.me/Forgr-2054932541405651" target="_blanc">
+                  messenger_app_id="1954598607889653"
+                  page_id="2054932541405651"
+                  color="blue"
+                  size="standard">
+                </div>
+                <!-- <a v-else href="http://m.me/2054932541405651" target="_blanc">
                 <i class="icon-social-facebook fa-4x fa-fw" aria-hidden="true"></i>
                 </a> -->
               </div>
