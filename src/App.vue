@@ -63,6 +63,11 @@
         </div>
       </div>
     </footer>
+    <div v-if="locale() !== 'fr'"
+    class="fb-customerchat"
+  page_id="Forgr-2054932541405651"
+ minimized="true">
+</div>
   </div>
 </template>
 
