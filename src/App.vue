@@ -17,7 +17,7 @@
           <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
             <ul class="list-inline mb-2">
               <li class="list-inline-item">
-                <a href="mailto:digitalshift.ee@gmail.com" target="_top">{{ $t("footer.contact") }}</a>
+                <a href="mailto:hello@forgr.ee" target="_top">{{ $t("footer.contact") }}</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
