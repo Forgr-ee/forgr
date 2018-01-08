@@ -1,13 +1,5 @@
 <template>
   <div id="app">
-    <!-- Navigation -->
-    <nav class="navbar navbar-light bg-forgr static-top">
-      <div class="container">
-        <img src="./assets/logo-forgr.png" class="brand-logo">
-        <router-link class="navbar-brand" to="/">Forgr</router-link>
-        <a class="typeform-share button btn btn-lg btn-primary" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
-      </div>
-    </nav>
     <!-- <img src="./assets/logo.png"> -->
     <router-view/>
 

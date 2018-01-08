@@ -1,10 +1,10 @@
 header.masthead {
   position: inherit;
   // background-color: $blue;
-  background-color:rgba(0,0,0,0.5) !important;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  background: url('./assets/sky.jpg') no-repeat center center;
+  background-color: $blue-forgr !important;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  // background: url('./assets/sky.jpg') no-repeat center center;
   background-repeat: no-repeat;
   -ms-background-size: cover;
   -o-background-size: cover;
@@ -27,7 +27,7 @@ header.masthead {
   }
   @media (min-width: 768px) {
     // padding-top: 12rem;
-    padding-bottom: 11rem;
+    // padding-bottom: 11rem;
     h1 {
       font-size: 3rem;
     }

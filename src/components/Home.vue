@@ -5,8 +5,9 @@
             <div class="container">
               <div class="row">
                 <div class="col-xl-9 mx-auto">
+                  <img src="../assets/logo-forgr.png" class="brand-logo"><br/>
                   <!-- <img src="./assets/logo.png"> -->
-                  <h1 class="mb-5">{{ $t("value_proposition.first") }} <br/>
+                  <h1 class="mb-5">
                     <b>{{ $t("value_proposition.second") }}</b>
                   </h1>
                 </div>
@@ -14,7 +15,7 @@
                   <form>
                     <div class="form-row center-content">
                       <div class="col-12 col-md-3">
-                          <a class="typeform-share button btn btn-lg btn-primary" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
+                          <a class="typeform-share button btn btn-lg btn-primary animated-button victoria-four" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
                       </div>
                     </div>
                   </form>
@@ -211,7 +212,7 @@
                   <form>
                     <div class="form-row center-content">
                       <div class="col-12 col-md-3">
-                          <a class="typeform-share button btn btn-lg btn-primary" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
+                          <a class="typeform-share button btn btn-lg btn-primary animated-button victoria-four" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
                       </div>
                     </div>
                   </form>
@@ -243,15 +244,13 @@ export default {
   },
   computed: {
     typeform_url() {
-      const url = `https://riderx.typeform.com/to/${
-        translations[i18n.locale].common.typeform_id
-      }`;
+      const url = `https://riderx.typeform.com/to/${translations[i18n.locale]
+        .common.typeform_id}`;
       return url;
     },
     dialowflow_url() {
-      const url = `https://app.talky.cards/?api=${
-        translations[i18n.locale].common.dialogflow_id
-      }`;
+      const url = `https://app.talky.cards/?api=${translations[i18n.locale]
+        .common.dialogflow_id}`;
       // console.log(url);
       return url;
     }
