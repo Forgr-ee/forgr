@@ -3,13 +3,13 @@ const en = {
     typeform_id: 'xBQRdl',
     dialogflow_id: '38022ca2551e4aa28711a25bb9639eb8',
     faq: 'Any question ? Ask our lovely bot',
-    signup: 'Let\'s forge!',
+    signup: 'Let\'s Forgr',
   },
   header: {
   },
   value_proposition: {
     first: 'YOU\'RE HERE BECAUSE YOU NEED AN MVP.',
-    second: 'WE FORGE IT IN 4 WEEKS.',
+    second: 'WE FORGE YOUR MVP IN 4 WEEKS.',
   },
   cta: {
     first: 'Your MVP, in 4 weeks.',
