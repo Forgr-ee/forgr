@@ -35,11 +35,11 @@
           </div>
           <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
             <ul class="list-inline mb-0">
-              <li class="list-inline-item mr-3">
+              <!-- <li class="list-inline-item mr-3">
                 <a href="#">
                   <i class="fa fa-medium fa-2x fa-fw"></i>
                 </a>
-              </li>
+              </li> -->
               <li class="list-inline-item mr-3">
                 <a href="https://twitter.com/Forgr_ee">
                   <i class="icon-social-twitter fa-2x fa-fw"></i>
