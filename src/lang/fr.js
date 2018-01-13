@@ -11,7 +11,7 @@ const fr = {
   value_proposition: {
     first: 'VOUS AVEZ BESOIN D\'UN MVP.',
     second: 'NOUS FORGEONS VOTRE MVP EN 4 SEMAINES.',
-    third: 'moins de Code, plus de Business'
+    third: 'Moins de code, plus de business'
   },
   cta: {
     first: 'Votre MVP, dans 4 semaines.',
