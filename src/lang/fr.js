@@ -11,6 +11,7 @@ const fr = {
   value_proposition: {
     first: 'VOUS AVEZ BESOIN D\'UN MVP.',
     second: 'NOUS FORGEONS VOTRE MVP EN 4 SEMAINES.',
+    third: 'moins de Code, plus de Business'
   },
   cta: {
     first: 'Votre MVP, dans 4 semaines.',
@@ -39,22 +40,22 @@ const fr = {
     2: {
       title: 'CIBLAGE',
       subtitle: 'Mettre le contact',
-      content: 'Et voilà, nous y sommes ! Avant d\'atteindre les étoiles, nous devons être entièrement aligné avec votre vision et vos objectifs. Alors rencontrons-nous, prenons un café et discutons de votre projet. C\'est un grand moment dans la vie de votre MVP. Au cours de cet échange, nous allons parcourir tous les aspects de votre projet afin de s\'assurer que vos attentes et enjeux sont bien défini. De cette façon, nous aurons des bases solides pour commencer à construire le MVP dont vous avez besoin. Concrètement, nous allons mesurer la faisabilité, définir les besoins, planifier les prochaines étapes et vous donner une vision claire sur les livrables.',
+      content: 'Avant d\'atteindre les étoiles, nous devons être entièrement aligné avec votre vision et vos objectifs.\n Alors remplissez le formulaire, discutons de votre projet. Au cours de cet échange, nous allons parcourir tous les aspects de votre projet afin de s\'assurer que vos attentes et enjeux sont bien défini.\n Concrètement, nous allons mesurer la faisabilité, définir les besoins, Etablir un devis, et vous donner une vision claire sur les prochaines étapes et les livrables.',
     },
     3: {
       title: 'EXPERIENCE UTILISATEUR',
       subtitle: 'Ajouter de la magie',
-      content: 'Il est temps de créer une expérience unique pour vos futurs utilisateurs ! L\'expérience utilisateur est essentielle pour concevoir une solution à haute valeur ajoutée. Au delà de l\'esthétisme, cela garantira que votre produit correspond aux attentes des utilisateurs. Pour ce faire, nous utiliserons des outils de conception UX spécifiques et notre connaissance des dernières tendances et bonnes pratiques pour concevoir la meilleure expérience utilisateur pour votre MVP. À ce stade, nous produirons un prototype entièrement fonctionnel vous donnant un aperçu de votre produit.',
+      content: 'L\'expérience utilisateur est essentielle pour concevoir une solution à haute valeur ajoutée. Au delà de l\'esthétisme, cela garantira que votre produit correspond aux attentes des utilisateurs. Pour ce faire, nous utiliserons des outils de conception UX spécifiques et notre connaissance des dernières tendances et bonnes pratiques pour concevoir la meilleure expérience utilisateur pour votre MVP. À ce stade, nous produirons un prototype entièrement fonctionnel vous donnant un aperçu de votre produit.',
     },
     4: {
       title: 'ASPECT VISUEL',
       subtitle: 'Propulser jusqu\'au ciel',
-      content: 'Maintenant que nous avons construit le squelette, ajoutons la peau ! Une fois que vous avez approuvé le prototype, nos concepteurs d\'interface utilisateur réfléchissent et créent plusieurs conceptions visuelles qui correspondent à votre vision et à la valeur de votre produit (ne vous inquiétez pas, nous n\'utiliserons pas trop de roses, étoiles et licornes). En fonction de vos préférences, nous nous concentrerons sur une conception spécifique et ferons quelques itérations si nécessaire. À la fin de cette étape, nous livrerons un kit de conception visuelle prêt à être mis en œuvre.',
+      content: 'Une fois que vous avez approuvé le prototype, nos concepteurs d\'interface utilisateur réfléchissent et créent plusieurs conceptions visuelles qui correspondent à votre vision et à la valeur de votre produit (ne vous inquiétez pas, nous n\'utiliserons pas trop de roses, étoiles et licornes). En fonction de vos préférences, nous nous concentrerons sur une conception spécifique et ferons quelques itérations si nécessaire. À la fin de cette étape, nous livrerons un kit de conception visuelle prêt à être mis en œuvre.',
     },
     5: {
       title: 'DEVELOPPEMENT',
       subtitle: 'Forger une solution viable',
-      content: 'Cette étape implique la construction de votre MVP. Nous croyons fortement que certaines technologies sont plus adaptées pour la construction d\'un MVP, c\'est pour cela que nous nous sommes spécialisés dans celles-ci et qu\'un rendu en 4 semaines devient possible, le produit final sera robuste, facilement extensible et évolutif. Nous gardons toujours le processus de développement aussi transparent que possible, ce qui signifie que vous serez en mesure de suivre ses progrès.',
+      content: 'Nous croyons fortement que certaines technologies sont plus adaptées pour la construction d\'un MVP, c\'est pour cela que nous nous sommes spécialisés dans celles-ci et qu\'un rendu en 4 semaines devient possible, le produit final sera robuste et évolutif. Nous gardons toujours le processus de développement aussi transparent que possible, ce qui signifie que vous serez en mesure de suivre ses progrès.',
     },
     6: {
       title: 'LIVRAISON',

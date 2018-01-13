@@ -10,6 +10,7 @@ const ee = {
   value_proposition: {
     first: 'VAJUTA MVP.',
     second: 'OLEME EHITADA 4 NÄDALA PÄEVAKS.',
+    third: 'vähem Code, rohkem Business',
   },
   cta: {
     first: 'Teie MVP, 4 nädala pärast.',

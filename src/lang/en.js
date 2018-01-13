@@ -10,6 +10,7 @@ const en = {
   value_proposition: {
     first: 'YOU\'RE HERE BECAUSE YOU NEED AN MVP.',
     second: 'WE FORGE YOUR MVP IN 4 WEEKS.',
+    third: 'less Code, more Business'
   },
   cta: {
     first: 'Your MVP, in 4 weeks.',

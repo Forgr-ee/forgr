@@ -15,7 +15,9 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "args": "^3.0.8",
     "bootstrap": "^4.0.0-beta.2",
+    "mkdirp": "^0.5.1",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
     "vue": "^2.5.2",

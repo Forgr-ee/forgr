@@ -8,7 +8,7 @@
                   <img src="../assets/logo-forgr.png" class="brand-logo"><br/>
                   <!-- <img src="./assets/logo.png"> -->
                   <h1 class="mb-5">
-                    <b>{{ $t("value_proposition.second") }}</b>
+                    <b>{{ $t("value_proposition.third") }}</b>
                   </h1>
                 </div>
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
@@ -26,7 +26,7 @@
 
           <!-- Icons Grid -->
           <section class="features-icons bg-forgr text-center">
-            <div class="container">
+            <!-- <div class="container">
               <div class="row">
                 <div class="col-lg-4">
                   <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
@@ -62,24 +62,12 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </section>
 
           <!-- Image Showcases -->
           <section class="showcase">
             <div class="container-fluid p-0">
-              <div class="row no-gutters">
-
-                <div class="col-lg-6 order-lg-2 text-white showcase-img tile1"></div>
-                <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                  <h1>{{ $t("showcase.1.title") }}</h1>
-                  <h3 class="quote">{{ $t("showcase.1.subtitle") }}</h3>
-                  <br>
-                  <p class="lead mb-0 space">
-                      {{ $t("showcase.1.content") }}
-                  </p>
-                </div>
-              </div>
               <div class="row no-gutters">
                 <div class="col-lg-6 text-white showcase-img tile2"></div>
                 <div class="col-lg-6 my-auto showcase-text">
