@@ -50,7 +50,7 @@ const fr = {
     4: {
       title: 'ASPECT VISUEL',
       subtitle: 'Propulser jusqu\'au ciel',
-      content: 'Une fois que vous avez approuvé le prototype, nos concepteurs d\'interface utilisateur réfléchissent et créent plusieurs conceptions visuelles qui correspondent à votre vision et à la valeur de votre produit (ne vous inquiétez pas, nous n\'utiliserons pas trop de roses, étoiles et licornes). En fonction de vos préférences, nous nous concentrerons sur une conception spécifique et ferons quelques itérations si nécessaire. À la fin de cette étape, nous livrerons un kit de conception visuelle prêt à être mis en œuvre.',
+      content: 'Une fois que vous avez approuvé le prototype, nos concepteurs d\'interface utilisateur réfléchissent et créent plusieurs conceptions visuelles qui correspondent à votre vision et à la valeur de votre produit (ne vous inquiétez pas, nous n\'utiliserons pas trop de roses, étoiles et licornes). À la fin de cette étape, nous livrerons un kit de conception visuelle prêt à être mis en œuvre.',
     },
     5: {
       title: 'DEVELOPPEMENT',
