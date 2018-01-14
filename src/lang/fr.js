@@ -40,12 +40,12 @@ const fr = {
     2: {
       title: 'CIBLAGE',
       subtitle: 'Mettre le contact',
-      content: 'Avant d\'atteindre les étoiles, nous devons être entièrement aligné avec votre vision et vos objectifs.\n Alors remplissez le formulaire, discutons de votre projet. Au cours de cet échange, nous allons parcourir tous les aspects de votre projet afin de s\'assurer que vos attentes et enjeux sont bien défini.\n Concrètement, nous allons mesurer la faisabilité, définir les besoins, Etablir un devis, et vous donner une vision claire sur les prochaines étapes et les livrables.',
+      content: 'Avant d\'atteindre les étoiles, nous devons être entièrement aligné avec votre vision et vos objectifs.\n Alors remplissez le formulaire. Ensemble, nous allons parcourir tous les aspects de votre projet afin de s\'assurer que vos attentes et enjeux sont bien défini.\n Concrètement, nous allons mesurer la faisabilité, définir les besoins, Etablir un devis, et vous donner une vision claire sur les prochaines étapes et les livrables.',
     },
     3: {
       title: 'EXPERIENCE UTILISATEUR',
       subtitle: 'Ajouter de la magie',
-      content: 'L\'expérience utilisateur est essentielle pour concevoir une solution à haute valeur ajoutée. Au delà de l\'esthétisme, cela garantira que votre produit correspond aux attentes des utilisateurs. Pour ce faire, nous utiliserons des outils de conception UX spécifiques et notre connaissance des dernières tendances et bonnes pratiques pour concevoir la meilleure expérience utilisateur pour votre MVP. À ce stade, nous produirons un prototype entièrement fonctionnel vous donnant un aperçu de votre produit.',
+      content: 'Au delà de l\'esthétisme, cela garantira que votre produit correspond aux attentes des utilisateurs. Pour ce faire, nous utiliserons notre connaissance des dernières tendances et bonnes pratiques pour concevoir la meilleure expérience utilisateur pour votre MVP. À ce stade, nous produirons un prototype entièrement fonctionnel vous donnant un aperçu de votre produit.',
     },
     4: {
       title: 'ASPECT VISUEL',

@@ -39,12 +39,12 @@ const en = {
     2: {
       title: 'SCOPING',
       subtitle: 'Turn on the power',
-      content: 'Before reaching the sky, we need to be fully aligned with your vision and objectives. Use the contact form to tell us more about your project and discuss about it.\bDuring this meeting, we will go through every aspects of your project so as to match your expectations and our expertise. Concretely, we will measure the feasibility, define the requirements, make an estimate, and give you a clear view on the deliverables.',
+      content: 'Before reaching the sky, we need to be fully aligned with your vision and objectives. Use the contact form to tell us more about your project. Together we will go through every aspects of your project so as to match your expectations and our expertise. Concretely, we will measure the feasibility, define the requirements, make an estimate, and give you a clear view on the deliverables.',
     },
     3: {
       title: 'USER EXPERIENCE',
       subtitle: 'Add magic to the project',
-      content: 'User experience is essential to design a high value solution. It will ensure that your product matches with users\' expectations. To do so, we will use specific UX design tools and our knowledge of the latest trends and good practices to conceive the best user experience for your MVP. At this point, we will produce a fully functional prototype giving you a valuable overview of your product.',
+      content: 'Behind the estethic, user experience will ensure that your product matches with users\' expectations. To do so, we will use our knowledge of the latest trends and good practices to conceive the best user experience for your MVP. At this point, we will produce a fully functional prototype giving you a valuable overview of your product.',
     },
     4: {
       title: 'VISUAL DESIGN',
