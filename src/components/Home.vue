@@ -176,9 +176,22 @@ import { i18n, translations } from "../setup/i18n";
 export default {
   name: "Home",
   // props: [i18n],
+  metaInfo() {
+    console.log("meta run");
+    return {
+      meta: [
+        { property: "og:title", content: this.og_title },
+        { property: "og:description", content: this.og_description },
+        { property: "og:locale", conten: this.og_locale }
+      ]
+    };
+  },
   data() {
     return {
-      loaded: false
+      loaded: false,
+      og_title: translations[i18n.locale].meta.og_title,
+      og_description: translations[i18n.locale].meta.og_description,
+      og_locale: translations[i18n.locale].meta.og_locale
     };
   },
   methods: {

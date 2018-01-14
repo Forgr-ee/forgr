@@ -5,7 +5,10 @@ const en = {
     faq: 'Any question ? Ask our lovely bot',
     signup: 'Let\'s Forgr',
   },
-  header: {
+  meta: {
+    og_title: 'Forgr',
+    og_description: 'Less code, more business',
+    og_locale: 'en_GB'
   },
   value_proposition: {
     first: 'YOU\'RE HERE BECAUSE YOU NEED AN MVP.',

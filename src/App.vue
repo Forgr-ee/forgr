@@ -74,6 +74,7 @@ export default {
     },
     switchLocale(loc) {
       i18n.locale = loc;
+      this.$route.query.lang = loc;
     }
   },
   computed: {
@@ -93,6 +94,9 @@ export default {
     // i18n.locale = locale;
     // console.log('lang', locale);
     this.loaded = true;
+    if (this.$route.query.lang) {
+      this.switchLocale(this.$route.query.lang);
+    }
   }
 };
 </script>

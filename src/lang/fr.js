@@ -6,7 +6,10 @@ const fr = {
     faq: 'Des questions ? Discutez avec notre 🤖 .',
     signup: 'Let\'s Forgr',
   },
-  header: {
+  meta: {
+    og_title: 'Forgr',
+    og_description: 'Moins de code, plus de business',
+    og_locale: 'fr_FR'
   },
   value_proposition: {
     first: 'VOUS AVEZ BESOIN D\'UN MVP.',
