@@ -69,7 +69,6 @@ export default {
     },
     switchLocale(loc) {
       i18n.locale = loc;
-      this.$route.query.lang = loc;
     }
   },
   computed: {
