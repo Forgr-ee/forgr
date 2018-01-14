@@ -178,7 +178,6 @@ export default {
   name: "Home",
   // props: [i18n],
   metaInfo() {
-    console.log("meta run");
     return {
       meta: [
         { property: "og:title", content: this.og_title },
