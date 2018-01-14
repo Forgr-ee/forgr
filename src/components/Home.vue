@@ -135,7 +135,8 @@
                 width="100%"
                 height="430"
                 style="border: none;"
-                :src="dialowflow_url"></iframe>
+                :src="dialowflow_url">
+                </iframe>
                 <div v-else class="fb-messengermessageus"
                   messenger_app_id="1954598607889653"
                   page_id="2054932541405651"

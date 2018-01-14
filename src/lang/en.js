@@ -8,7 +8,7 @@ const en = {
   meta: {
     og_title: 'Forgr',
     og_description: 'Less code, more business',
-    og_locale: 'en_GB'
+    og_locale: 'en_US'
   },
   value_proposition: {
     first: 'YOU\'RE HERE BECAUSE YOU NEED AN MVP.',
