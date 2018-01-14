@@ -43,7 +43,7 @@ const fr = {
     2: {
       title: 'CIBLAGE',
       subtitle: 'Mettre le contact',
-      content: 'Avant d\'atteindre les étoiles, nous devons être entièrement aligné avec votre vision et vos objectifs.\n Alors remplissez le formulaire. Ensemble, nous allons parcourir tous les aspects de votre projet afin de s\'assurer que vos attentes et enjeux sont bien défini.\n Concrètement, nous allons mesurer la faisabilité, définir les besoins, Etablir un devis, et vous donner une vision claire sur les prochaines étapes et les livrables.',
+      content: 'Avant d\'atteindre les étoiles, nous devons être entièrement aligné avec votre vision et vos objectifs.\n Alors remplissez le formulaire. Ensemble, nous allons parcourir tous les aspects de votre projet afin de s\'assurer que vos attentes et enjeux sont bien défini.\n Concrètement, nous allons mesurer la faisabilité, définir les besoins, etablir un devis, et vous donner une vision claire sur les prochaines étapes et les livrables.',
     },
     3: {
       title: 'EXPERIENCE UTILISATEUR',
