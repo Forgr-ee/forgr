@@ -4,7 +4,7 @@ const fr = {
     // dialogflow_id: '2723521a53224638813099c3080687aa',
     dialogflow_id: '38022ca2551e4aa28711a25bb9639eb8',
     faq: 'Des questions ? Discutez avec notre 🤖 .',
-    signup: 'Forgr',
+    signup: 'Let\'s Forgr',
   },
   header: {
   },
@@ -55,7 +55,7 @@ const fr = {
     5: {
       title: 'DEVELOPPEMENT',
       subtitle: 'Forger une solution viable',
-      content: 'Nous croyons fortement que certaines technologies sont plus adaptées pour la construction d\'un MVP, c\'est pour cela que nous nous sommes spécialisés dans celles-ci et qu\'un rendu en 4 semaines devient possible, le produit final sera robuste et évolutif. Nous gardons toujours le processus de développement aussi transparent que possible, ce qui signifie que vous serez en mesure de suivre ses progrès.',
+      content: 'Nous croyons fortement que certaines technologies sont plus adaptées pour la construction d\'un MVP, c\'est pour cela que nous nous sommes spécialisés dans celles-ci et qu\'un rendu en 4 semaines devient possible, le produit final sera robuste et évolutif. Nous gardons toujours le processus de développement ainsi vous serez en mesure de suivre ses progrès.',
     },
     6: {
       title: 'LIVRAISON',

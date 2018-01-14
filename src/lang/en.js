@@ -34,27 +34,27 @@ const en = {
     1: {
       title: 'IDEATION',
       subtitle: 'Initiate success',
-      content: 'We believe that every idea has a potential. Success is reachable by everyone but you need to start somewhere. Please, use the chat or the contact form to tell us more about your project. In this way, we will be able to get back to you quickly with a tailor-made proposition including an estimate. Of course, at this step, a non-disclosure agreement (NDA) can be signed if needed.',
+      content: 'Success is reachable by everyone but you need to start somewhere. Please, use the chat or the contact form to tell us more about your project. In this way, we will be able to get back to you quickly with a tailor-made proposition including an estimate. Of course, at this step, a non-disclosure agreement (NDA) can be signed if needed.',
     },
     2: {
       title: 'SCOPING',
       subtitle: 'Turn on the power',
-      content: 'Here you go. Before reaching the sky, we need to be fully aligned with your vision and objectives. Let\'s meet, grab a coffee, sit somewhere and discuss it. This is a big moment in your MVP life.\bDuring this meeting, we will go through every aspects of your project so as to match your expectations and our expertise. It will give us solid basics to start building the MVP you need. Concretely, we will measure the feasibility, define the requirements, plan the next steps and give you a clear view on the deliverables.',
+      content: 'Before reaching the sky, we need to be fully aligned with your vision and objectives. Use the contact form to tell us more about your project and discuss about it.\bDuring this meeting, we will go through every aspects of your project so as to match your expectations and our expertise. Concretely, we will measure the feasibility, define the requirements, make an estimate, and give you a clear view on the deliverables.',
     },
     3: {
       title: 'USER EXPERIENCE',
       subtitle: 'Add magic to the project',
-      content: 'Now it\'s time to create a unique experience for your future users. User experience is essential to design a high value solution. It will ensure that your product matches with users\' expectations. To do so, we will use specific UX design tools and our knowledge of the latest trends and good practices to conceive the best user experience for your MVP. At this point, we will produce a fully functional prototype giving you a valuable overview of your product.',
+      content: 'User experience is essential to design a high value solution. It will ensure that your product matches with users\' expectations. To do so, we will use specific UX design tools and our knowledge of the latest trends and good practices to conceive the best user experience for your MVP. At this point, we will produce a fully functional prototype giving you a valuable overview of your product.',
     },
     4: {
       title: 'VISUAL DESIGN',
       subtitle: 'Propel the project to the sky',
-      content: 'Now we\'ve built the skeleton, let\'s add the skin. Once you\'ve approved the prototype, our User Interface Designers will brainstorm and create several visual designs that fit both your vision and product value (don\'t worry we won\'t use too much pink, stars and unicorns). Based on your preferences, we will focus on one specific design and make few iterations if it\'s necessary. At the end of this stage, we will deliver a visual design kit ready to be implemented.',
+      content: 'Once you\'ve approved the prototype, our User Interface Designers will brainstorm and create several visual designs that fit both your vision and product value (don\'t worry we won\'t use too much pink, stars and unicorns). Based on your preferences, we will focus on one specific design and make few iterations if it\'s necessary. At the end of this stage, we will deliver a visual design kit ready to be implemented.',
     },
     5: {
       title: 'DEVELOPMENT',
       subtitle: 'Forge a strong solution',
-      content: 'This step involves building your MVP. By selecting the technology that best suits the needs of your project, the end-product will be easily extendable and scalable. We always keep the development process as transparent as possible, which means that you will be able to follow its progress.',
+      content: 'We believe certains technologies are more accurated to build MVP. That\'s why we are specialized in them, that\'s how we reach our 4 weeks dealine. The end-product will be easily extendable and scalable. We always keep the development process as transparent as possiblelike this you will be able to follow its progress.',
     },
     6: {
       title: 'DELIVERY',
