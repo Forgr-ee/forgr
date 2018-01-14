@@ -65,7 +65,7 @@ const fr = {
     7: {
       title: 'PRODUCTION VIDEO',
       subtitle: 'Maximiser l\'impact',
-      content: 'Aujourd\'hui, les vidéos sont partout (même qu\'elles noient ton fil d\'actualité Facebook). Elles sont considérées comme un média riche de par leur excellent impact sur les individus. Nous sommes profondément attachés à elles car nous sommes convaincus qu\'elles apporteront de la vie et du professionnalisme à votre communication ainsi qu\'une forte valeur ajoutée à votre MVP. Pour nous, elles contribuent beaucoup au succès d\'un projet. Convaincu ? Discutons-en !',
+      content: 'Aujourd\'hui, les vidéos sont partout (même qu\'elles noient ton fil d\'actualité Facebook). Elles sont considérées comme un média riche de par leur excellent impact sur les individus. Nous sommes profondément attachés à elles car nous sommes convaincus qu\'elles apporteront une forte valeur ajoutée à votre MVP. Convaincu ? Discutons-en !',
     },
   },
   testimonial: {

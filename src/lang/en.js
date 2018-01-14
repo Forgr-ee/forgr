@@ -64,7 +64,7 @@ const en = {
     7: {
       title: 'VIDEO PRODUCTION',
       subtitle: 'Boost your impact',
-      content: 'Nowadays videos are everywhere (you know they\'re flooding your Facebook feed too much). They are considered as the ultimate media because of their powerful impacts on people. We are deeply attached to them because we are convinced that they will bring life and professionalism to your communication, a high value to your MVP, and finally, ensure your success. Convinced? Let\'s talk about it.',
+      content: 'Nowadays videos are everywhere (you know they\'re flooding your Facebook feed too much). They are considered as the ultimate media because of their powerful impacts on people. We are deeply attached to them because we are convinced that they will bring a high value to your MVP, and finally, ensure your success. Convinced? Let\'s talk about it.',
     },
   },
   testimonial: {
