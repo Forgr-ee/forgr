@@ -102,7 +102,7 @@ export const three = function () {
     geometry = new THREE.SphereGeometry(1000, 100, 50);
 
     materialOptions = {
-      size: 1.2,
+      size: 2,
       transparency: true,
       opacity: 0.7
     };
