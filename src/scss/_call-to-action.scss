@@ -33,3 +33,15 @@
   -webkit-background-size: cover;
   background-size: cover;
 }
+
+.skycloud {
+  display: inline;
+  position: inherit;
+}
+
+.rawcloud {
+  margin-top: 100px;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+}

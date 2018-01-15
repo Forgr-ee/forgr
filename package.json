@@ -20,6 +20,7 @@
     "mkdirp": "^0.5.1",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
+    "three": "0.71.0",
     "vue": "^2.5.2",
     "vue-gh-pages": "^1.6.4",
     "vue-i18n": "^7.3.2",

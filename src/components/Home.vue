@@ -147,9 +147,9 @@
             </section>
 
           <!-- Call to Action -->
-          <section class="call-to-action text-white text-center">
-            <div class="container">
-              <div class="row">
+          <section class="text-white text-center">
+            <div class="skycloud">
+              <div class="row rawcloud">
                 <div class="col-xl-9 mx-auto">
                     <h2 class="mb-5">{{ $t("cta.first") }} <br/>
                       <b>{{ $t("cta.second") }}</b>
@@ -173,6 +173,7 @@
 
 <script>
 import { i18n, translations } from "../setup/i18n";
+import { three } from "../setup/dotcloud";
 
 export default {
   name: "Home",
@@ -217,6 +218,7 @@ export default {
   },
   mounted() {
     this.loaded = true;
+    three();
   }
 };
 </script>
