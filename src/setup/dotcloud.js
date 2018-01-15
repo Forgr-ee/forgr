@@ -45,9 +45,9 @@ export const three = function () {
   animate();
 
   function init() {
-    HEIGHT = window.innerHeight;
+    // HEIGHT = window.innerHeight;
     WIDTH = window.innerWidth;
-    HEIGHT = 400;
+    HEIGHT = window.innerHeight / 2.6;
     // WIDTH = "100%";
     windowHalfX = WIDTH / 2;
     windowHalfY = HEIGHT / 2;
