@@ -165,8 +165,9 @@ export const three = function () {
 
     window.addEventListener('resize', onWindowResize, false);
     document.addEventListener('mousemove', onDocumentMouseMove, false);
-    document.addEventListener('touchstart', onDocumentTouchStart, false);
-    document.addEventListener('touchmove', onDocumentTouchMove, false);
+    // document.addEventListener('touchstart', onDocumentTouchStart, false);
+    // document.addEventListener('touchmove', onDocumentTouchMove, false);
+    document.addEventListener('deviceorientation', onDocumentOrientation, false);
   }
 
   function animate() {
@@ -208,12 +209,18 @@ export const three = function () {
 
   /*	Mobile users?  I got your back homey	*/
 
-  function onDocumentTouchStart(e) {
-    if (e.touches.length === 1) {
-      e.preventDefault();
-      mouseX = e.touches[0].pageX - windowHalfX;
-      mouseY = e.touches[0].pageY - windowHalfY;
-    }
+  // function onDocumentTouchStart(e) {
+  //   if (e.touches.length === 1) {
+  //     e.preventDefault();
+  //     mouseX = e.touches[0].pageX - windowHalfX;
+  //     mouseY = e.touches[0].pageY - windowHalfY;
+  //   }
+  // }
+  function onDocumentOrientation(e) {
+    // let absolute = e.absolute;
+    mouseX = e.alpha;
+    mouseY = e.beta;
+    // let gamma = e.gamma;
   }
 
   function onDocumentTouchMove(e) {

@@ -5,14 +5,14 @@
   // background-color: $blue;
   padding-top: 7rem;
   padding-bottom: 7rem;
-  .overlay {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
-  }
+  // .overlay {
+  //   position: absolute;
+  //   height: 100%;
+  //   width: 100%;
+  //   top: 0;
+  //   left: 0;
+  //   opacity: 0;
+  // }
 }
 
 .call-to-action:before {
@@ -44,4 +44,8 @@
   position: absolute;
   width: 100%;
   z-index: 1000;
+  @media screen and (max-width: 768px) {
+    margin-left: 0.4%;
+    margin-right: 0.4%;
+  }
 }
