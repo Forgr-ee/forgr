@@ -221,8 +221,18 @@ export const three = function () {
     // let absolute = e.absolute;
     // mouseX = e.alpha - windowHalfX;
     // mouseY = e.beta - windowHalfY;
-    mouseX = e.alpha * 10;
-    mouseY = e.beta * 10;
+    if (Math.abs(e.alpha) > 80) {
+      mouseX = e.alpha;
+    } else {
+      mouseX = e.alpha * 10;
+    }
+    if (Math.abs(e.beta) > 80) {
+      mouseX = e.beta;
+    } else {
+      mouseX = e.beta * 10;
+    }
+    // mouseX = e.alpha * 10;
+    // mouseY = e.beta * 10;
     // let gamma = e.gamma;
   }
 
