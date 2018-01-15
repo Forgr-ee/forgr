@@ -227,9 +227,9 @@ export const three = function () {
       mouseX = e.alpha * 10;
     }
     if (Math.abs(e.beta) > 80) {
-      mouseX = e.beta;
+      mouseY = e.beta;
     } else {
-      mouseX = e.beta * 10;
+      mouseY = e.beta * 10;
     }
     // mouseX = e.alpha * 10;
     // mouseY = e.beta * 10;
