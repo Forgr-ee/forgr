@@ -219,8 +219,10 @@ export const three = function () {
   // }
   function onDocumentOrientation(e) {
     // let absolute = e.absolute;
-    mouseX = e.alpha - windowHalfX;
-    mouseY = e.beta - windowHalfY;
+    // mouseX = e.alpha - windowHalfX;
+    // mouseY = e.beta - windowHalfY;
+    mouseX = e.alpha * 10;
+    mouseY = e.beta * 10;
     // let gamma = e.gamma;
   }
 
