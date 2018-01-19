@@ -3,7 +3,7 @@ const en = {
     typeform_id: 'xBQRdl',
     dialogflow_id: '38022ca2551e4aa28711a25bb9639eb8',
     faq: 'Any question ? Ask our lovely bot',
-    signup: 'Let\'s Forgr',
+    signup: 'Let\'s forge',
   },
   meta: {
     og_title: 'Forgr',
@@ -57,7 +57,7 @@ const en = {
     5: {
       title: 'DEVELOPMENT',
       subtitle: 'Forge a strong solution',
-      content: 'We believe certains technologies are more accurated to build MVP. That\'s why we are specialized in them, that\'s how we reach our 4 weeks dealine. The end-product will be easily extendable and scalable. We always keep the development process as transparent as possiblelike this you will be able to follow its progress.',
+      content: 'We believe some technologies are more accurate than others when building an efficient MVP. This is why we emphasize on these particular techniques in order to reach our 4 weeks’ commitment. Using them, we can obtain a bespoke product, easily upgradable and focus on your needs. Our aim is to keep the development process as transparent as possible so it allows you to understand and follow each step.'
     },
     6: {
       title: 'DELIVERY',

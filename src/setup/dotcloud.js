@@ -133,10 +133,11 @@ export const three = function () {
     } else {
       mouseX = e.alpha * 10;
     }
-    if (Math.abs(e.beta) > 80) {
-      mouseY = e.beta * 5;
+    let beta = e.beta - 70;
+    if (Math.abs(beta) > 80) {
+      mouseY = beta * 5;
     } else {
-      mouseY = e.beta * 10;
+      mouseY = beta * 10;
     }
   }
 };

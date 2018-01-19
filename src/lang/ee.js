@@ -3,12 +3,12 @@ const ee = {
     typeform_id: 'xBQRdl',
     dialogflow_id: '38022ca2551e4aa28711a25bb9639eb8',
     faq: 'Any question ? Ask our lovely bot',
-    signup: 'Let\'s Forgr',
+    signup: 'Let\'s forge',
   },
   meta: {
     og_title: 'Forgr',
     og_description: 'Less code, more business',
-    og_locale: 'en_US'
+    og_locale: 'ee_EE'
   },
   value_proposition: {
     first: 'VAJUTA MVP.',
