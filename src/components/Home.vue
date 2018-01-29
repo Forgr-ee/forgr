@@ -5,7 +5,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-xl-9 mx-auto">
-                  <img src="../assets/logo-forgr.png" class="brand-logo"><br/>
+                  <img src="../assets/logo.png" class="brand-logo"><br/>
                   <!-- <img src="./assets/logo.png"> -->
                   <h1 class="mb-5">
                     <b>{{ $t("value_proposition.third") }}</b>
