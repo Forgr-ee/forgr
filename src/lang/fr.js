@@ -4,7 +4,7 @@ const fr = {
     // dialogflow_id: '2723521a53224638813099c3080687aa',
     dialogflow_id: '38022ca2551e4aa28711a25bb9639eb8',
     faq: 'Des questions ? Discutez avec notre 🤖 .',
-    signup: 'Forgeons',
+    signup: 'Forgeons maintenant',
   },
   meta: {
     og_title: 'Forgr',
