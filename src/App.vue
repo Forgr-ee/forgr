@@ -35,18 +35,18 @@
           </div>
           <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
             <ul class="list-inline mb-0">
-              <!-- <li class="list-inline-item mr-3">
-                <a href="#">
+              <li class="list-inline-item mr-3">
+                <a href="https://medium.com/forgr">
                   <i class="fa fa-medium fa-2x fa-fw"></i>
                 </a>
-              </li> -->
+              </li>
               <li class="list-inline-item mr-3">
                 <a href="https://twitter.com/Forgr_ee">
                   <i class="icon-social-twitter fa-2x fa-fw"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://www.instagram.com/forgr.ee">
+                <a href="https://www.instagram.com/Forgr_ee">
                   <i class="icon-social-instagram fa-2x fa-fw"></i>
                 </a>
               </li>
@@ -73,13 +73,15 @@ export default {
   },
   computed: {
     typeform_url() {
-      const url = `https://riderx.typeform.com/to/${translations[i18n.locale]
-        .common.typeform_id}`;
+      const url = `https://riderx.typeform.com/to/${
+        translations[i18n.locale].common.typeform_id
+      }`;
       return url;
     },
     dialowflow_url() {
-      const url = `https://app.talky.cards/?api=${translations[i18n.locale]
-        .common.dialogflow_id}`;
+      const url = `https://app.talky.cards/?api=${
+        translations[i18n.locale].common.dialogflow_id
+      }`;
       // console.log(url);
       return url;
     }
