@@ -6,6 +6,7 @@ const fr = {
     faq: 'Des questions ?',
     signup: 'Prenez rendez-vous',
   },
+  // visit_us: 'Ouvrir',
   meta: {
     og_title: 'Forgr',
     og_description: 'Moins de code, plus de business',
