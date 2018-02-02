@@ -15,7 +15,8 @@
                   <form>
                     <div class="form-row center-content">
                       <div class="col-12 col-md-4">
-                          <a class="typeform-share button btn btn-lg btn-primary animated-button victoria-four" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
+                        <a href="https://calendly.com/forgr/30min" class="button btn btn-lg btn-primary animated-button victoria-four" target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
+                          <!-- <a class="typeform-share button btn btn-lg btn-primary animated-button victoria-four" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a> -->
                       </div>
                     </div>
                   </form>
@@ -160,7 +161,8 @@
                   <form>
                     <div class="form-row center-content">
                       <div class="col-12 col-md-3">
-                          <a class="typeform-share button btn btn-lg btn-primary animated-button victoria-four" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
+                        <a href="https://calendly.com/forgr/30min" class="button btn btn-lg btn-primary animated-button victoria-four" target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
+                          <!-- <a class="typeform-share button btn btn-lg btn-primary animated-button victoria-four" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a> -->
                       </div>
                     </div>
                   </form>
@@ -204,12 +206,6 @@ export default {
     }
   },
   computed: {
-    typeform_url() {
-      const url = `https://riderx.typeform.com/to/${
-        translations[i18n.locale].common.typeform_id
-      }`;
-      return url;
-    },
     dialowflow_url() {
       const url = `https://app.talky.cards/?api=${
         translations[i18n.locale].common.dialogflow_id

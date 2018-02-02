@@ -2,8 +2,8 @@ const en = {
   common: {
     typeform_id: 'xBQRdl',
     dialogflow_id: '38022ca2551e4aa28711a25bb9639eb8',
-    faq: 'Any question ? Ask our lovely bot',
-    signup: 'Forge now',
+    faq: 'Any question ?',
+    signup: 'Take your rendez-vous',
   },
   meta: {
     og_title: 'Forgr',

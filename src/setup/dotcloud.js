@@ -1,3 +1,4 @@
+/* eslint-disable */
 
 export const three = function () {
   const THREE = require('three');

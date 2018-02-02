@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Vue from 'vue';
 import VueI18n from 'vue-i18n';
 import fr from '../lang/fr';
@@ -7,7 +8,6 @@ import ee from '../lang/ee';
 export const translations = { fr, en, ee };
 
 Vue.use(VueI18n);
-
 
 const browserLanguagePropertyKeys = ['languages', 'language', 'browserLanguage', 'userLanguage', 'systemLanguage'];
 const availableLanguages = ['fr', 'ee', 'en'];

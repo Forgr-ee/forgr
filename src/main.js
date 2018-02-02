@@ -28,10 +28,6 @@ new Vue({
     },
   },
   computed: {
-    typeform_url() {
-      const url = `https://riderx.typeform.com/to/${translations[i18n.locale].common.typeform_id}`;
-      return url;
-    },
     dialowflow_url() {
       const url = `https://app.talky.cards/?api=${translations[i18n.locale].common.dialogflow_id}`;
       // console.log(url);

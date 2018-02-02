@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { i18n } from "./i18n";
 
 const fbSrc = `https://connect.facebook.net/${i18n.locale === 'en' ? 'en_US' : 'fr_FR'}/sdk.js`;
