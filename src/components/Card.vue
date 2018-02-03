@@ -91,7 +91,7 @@ export default {
   },
   computed: {
     usr() {
-      const index = this.$route.query.usr || 0;
+      const index = this.$route.params.id || 0;
       const users = [
         {
           name: "Martin DONADIEU",
