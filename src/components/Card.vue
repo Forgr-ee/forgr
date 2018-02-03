@@ -15,7 +15,7 @@
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
                   <form>
                     <div class="form-row center-content">
-                      <div class="col-12 col-md-5">
+                      <div v-if="isAbleToAddme" class="col-12 col-md-5">
                         <a @click="vcard()" download class="button btn btn-lg btn-primary animated-button victoria-four" style="z-index: 1;"> {{$t("card.addme")}} </a>
                       </div>
                     </div>
@@ -136,7 +136,11 @@ export default {
       ); // use parameter true to force download}
     }
   },
-  computed: {},
+  computed: {
+    isAbleToAddme() {
+      return !navigator.userAgent.match("CriOS");
+    }
+  },
   ready() {},
   beforeDestroy() {},
   mounted() {
