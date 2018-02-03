@@ -5,26 +5,22 @@
             <div class="container">
               <div class="row">
                 <div class="col-xl-9 mx-auto">
-                  <!-- <h1 class="mb-5">
-                    <b>FORGR</b></br>
-                    Less code, more business
-                  </h1> -->
-                  <img :src="twitterImg(usr.twitter)" class="user-icon"><br/>
+                  <img :src="twitterImg(usr().twitter)" class="user-icon"><br/>
                   <h2 class="mb-5">
-                    {{usr.name}}</br>
-                    {{usr.mobile}}</br>
-                    {{usr.email}}</br>
+                    {{usr().firstName}} {{usr().lastName}}</br>
+                    {{usr().mobile}}</br>
+                    {{usr().email}}</br>
                   </h2>
                 </div>
-                <!-- <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+                <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
                   <form>
                     <div class="form-row center-content">
-                      <div class="col-12 col-md-4">
-                        <a href="/" class="button btn btn-lg btn-primary animated-button victoria-four" style="z-index: 1;"> Visitez notre site </a>
+                      <div class="col-12 col-md-5">
+                        <a @click="vcard()" class="button btn btn-lg btn-primary animated-button victoria-four" style="z-index: 1;"> {{$t("card.addme")}} </a>
                       </div>
                     </div>
                   </form>
-                </div> -->
+                </div>
               </div>
             </div>
           </header>
@@ -71,6 +67,8 @@
 </template>
 
 <script>
+import FileSaver from "file-saver";
+import vCard from "vcards-js";
 import { i18n } from "../setup/i18n";
 
 export default {
@@ -87,34 +85,57 @@ export default {
     },
     twitterImg(id) {
       return `https://avatars.io/twitter/${id}`;
-    }
-  },
-  computed: {
+    },
     usr() {
       const index = this.$route.params.id || 0;
       const users = [
         {
-          name: "Martin DONADIEU",
+          firstName: "Martin",
+          lastName: "DONADIEU",
           twitter: "martindonadieu",
           mobile: "+33651316427",
           email: "hello@forgr.ee"
         },
         {
-          name: "Nicolas BANNIER DUCROS",
+          firstName: "Nicolas",
+          lastName: "BANNIER DUCROS",
           twitter: "Nbannierducros",
           mobile: "+33650910815",
           email: "hello@forgr.ee"
         },
         {
-          name: "Victorien SANMARTY",
+          firstName: "Victorien",
+          lastName: "SANMARTY",
           twitter: "Nbannierducros",
           mobile: "+33‭0658468730‬",
           email: "hello@forgr.ee"
         }
       ];
       return users[index];
+    },
+    vcard() {
+      console.log("click v card");
+      const card = vCard();
+      card.firstName = this.usr().firstName;
+      card.lastName = this.usr().lastName;
+      card.cellPhone = this.usr().mobile;
+      card.photo.attachFromUrl(this.twitterImg(this.usr().twitter), "JPEG");
+      card.logo.attachFromUrl(
+        "http://forgr.ee/static/img/logo.18d6563.png",
+        "PNG"
+      );
+      card.organization = "FORGR";
+      card.title = "Less code, more business";
+      console.log("card", card);
+      // card.saveToFile("./martin-donadieu.vcf");
+      var blob = new Blob([card.getFormattedString()], {
+        type: "text/x-vcard;charset=utf-8"
+      });
+      FileSaver.saveAs(blob, "martindonadieu.vcf");
+      // return card.getFormattedString();
     }
   },
+  computed: {},
   ready() {},
   beforeDestroy() {},
   mounted() {

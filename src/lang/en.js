@@ -9,6 +9,7 @@ const en = {
     call: 'Call me',
     email: 'Send me an email',
     visit: 'Visit our website',
+    addme: 'Add me to your contact',
     meet: 'Meet us'
   },
   meta: {

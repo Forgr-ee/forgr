@@ -11,6 +11,7 @@ const fr = {
     call: 'Appelez-moi',
     email: 'Envoyez-moi un email',
     visit: 'Visitez notre site',
+    addme: 'Ajoutez-moi a vos contact',
     meet: 'Rencontrons-nous'
   },
   meta: {
