@@ -45,6 +45,11 @@
                   <i class="icon-social-twitter fa-2x fa-fw"></i>
                 </a>
               </li>
+              <li class="list-inline-item mr-3">
+                <a href="https://www.facebook.com/forgr.ee">
+                  <i class="icon-social-facebook fa-2x fa-fw"></i>
+                </a>
+              </li>
               <li class="list-inline-item">
                 <a href="https://www.instagram.com/Forgr_ee">
                   <i class="icon-social-instagram fa-2x fa-fw"></i>

@@ -36,17 +36,15 @@
           <i class="fa fa-calendar-plus fa-4x fa-fw"></i>
           </a>
         </div>
-        </br>Rencontrez-nous
+        </br> {{$t("card.meet")}}
       </div>
       <div class="col-sm-3 col-6 text-center tile-left">
           <div>
             <a class="white-text" href="/">
-            <!-- <i class="fa fa-medium fa-4x fa-fw"></i> -->
             <img src="../assets/logo.png" class="brand-logo-icon"></img>
             </a>
-            <!-- <img src="../assets/logo.png" class="brand-logo"> -->
           </div>
-          Visitez notre site
+          {{$t("card.visit")}}
       </div>
       <div class="col-sm-3 col-6 text-center tile-left">
         <div >
@@ -54,7 +52,7 @@
           <i class="fa fa-phone fa-4x fa-fw"></i>
           </a>
         </div>
-        </br>Appeler
+        </br>{{$t("card.call")}}
       </div>
       <div class="col-sm-3 col-6 text-center tile-right">
         <div >
@@ -62,39 +60,7 @@
           <i class="fa fa-envelope-open fa-4x fa-fw"></i>
           </a>
         </div>
-        </br>Email
-      </div>
-      <div class="col-sm-3 col-6 text-center tile-right">
-          <div>
-            <a class="white-text" href="https://medium.com/forgr">
-            <i class="fab fa-medium-m fa-4x fa-fw"></i>
-            </a>
-          </div>
-        </br> Medium
-      </div>
-      <div class="col-sm-3 col-6 text-center tile-left">
-        <div>
-          <a class="white-text" href="https://www.instagram.com/Forgr_ee">
-          <i class="fab fa-instagram fa-4x fa-fw"></i>
-          </a>
-        </div>
-        </br>Instagram
-      </div>
-      <div class="col-sm-3 col-6 text-center tile-left">
-        <div >
-          <a class="white-text" href="https://www.facebook.com/forgr.ee">
-          <i class="fab fa-facebook fa-4x fa-fw"></i>
-          </a>
-        </div>
-        </br>Facebook
-      </div>
-      <div class="col-sm-3 col-6 text-center tile-right">
-        <div >
-          <a class="white-text" href="https://twitter.com/Forgr_ee">
-          <i class="fab fa-twitter fa-4x fa-fw"></i>
-          </a>
-        </div>
-        </br>Twitter
+        </br>{{$t("card.email")}}
       </div>
     </div>
 

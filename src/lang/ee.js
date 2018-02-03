@@ -5,6 +5,12 @@ const ee = {
     faq: 'Any question ?',
     signup: 'Take your rendez-vous',
   },
+  card: {
+    call: 'Call me',
+    email: 'Send me an email',
+    visit: 'Visit our website',
+    meet: 'Meet us'
+  },
   meta: {
     og_title: 'Forgr',
     og_description: 'Less code, more business',

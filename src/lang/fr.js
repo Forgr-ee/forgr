@@ -7,6 +7,12 @@ const fr = {
     signup: 'Prenez rendez-vous',
   },
   // visit_us: 'Ouvrir',
+  card: {
+    call: 'Appelez-moi',
+    email: 'Envoyez moi un email',
+    visit: 'Visitez notre site',
+    meet: 'Rencontrons-nous'
+  },
   meta: {
     og_title: 'Forgr',
     og_description: 'Moins de code, plus de business',
