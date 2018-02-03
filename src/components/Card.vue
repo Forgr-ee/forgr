@@ -16,7 +16,7 @@
                   <form>
                     <div class="form-row center-content">
                       <div class="col-12 col-md-5">
-                        <a @click="vcard()" class="button btn btn-lg btn-primary animated-button victoria-four" style="z-index: 1;"> {{$t("card.addme")}} </a>
+                        <a @click="vcard()" download class="button btn btn-lg btn-primary animated-button victoria-four" style="z-index: 1;"> {{$t("card.addme")}} </a>
                       </div>
                     </div>
                   </form>
@@ -68,7 +68,8 @@
 
 <script>
 import FileSaver from "file-saver";
-import vCard from "vcards-js";
+// import vCard from "vcards-js";
+import { vCard } from "../setup/vcard";
 import { i18n } from "../setup/i18n";
 
 export default {
@@ -114,25 +115,27 @@ export default {
       return users[index];
     },
     vcard() {
-      console.log("click v card");
-      const card = vCard();
-      card.firstName = this.usr().firstName;
-      card.lastName = this.usr().lastName;
-      card.cellPhone = this.usr().mobile;
-      card.photo.attachFromUrl(this.twitterImg(this.usr().twitter), "JPEG");
-      card.logo.attachFromUrl(
-        "http://forgr.ee/static/img/logo.18d6563.png",
-        "PNG"
+      // console.log("click v card");
+      var myCard = vCard.create(vCard.Version.FOUR);
+      myCard.add(
+        vCard.Entry.NAME,
+        `${this.usr().lastName};${this.usr().firstName};;`
       );
-      card.organization = "FORGR";
-      card.title = "Less code, more business";
-      console.log("card", card);
-      // card.saveToFile("./martin-donadieu.vcf");
-      var blob = new Blob([card.getFormattedString()], {
-        type: "text/x-vcard;charset=utf-8"
-      });
-      FileSaver.saveAs(blob, "martindonadieu.vcf");
-      // return card.getFormattedString();
+      myCard.add(
+        vCard.Entry.FORMATTEDNAME,
+        this.usr().firstName + " " + this.usr().lastName
+      );
+      myCard.add(vCard.Entry.NICKNAME, "Less code, more business");
+      myCard.add(vCard.Entry.TITLE, "MVP builder");
+      myCard.add(vCard.Entry.PHONE, this.usr().mobile, vCard.Type.CELL);
+      myCard.add(vCard.Entry.EMAIL, this.usr().email, vCard.Type.WORK);
+      myCard.add(vCard.Entry.ORGANIZATION, "FORGR");
+      myCard.add(vCard.Entry.URL, "https://forgr.ee");
+      var link = vCard.export(
+        myCard,
+        this.usr().firstName + " " + this.usr().lastName,
+        true
+      ); // use parameter true to force download}
     }
   },
   computed: {},
