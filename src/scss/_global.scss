@@ -59,6 +59,20 @@ a {
   }
 }
 
+.user-icon {
+  margin-bottom: 1rem;
+  width: 200px;
+  border: solid $blue-light-forgr;
+  @media screen and (max-width: 440px) {
+    width: 100px;
+  }
+}
+
+.brand-logo-icon {
+  margin-bottom: 1rem;
+  width: 70px;
+}
+
 .btn-lg {
   border-radius: 0;
 }

@@ -3,7 +3,7 @@
     <!-- <img src="./assets/logo.png"> -->
     <router-view/>
 
-     <footer class="footer bg-forgr">
+    <footer class="footer bg-forgr">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
@@ -37,7 +37,7 @@
             <ul class="list-inline mb-0">
               <li class="list-inline-item mr-3">
                 <a href="https://medium.com/forgr">
-                  <i class="fa fa-medium fa-2x fa-fw"></i>
+                  <i class="fab fa-medium-m fa-2x fa-fw"></i>
                 </a>
               </li>
               <li class="list-inline-item mr-3">
