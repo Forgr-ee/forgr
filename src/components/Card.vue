@@ -67,8 +67,6 @@
 </template>
 
 <script>
-import FileSaver from "file-saver";
-// import vCard from "vcards-js";
 import { vCard } from "../setup/vcard";
 import { i18n } from "../setup/i18n";
 
