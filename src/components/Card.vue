@@ -104,6 +104,12 @@ export default {
           twitter: "Nbannierducros",
           mobile: "+33650910815",
           email: "hello@forgr.ee"
+        },
+        {
+          name: "Victorien SANMARTY",
+          twitter: "Nbannierducros",
+          mobile: "+33‭0658468730‬",
+          email: "hello@forgr.ee"
         }
       ];
       return users[index];
