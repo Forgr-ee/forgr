@@ -9,7 +9,7 @@ const fr = {
   // visit_us: 'Ouvrir',
   card: {
     call: 'Appelez-moi',
-    email: 'Envoyez moi un email',
+    email: 'Envoyez-moi un email',
     visit: 'Visitez notre site',
     meet: 'Rencontrons-nous'
   },
