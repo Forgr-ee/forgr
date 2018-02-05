@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 const funcVcard = function () {
   const version = {
     TWO: "2.1",
@@ -171,5 +173,5 @@ const funcVcard = function () {
   return vCard;
 };
 
-export const vCard = funcVcard();
+export default funcVcard();
 

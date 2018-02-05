@@ -14,7 +14,10 @@
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
                 <router-link to="/privacy">{{ $t("footer.privacy") }}</router-link>
-                <!-- <a href="pages/privacypolicy.html" target="_blanc">{{ $t("footer.privacy") }}</a> -->
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <router-link to="/nda">{{ $t("footer.nda") }}</router-link>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">

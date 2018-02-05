@@ -67,7 +67,7 @@
 </template>
 
 <script>
-import { vCard } from "../setup/vcard";
+import vCard from "../setup/vcard";
 import { i18n } from "../setup/i18n";
 
 export default {
@@ -114,14 +114,14 @@ export default {
     },
     vcard() {
       // console.log("click v card");
-      var myCard = vCard.create(vCard.Version.FOUR);
+      const myCard = vCard.create(vCard.Version.FOUR);
       myCard.add(
         vCard.Entry.NAME,
         `${this.usr().lastName};${this.usr().firstName};;`
       );
       myCard.add(
         vCard.Entry.FORMATTEDNAME,
-        this.usr().firstName + " " + this.usr().lastName
+        `${this.usr().firstName} ${this.usr().lastName}`
       );
       myCard.add(vCard.Entry.NICKNAME, "Less code, more business");
       myCard.add(vCard.Entry.TITLE, "MVP builder");
@@ -129,9 +129,9 @@ export default {
       myCard.add(vCard.Entry.EMAIL, this.usr().email, vCard.Type.WORK);
       myCard.add(vCard.Entry.ORGANIZATION, "FORGR");
       myCard.add(vCard.Entry.URL, "https://forgr.ee");
-      var link = vCard.export(
+      vCard.export(
         myCard,
-        this.usr().firstName + " " + this.usr().lastName,
+        `${this.usr().firstName} ${this.usr().lastName}`,
         true
       ); // use parameter true to force download}
     }

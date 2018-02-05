@@ -21,15 +21,8 @@
 <template>
   <div class="bg-forgr container">
         <!-- Navigation -->
-    <nav class="navbar navbar-light bg-forgr static-top">
-      <div class="container">
-        <img src="../assets/logo.png" class="brand-logo">
-        <router-link class="navbar-brand" to="/">Forgr</router-link>
-        <a class="typeform-share button btn btn-lg btn-primary" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
-      </div>
-    </nav>
     <div class="row">
-     <div class="text-center form-row center-content">
+      <div class="text-center form-row center-content">
         <div id='ppHeader'> Privacy Policy</div><div id='ppBody'><div class='ppConsistencies'><div class='col-2'>
             <div class="quick-links text-center">Information Collection</div>
         </div><div class='col-2'>
