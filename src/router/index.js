@@ -4,6 +4,7 @@ import Home from '@/components/Home';
 import Card from '@/components/Card';
 import Privacy from '@/components/Privacy';
 import NDA from '@/components/NDA';
+import Terms from '@/components/Terms';
 import Meta from 'vue-meta';
 
 Vue.use(Meta);
@@ -31,6 +32,11 @@ export default new Router({
       path: '/nda',
       name: 'NDA',
       component: NDA,
+    },
+    {
+      path: '/terms',
+      name: 'Terms',
+      component: Terms,
     },
   ],
 });

@@ -6,7 +6,7 @@
     <footer class="footer bg-forgr">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+          <div class="col-lg-4 h-100 text-center text-lg-left my-auto">
             <ul class="list-inline mb-2">
               <li class="list-inline-item">
                 <a href="mailto:hello@forgr.ee" target="_top">{{ $t("footer.contact") }}</a>
@@ -18,6 +18,10 @@
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
                 <router-link to="/nda">{{ $t("footer.nda") }}</router-link>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <router-link to="/terms">{{ $t("footer.terms") }}</router-link>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">

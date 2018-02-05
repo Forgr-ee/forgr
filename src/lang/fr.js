@@ -111,7 +111,7 @@ const fr = {
     jobs: 'Job',
     contact: 'Contact',
     terms: 'Conditions d\'utilisation',
-    nda: 'Accord de non-divulgation',
+    nda: 'NDA',
     privacy: 'Politique de confidentialité',
   },
 };
