@@ -11,16 +11,20 @@
               <li class="list-inline-item">
                 <a href="mailto:hello@forgr.ee" target="_top">{{ $t("footer.contact") }}</a>
               </li>
-              <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item">
+              <li class="list-inline-item" v-if="path !== '/'">&sdot;</li>
+              <li class="list-inline-item" v-if="path !== '/'">
+                <router-link to="/">{{ $t("footer.home") }}</router-link>
+              </li>
+              <li class="list-inline-item" v-if="path !== '/privacy'">&sdot;</li>
+              <li class="list-inline-item" v-if="path !== '/privacy'">
                 <router-link to="/privacy">{{ $t("footer.privacy") }}</router-link>
               </li>
-              <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item">
+              <li class="list-inline-item" v-if="path !== '/nda'">&sdot;</li>
+              <li class="list-inline-item" v-if="path !== '/nda'">
                 <router-link to="/nda">{{ $t("footer.nda") }}</router-link>
               </li>
-              <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item">
+              <li class="list-inline-item" v-if="path !== '/terms'">&sdot;</li>
+              <li class="list-inline-item" v-if="path !== '/terms'">
                 <router-link to="/terms">{{ $t("footer.terms") }}</router-link>
               </li>
               <li class="list-inline-item">&sdot;</li>
@@ -96,6 +100,9 @@ export default {
       }`;
       // console.log(url);
       return url;
+    },
+    path() {
+      return this.$route.path;
     }
   },
   mounted() {

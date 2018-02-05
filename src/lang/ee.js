@@ -107,6 +107,7 @@ const ee = {
   footer: {
     about: 'About',
     jobs: 'Jobs',
+    home: 'Home',
     contact: 'Contact',
     terms: 'Terms of Use',
     nda: 'Non-disclosure agreement',

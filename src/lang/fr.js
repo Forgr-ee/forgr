@@ -108,6 +108,7 @@ const fr = {
   },
   footer: {
     about: 'A propos',
+    home: 'Accueil',
     jobs: 'Job',
     contact: 'Contact',
     terms: 'Conditions d\'utilisation',
