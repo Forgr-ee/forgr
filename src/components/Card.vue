@@ -105,7 +105,7 @@ export default {
         {
           firstName: "Victorien",
           lastName: "SANMARTY",
-          twitter: "Nbannierducros",
+          twitter: "Vsanmarty",
           mobile: "+33‭0658468730‬",
           email: "hello@forgr.ee"
         }
