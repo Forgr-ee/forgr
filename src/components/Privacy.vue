@@ -7,7 +7,6 @@
 }
 
 #ppHeader {
-  font-family: verdana;
   font-size: 21pt;
   width: 90%;
   margin: 0 auto;
