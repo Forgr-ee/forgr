@@ -14,7 +14,7 @@
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
                   <form>
                     <div class="form-row center-content">
-                      <div class="col-12 col-md-4">
+                      <div class="col-12 col-md-5">
                         <a href="https://calendly.com/forgr/30min" class="button btn btn-lg btn-primary animated-button victoria-four" target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
                           <!-- <a class="typeform-share button btn btn-lg btn-primary animated-button victoria-four" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a> -->
                       </div>
@@ -160,7 +160,7 @@
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
                   <form>
                     <div class="form-row center-content">
-                      <div class="col-12 col-md-3">
+                      <div class="col-12 col-md-5">
                         <a href="https://calendly.com/forgr/30min" class="button btn btn-lg btn-primary animated-button victoria-four" target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
                           <!-- <a class="typeform-share button btn btn-lg btn-primary animated-button victoria-four" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a> -->
                       </div>
