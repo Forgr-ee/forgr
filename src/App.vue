@@ -42,7 +42,7 @@
                 <a href="#" class="lang-icons" v-on:click="switchLocale('ee')">🇪🇪</a>
               </li>
             </ul>
-            <p class="text-muted small mb-4 mb-lg-0">&copy; Forgr 2017. All Rights Reserved.</p>
+            <p class="text-muted small mb-4 mb-lg-0">&copy; Forgr 2018. All Rights Reserved.</p>
           </div>
           <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
             <ul class="list-inline mb-0">
