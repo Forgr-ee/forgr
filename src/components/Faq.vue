@@ -26,21 +26,21 @@
             </div>
           </header>
             </div>
-  <div id="accordion">
+  <div>
+    <div>
     <div class="card" v-for="item in faqs" :key="item.id">
-    <div class="card-header" :id="'heading-' + item.id">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed" data-toggle="collapse" :data-target="'#collapse-' + item.id" aria-expanded="false" aria-controls="'collapse-' + item.id">
-          Collapsible Group {{item.title}}
-        </button>
+    <div class="card-header">
+      <h5 class="mb-0" v-on:click="collapse(item)">
+          {{item.title}}
       </h5>
     </div>
-    <div :id="'collapse-' + item.id" class="collapse " :aria-labelledby="'heading-' + item.id" data-parent="#accordion">
+    <div :class="item.collapsed">
       <div class="card-body">
           {{item.content}}
       </div>
     </div>
   </div>
+</div>
 </div>
 </div>
 </template>
@@ -65,6 +65,13 @@ export default {
     },
     switchLocale(loc) {
       i18n.locale = loc;
+    },
+    collapse(item) {
+      if (item.collapsed === "collapse") {
+        item.collapsed = "collapse show";
+      } else {
+        item.collapsed = "collapse";
+      }
     }
   },
   computed: {
@@ -89,6 +96,7 @@ export default {
     for (let index = 0; index < faqLen; index += 1) {
       this.faqs.push({
         id: i18n.t(`faq.${index + 1}.id`),
+        collapsed: "collapse",
         title: i18n.t(`faq.${index + 1}.title`),
         content: i18n.t(`faq.${index + 1}.content`)
       });
