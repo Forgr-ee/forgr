@@ -104,6 +104,24 @@ const en = {
     terms: 'This agreement expressly incorporates the Forgr Terms of Use by reference, which can be found here: ',
     questions: 'Should you have any questions or comments concerning this NDA, please do not hesitate to contact us at',
   },
+  faqLen: '3',
+  faq: {
+    1: {
+      id: 'one',
+      title: 'Group 1',
+      content: 'content 1',
+    },
+    2: {
+      id: 'two',
+      title: 'Group 2',
+      content: 'content 2',
+    },
+    3: {
+      id: 'three',
+      title: 'Group 3',
+      content: 'content 3',
+    }
+  },
   footer: {
     about: 'About',
     jobs: 'Jobs',

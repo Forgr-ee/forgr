@@ -1,9 +1,7 @@
 @import 'node_modules/bootstrap/scss/bootstrap';
-
 // @import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css');
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,900|Encode+Sans+Condensed:300,900&effect=emboss');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css');
-
 // Core variables and mixins
 @import "variables.scss";
 @import "mixins.scss";
@@ -18,4 +16,4 @@
 @import "buttons.scss";
 @import "footer.scss";
 @import "tiles.scss";
-
+@import "cards.scss";

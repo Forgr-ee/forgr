@@ -106,6 +106,24 @@ const fr = {
     terms: 'Cet accord incorpore expressément les Conditions d\'utilisation de Forgr par référence, qui peuvent être trouvées ici: ',
     questions: 'Si vous avez des questions ou des commentaires concernant notre NDA, n\'hésitez pas à nous contacter à',
   },
+  faqLen: '3',
+  faq: {
+    1: {
+      id: 'one',
+      title: 'Group 1',
+      content: 'content 1',
+    },
+    2: {
+      id: 'two',
+      title: 'Group 2',
+      content: 'content 2',
+    },
+    3: {
+      id: 'three',
+      title: 'Group 3',
+      content: 'content 3',
+    }
+  },
   footer: {
     about: 'A propos',
     home: 'Accueil',
