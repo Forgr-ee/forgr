@@ -104,22 +104,32 @@ const en = {
     terms: 'This agreement expressly incorporates the Forgr Terms of Use by reference, which can be found here: ',
     questions: 'Should you have any questions or comments concerning this NDA, please do not hesitate to contact us at',
   },
-  faqLen: '3',
+  faqLen: '5',
   faq: {
     1: {
       id: 'one',
-      title: 'Group 1',
-      content: 'content 1',
+      title: 'Is there anything you can\'t build?',
+      content: 'Yes! We build only BtoC mobile project, we don\'t build games, or anything to do with artificial intelligence.',
     },
     2: {
       id: 'two',
-      title: 'Group 2',
-      content: 'content 2',
+      title: 'How are you so cheap compared to other developers? Do you just outsource all development to other countries?',
+      content: 'No! Everything is done by us. We can charge less for two reasons.\n1. We don\'t have any employee salaries to pay, and \n2. By doing hybrid development, and reusing Code, we can build things faster than others can with code.',
     },
     3: {
       id: 'three',
-      title: 'Group 3',
-      content: 'content 3',
+      title: 'Can you build my idea for equity?',
+      content: 'While we cannot take all by equity, we aks 2% of equity to provide long therm suport to your startup ',
+    },
+    4: {
+      id: 'forth',
+      title: 'What other services do you provide?',
+      content: 'Besides technology, Forgr provide video creation to make your app viral, also we support you on long term with our chat, where all entrepreneurs we have help are.'
+    },
+    5: {
+      id: 'five',
+      title: 'Are there any hidden fees?',
+      content: 'Nope, no hidden fees. You pay the agreed upon fee, plus Firebase pricing (most likely $20/month) and that\'s it. See https://firebase.google.com/pricing/ for more details.'
     }
   },
   footer: {

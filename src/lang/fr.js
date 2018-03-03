@@ -106,22 +106,32 @@ const fr = {
     terms: 'Cet accord incorpore expressément les Conditions d\'utilisation de Forgr par référence, qui peuvent être trouvées ici: ',
     questions: 'Si vous avez des questions ou des commentaires concernant notre NDA, n\'hésitez pas à nous contacter à',
   },
-  faqLen: '3',
+  faqLen: '5',
   faq: {
     1: {
       id: 'one',
-      title: 'Group 1',
-      content: 'content 1',
+      title: 'Est-ce qu’il y a des projets que vous ne développez pas ?',
+      content: 'Oui, nous faisons que des projets Btoc mobile, ne développons pas de jeux, ou tout ce qui a un rapport avec l’intelligence artificielle. \nEcrivez-nous si vous avez plus de questions.',
     },
     2: {
       id: 'two',
-      title: 'Group 2',
-      content: 'content 2',
+      title: 'Pourquoi êtes-vous si compétitifs en terme de tarifs ? Est-ce que vous externalisez vos développement à l’étranger ?',
+      content: 'Eh non ! Tout est fait par nous. Nous facturons moins cher pour deux raisons :\nNous n’avons aucun employés à payer.\nNous faisons des application hybride,  et nous réutilisons beaucoup de code ce qui nous permet de nous concentrer seulement sur votre coeur de métier, c’est pour cela que nous développons rapidement.',
     },
     3: {
       id: 'three',
-      title: 'Group 3',
-      content: 'content 3',
+      title: 'Pouvez-vous développer mon projet contre de l\'equity ?',
+      content: 'Malheureusement nous ne pouvons pas développer votre idée seulement pour des part, mais nous demandons 2% d’equity pour vous soutenir sur le long terme .',
+    },
+    4: {
+      id: 'forth',
+      title: 'Quels autres services proposez-vous ?',
+      content: 'Au-delà de l’aspect technique, Forgr propose la création d’un format de communication impactant : la vidéo, ainsi que le suivie de votre startup sur le long terme grâce à notre plateforme de chat qui rassemble tous les entrepreneurs que nous aidons .'
+    },
+    5: {
+      id: 'five',
+      title: 'Est-ce qu’il y a des frais cachés ?',
+      content: 'Nope ! Nous souhaitons justement que notre offre soit la plus claire et limpide possible.\nVous aurez seulement des frais de serveur au delà de 100 utilisateurs simultanés (20 euro/ par mois) consultez https://firebase.google.com/pricing pour plus de details'
     }
   },
   footer: {

@@ -127,25 +127,34 @@
           </section>
 
           <!-- Testimonials -->
-          <section class="testimonials text-center bg-light">
-            <!-- <div class> -->
+          <section class="testimonials text-center">
+            <h2 class="mb-5 light-forgr-text">{{ $t("common.faq") }}</h2>
               <div class="container">
-                <h2 class="mb-5 light-forgr-text">{{ $t("common.faq") }}</h2>
-                <iframe
-                v-if="loaded && locale() === 'en'"
-                width="100%"
-                height="430"
-                style="border: none;"
-                :src="dialowflow_url">
-                </iframe>
-                <div v-else class="fb-messengermessageus"
-                  messenger_app_id="1954598607889653"
-                  page_id="2054932541405651"
-                  color="blue"
-                  size="xlarge">
+                <div class="row">
+                  <div class="col-12" v-for="item in faqs" :key="item.id">
+                    <div class="card">
+                    <div class="card-header" v-on:click="collapse(item)">
+                      <div class="row">
+                        <div class="col-11">
+                          <h5 class="mb-0" >
+                              {{item.title}}
+                          </h5>
+                        </div>
+                        <div class="col-1">
+                          <i class="fas fa-plus forgr-text"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div :class="item.collapsed">
+                      <div class="card-body">
+                          {{item.content}}
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </section>
+            </div>
+          </section>
 
           <!-- Call to Action -->
           <section class="text-white text-center">
@@ -191,6 +200,7 @@ export default {
   },
   data() {
     return {
+      faqs: [],
       loaded: false,
       og_title: translations[i18n.locale].meta.og_title,
       og_description: translations[i18n.locale].meta.og_description,
@@ -203,6 +213,13 @@ export default {
     },
     switchLocale(loc) {
       i18n.locale = loc;
+    },
+    collapse(item) {
+      if (item.collapsed === "collapse") {
+        item.collapsed = "collapse show";
+      } else {
+        item.collapsed = "collapse";
+      }
     }
   },
   computed: {
@@ -216,6 +233,16 @@ export default {
   },
   mounted() {
     this.loaded = true;
+    this.faqs = [];
+    const faqLen = Number(i18n.t("faqLen"));
+    for (let index = 0; index < faqLen; index += 1) {
+      this.faqs.push({
+        id: i18n.t(`faq.${index + 1}.id`),
+        collapsed: "collapse",
+        title: i18n.t(`faq.${index + 1}.title`),
+        content: i18n.t(`faq.${index + 1}.content`)
+      });
+    }
     three();
   }
 };

@@ -1,7 +1,6 @@
 .card-header {
     background-color: $blue-light-forgr;
     border: none;
-    border-bottom: 1px solid $blue-forgr;
     border-radius: 0;
     a {
         color: $white;
@@ -17,5 +16,6 @@
 .card {
     border: none;
     background-color: $blue-light-forgr;
+    border-bottom: 12px solid $blue-forgr;
     border-radius: 0;
 }
