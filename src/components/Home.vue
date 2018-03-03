@@ -132,8 +132,8 @@
               <div class="container">
                 <div class="row">
                   <div class="col-12" v-for="item in faqs" :key="item.id">
-                    <div class="card">
-                    <div class="card-header" v-on:click="collapse(item)">
+                    <div class="card" v-on:click="item.collapse()">
+                    <div class="card-header">
                       <div class="row">
                         <div class="col-11">
                           <h5 class="mb-0" >
@@ -145,7 +145,7 @@
                         </div>
                       </div>
                     </div>
-                    <div :class="item.collapsed">
+                    <div v-class="{'collapse': item.collapsed, 'collapse show': !item.collapsed}">
                       <div class="card-body">
                           {{item.content}}
                       </div>
@@ -200,7 +200,6 @@ export default {
   },
   data() {
     return {
-      faqs: [],
       loaded: false,
       og_title: translations[i18n.locale].meta.og_title,
       og_description: translations[i18n.locale].meta.og_description,
@@ -213,14 +212,15 @@ export default {
     },
     switchLocale(loc) {
       i18n.locale = loc;
-    },
-    collapse(item) {
-      if (item.collapsed === "collapse") {
-        item.collapsed = "collapse show";
-      } else {
-        item.collapsed = "collapse";
-      }
     }
+    // collapse(item) {
+    //   console.log("test", item);
+    //   if (item.collapsed === "collapse") {
+    //     item.collapsed = "collapse show";
+    //   } else {
+    //     item.collapsed = "collapse";
+    //   }
+    // }
   },
   computed: {
     dialowflow_url() {
@@ -229,20 +229,26 @@ export default {
       }`;
       // console.log(url);
       return url;
+    },
+    faqs() {
+      const faqs = [];
+      const faqLen = Number(i18n.t("faqLen"));
+      for (let index = 0; index < faqLen; index += 1) {
+        faqs.push({
+          id: i18n.t(`faq.${index + 1}.id`),
+          collapsed: true,
+          collapse() {
+            this.collapsed = !this.collapsed;
+          },
+          title: i18n.t(`faq.${index + 1}.title`),
+          content: i18n.t(`faq.${index + 1}.content`)
+        });
+      }
+      return faqs;
     }
   },
   mounted() {
     this.loaded = true;
-    this.faqs = [];
-    const faqLen = Number(i18n.t("faqLen"));
-    for (let index = 0; index < faqLen; index += 1) {
-      this.faqs.push({
-        id: i18n.t(`faq.${index + 1}.id`),
-        collapsed: "collapse",
-        title: i18n.t(`faq.${index + 1}.title`),
-        content: i18n.t(`faq.${index + 1}.content`)
-      });
-    }
     three();
   }
 };
