@@ -20,7 +20,7 @@ const en = {
   value_proposition: {
     first: 'YOU\'RE HERE BECAUSE YOU NEED AN MVP.',
     second: 'WE FORGE YOUR MVP IN 4 WEEKS.',
-    third: 'Less code, more business'
+    third: 'Less Code, More Business'
   },
   cta: {
     first: 'Your MVP, in 4 weeks.',
@@ -49,7 +49,7 @@ const en = {
     2: {
       title: 'SCOPING',
       subtitle: 'Turn on the power',
-      content: 'Before reaching the sky, we need to be fully aligned with your vision and objectives. Use the contact form to tell us more about your project. Together we will go through every aspects of your project so as to match your expectations and our expertise. Concretely, we will measure the feasibility, define the requirements, make an estimate, and give you a clear view on the deliverables.',
+      content: 'Before reaching the sky, we need to be fully aligned with your vision and objectives. Use the contact form to tell us more about your project. Together we will go through every aspects of your project so we can match your expectations and our expertise. Concretely, we will measure the feasibility, define the requirements, make an estimate, and give you a clear view on the deliverables.',
     },
     3: {
       title: 'USER EXPERIENCE',
