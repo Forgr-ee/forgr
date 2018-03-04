@@ -2,7 +2,7 @@ const en = {
   common: {
     typeform_id: 'xBQRdl',
     dialogflow_id: '38022ca2551e4aa28711a25bb9639eb8',
-    faq: 'Any question ?',
+    faq: 'Any questions ?',
     signup: 'Take your rendez-vous',
   },
   card: {
@@ -109,22 +109,22 @@ const en = {
     1: {
       id: 'one',
       title: 'Is there anything you can\'t build?',
-      content: 'Yes! We build only BtoC mobile project, we don\'t build games, or anything to do with artificial intelligence.',
+      content: 'Yes! We build only BtoC mobile projects, we don\'t build games, or anything related to artificial intelligence.',
     },
     2: {
       id: 'two',
       title: 'How are you so cheap compared to other developers? Do you just outsource all development to other countries?',
-      content: 'No! Everything is done by us. We can charge less for two reasons.\n1. We don\'t have any employee salaries to pay, and \n2. By doing hybrid development, and reusing Code, we can build things faster than others can with code.',
+      content: 'No! Everything is done by us. We can charge less for two reasons.\n1. We don\'t have any employee salaries to pay, and \n2. By doing hybrid development, and reusing Code, we can build things faster than others.',
     },
     3: {
       id: 'three',
       title: 'Can you build my idea for equity?',
-      content: 'While we cannot take all by equity, we aks 2% of equity to provide long therm suport to your startup ',
+      content: 'While we cannot take all by equity, we ask 2% of equity to provide long therm support to your startup ',
     },
     4: {
       id: 'forth',
       title: 'What other services do you provide?',
-      content: 'Besides technology, Forgr provide video creation to make your app viral, also we support you on long term with our chat, where all entrepreneurs we have help are.'
+      content: 'Besides technology, Forgr provide video creation to make your app viral, also we support you on long term with our chat, where all entrepreneurs we have helped are.'
     },
     5: {
       id: 'five',
