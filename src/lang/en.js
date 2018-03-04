@@ -119,7 +119,7 @@ const en = {
     3: {
       id: 'three',
       title: 'Can you build my idea for equity?',
-      content: 'While we cannot take all by equity, we ask 2% of equity to provide long therm support to your startup ',
+      content: 'While we cannot take all by equity, we ask 2% of equity to provide long term support to your startup ',
     },
     4: {
       id: 'forth',
