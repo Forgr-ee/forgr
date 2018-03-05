@@ -135,11 +135,13 @@
                     <div class="card" v-on:click="item.collapse()">
                     <div class="card-header">
                       <div class="row">
-                        <div class="col-12">
-                          <h5 class="mb-0 text-left" >
+                        <div class="col-11">
+                          <h5 class="mb-0 text-left pointer" >
                               {{item.title}}
                           </h5>
-                          <>
+                        </div>
+                        <div class="col-1">
+                          <i :class="item.getIcon()" class="forgr-text"></i>
                         </div>
                       </div>
                     </div>
@@ -223,6 +225,10 @@ export default {
         faqs.push({
           id: i18n.t(`faq.${index + 1}.id`),
           collapsed: "collapse",
+          icon: "fas fa-plus",
+          getIcon() {
+            return this.icon;
+          },
           isCollapsed() {
             return this.collapsed;
           },
@@ -230,12 +236,12 @@ export default {
             faqs.forEach(element => {
               if (element.id !== this.id) {
                 element.collapsed = "collapse";
+              } else if (element.collapsed === "collapse") {
+                element.collapsed = "collapse show";
+                element.icon = "fas fa-minus";
               } else {
-                if (element.collapsed === "collapse") {
-                  element.collapsed = "collapse show";
-                } else {
-                  element.collapsed = "collapse";
-                }
+                element.collapsed = "collapse";
+                element.icon = "fas fa-plus";
               }
             });
             parent.$forceUpdate();

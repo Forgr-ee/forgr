@@ -7,6 +7,14 @@
     }
 }
 
+.pointer {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
 .card-body {
     border-radius: 0;
     color: $blue-forgr;
