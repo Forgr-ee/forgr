@@ -135,19 +135,18 @@
                     <div class="card" v-on:click="item.collapse()">
                     <div class="card-header">
                       <div class="row">
-                        <div class="col-11">
+                        <div class="col-12">
                           <h5 class="mb-0" >
                               {{item.title}}
                           </h5>
                         </div>
-                        <div class="col-1">
-                          <i class="fas fa-plus forgr-text"></i>
-                        </div>
                       </div>
                     </div>
-                    <div v-class="{'collapse': item.collapsed, 'collapse show': !item.collapsed}">
-                      <div class="card-body">
-                          {{item.content}}
+                    <!-- <div v-bind:class="item.isCollapsed()"> -->
+                    <div :class="item.isCollapsed()">
+                    <!-- <div v-class="{'collapse': item.collapsed, 'collapse show': !item.collapsed}"> -->
+                      <div class="card-body" v-html="item.content.join(' ')">
+                          <!-- {{ item.content.toString() }} -->
                       </div>
                     </div>
                   </div>
@@ -232,13 +231,28 @@ export default {
     },
     faqs() {
       const faqs = [];
+      const parent = this;
       const faqLen = Number(i18n.t("faqLen"));
       for (let index = 0; index < faqLen; index += 1) {
         faqs.push({
           id: i18n.t(`faq.${index + 1}.id`),
-          collapsed: true,
+          collapsed: "collapse",
+          isCollapsed() {
+            return this.collapsed;
+          },
           collapse() {
-            this.collapsed = !this.collapsed;
+            faqs.forEach(element => {
+              if (element.id !== this.id) {
+                element.collapsed = "collapse";
+              } else {
+                if (element.collapsed === "collapse") {
+                  element.collapsed = "collapse show";
+                } else {
+                  element.collapsed = "collapse";
+                }
+              }
+            });
+            parent.$forceUpdate();
           },
           title: i18n.t(`faq.${index + 1}.title`),
           content: i18n.t(`faq.${index + 1}.content`)

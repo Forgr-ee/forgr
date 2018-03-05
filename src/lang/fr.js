@@ -106,32 +106,90 @@ const fr = {
     terms: 'Cet accord incorpore expressément les Conditions d\'utilisation de Forgr par référence, qui peuvent être trouvées ici: ',
     questions: 'Si vous avez des questions ou des commentaires concernant notre NDA, n\'hésitez pas à nous contacter à',
   },
-  faqLen: '5',
+  faqLen: '7',
   faq: {
     1: {
       id: 'one',
       title: 'Est-ce qu’il y a des projets que vous ne développez pas ?',
-      content: 'Oui, nous faisons que des projets Btoc mobile, ne développons pas de jeux, ou tout ce qui a un rapport avec l’intelligence artificielle. \nEcrivez-nous si vous avez plus de questions.',
+      content: [
+        '<p>',
+        'Oui, nous faisons que des projets Btoc mobile, ne développons pas de jeux, ou tout ce qui a un rapport avec l’intelligence artificielle.',
+        '</p><p>',
+        'Ecrivez-nous si vous avez plus de questions.',
+        '</p>'
+      ]
     },
     2: {
       id: 'two',
-      title: 'Pourquoi êtes-vous si compétitifs en terme de tarifs ? Est-ce que vous externalisez vos développement à l’étranger ?',
-      content: 'Eh non ! Tout est fait par nous. Nous facturons moins cher pour deux raisons :\nNous n’avons aucun employés à payer.\nNous faisons des application hybride,  et nous réutilisons beaucoup de code ce qui nous permet de nous concentrer seulement sur votre coeur de métier, c’est pour cela que nous développons rapidement.',
+      title: 'Quel est votre Prix ?',
+      content: [
+        '<p>',
+        'Nous pensons que des coûts modérés permettent de se lancer plus facilement.',
+        '</p><p>',
+        'C’est pourquoi nous demandons seulement 8 000 EUR pour construire votre app et la lancer sur les store.',
+        '</p><p>',
+        'Nous faisons un pari sur votre succès, et demandons de l’equity sur le <a href="https://www.thefamily.co/air">modèle AIR</a> de TheFamilly.',
+        '</p>',
+      ]
     },
     3: {
       id: 'three',
-      title: 'Pouvez-vous développer mon projet contre de l\'equity ?',
-      content: 'Malheureusement nous ne pouvons pas développer votre idée seulement pour des part, mais nous demandons 2% d’equity pour vous soutenir sur le long terme .',
+      title: 'Est-ce que vous externalisez vos développement à l’étranger ?',
+      content: [
+        '<p>',
+        'Eh non ! Tout est fait par nous en France. Nous facturons moins cher pour deux raisons :',
+        '</p><p>',
+        '1- Nous forgeons des application hybride, un seul code pour 2 app',
+        '</p><p>',
+        '2- nous réutilisons notre code ce qui nous permet de nous concentrer seulement sur vos "core features". ',
+        '</p><p>',
+        'C’est pour cela que nous développons rapidement.',
+        '<p>'
+      ]
     },
     4: {
-      id: 'forth',
-      title: 'Quels autres services proposez-vous ?',
-      content: 'Au-delà de l’aspect technique, Forgr propose la création d’un format de communication impactant : la vidéo, ainsi que le suivie de votre startup sur le long terme grâce à notre plateforme de chat qui rassemble tous les entrepreneurs que nous aidons .'
+      id: 'for',
+      title: 'Est-ce qu’il y a des frais cachés ?',
+      content: [
+        '<p>',
+        'Nope ! Nous souhaitons justement que notre offre soit la plus claire et limpide possible.',
+        '</p><p>',
+        'Vous aurez seulement des frais de serveur au delà de 100 utilisateurs simultanés (20 euro/ par mois).',
+        '</p><p>',
+        'Consultez <a href="https://firebase.google.com/pricing" >Prix Firebase</a> pour plus de détails.',
+        '<p>'
+      ]
     },
     5: {
       id: 'five',
-      title: 'Est-ce qu’il y a des frais cachés ?',
-      content: 'Nope ! Nous souhaitons justement que notre offre soit la plus claire et limpide possible.\nVous aurez seulement des frais de serveur au delà de 100 utilisateurs simultanés (20 euro/ par mois) consultez https://firebase.google.com/pricing pour plus de details'
+      title: 'Comment commence-t-on à travailler ensemble ?',
+      content: [
+        '<p>',
+        'Prenez rendez-vous, en utilisant le formulaire ci-dessous !',
+        '</p><p>',
+        'Remplissez notre trello, si vous avez des maquettes, des wireframes ou des notes à propos de votre projet, c’est un plus pour nous mais ce n’est pas indispensable.',
+        '</p>',
+      ]
+    },
+    6: {
+      id: 'six',
+      title: 'Quels autres services proposez-vous ?',
+      content: [
+        '<p>',
+        'Au-delà de l’aspect technique, Forgr propose la création d’un format de communication impactant : la vidéo',
+        '</p><p>',
+        'Ainsi que le suivie de votre startup sur le long terme grâce à notre plateforme de chat qui rassemble tous les entrepreneurs que nous aidons .',
+        '</p>',
+      ]
+    },
+    7: {
+      id: 'seven',
+      title: 'Comment gérez-vous les éventuels bugs ?',
+      content: [
+        '<p>',
+        'Tous les bugs sont réparés gratuitement jusqu’à deux mois après la livraison de votre MVP. N’ayez crainte, nous ne vous laisserons pas tomber !',
+        '</p>',
+      ]
     }
   },
   footer: {

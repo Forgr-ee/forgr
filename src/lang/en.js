@@ -104,32 +104,86 @@ const en = {
     terms: 'This agreement expressly incorporates the Forgr Terms of Use by reference, which can be found here: ',
     questions: 'Should you have any questions or comments concerning this NDA, please do not hesitate to contact us at',
   },
-  faqLen: '5',
+  faqLen: '7',
   faq: {
     1: {
       id: 'one',
-      title: 'Is there anything you can\'t build?',
-      content: 'Yes! We build only BtoC mobile project, we don\'t build games, or anything to do with artificial intelligence.',
+      title: 'Is there anything you can\'t build ?',
+      content: [
+        '<p>',
+        'Yes! We build only BtoC mobile project, we don\'t build games, or anything to do with artificial intelligence.',
+        '</p><p>',
+        'Email us if you have any questions.',
+        '</p>'
+      ]
     },
     2: {
       id: 'two',
-      title: 'How are you so cheap compared to other developers? Do you just outsource all development to other countries?',
-      content: 'No! Everything is done by us. We can charge less for two reasons.\n1. We don\'t have any employee salaries to pay, and \n2. By doing hybrid development, and reusing Code, we can build things faster than others can with code.',
+      title: 'What is you price ?',
+      content: [
+        '<p>',
+        'We think that moderate costs make it easier to get started.',
+        '</p><p>',
+        'That\'s why we are asking for only 8 000 EUR to build your app and launch it on the store.',
+        '</p><p>',
+        'We bet on your success, and ask for equity on TheFamilly\'s <a href="https://www.thefamily.co/air">AIR model</a>.',
+        '</p>'
+      ]
     },
     3: {
       id: 'three',
-      title: 'Can you build my idea for equity?',
-      content: 'While we cannot take all by equity, we aks 2% of equity to provide long therm suport to your startup ',
+      title: 'Do you just outsource all development to other countries ?',
+      content: [
+        '<p>',
+        'No! Everything is done by us in France. We can charge less for two reasons:',
+        '</p><p>',
+        'By doing hybrid development',
+        '</p><p>',
+        'By reusing Code, that allow us to stay focus on your core features',
+        '</p>'
+      ]
     },
     4: {
-      id: 'forth',
-      title: 'What other services do you provide?',
-      content: 'Besides technology, Forgr provide video creation to make your app viral, also we support you on long term with our chat, where all entrepreneurs we have help are.'
+      id: 'for',
+      title: 'Are there any hidden fees ?',
+      content: [
+        '<p>',
+        'Nope, no hidden fees. You pay the agreed upon fee, plus Firebase pricing (most likely $20/month) and that\'s it',
+        '</p><p>',
+        'See <a href="https://firebase.google.com/pricing" >Firebase price</a> for more details.',
+        '</p>'
+      ]
     },
     5: {
       id: 'five',
-      title: 'Are there any hidden fees?',
-      content: 'Nope, no hidden fees. You pay the agreed upon fee, plus Firebase pricing (most likely $20/month) and that\'s it. See https://firebase.google.com/pricing/ for more details.'
+      title: 'How do we start working together ?',
+      content: [
+        '<p>',
+        'Take your rendez-vous right now by using the form below !',
+        '</p><p>',
+        'It will be helpful if you fill our trello template and sketch some wireframes  about your app, but it\'s not a necessity. ',
+        '</p>'
+      ]
+    },
+    6: {
+      id: 'six',
+      title: 'What other services do you provide ?',
+      content: [
+        '<p>',
+        'Besides technology, Forgr provide video creation to make your app viral',
+        '</p><p>',
+        'also we support you on long term with our chat, where all entrepreneurs we have help are.',
+        '</p>'
+      ]
+    },
+    7: {
+      id: 'seven',
+      title: 'How do you handle bugs?',
+      content: [
+        '<p>',
+        'All bugs are fixed free of charge up to two month after the software is delivered. ',
+        '</p>'
+      ]
     }
   },
   footer: {
