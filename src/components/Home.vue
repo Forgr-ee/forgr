@@ -66,25 +66,27 @@
                       <div style="background: #272822; height: 100%; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em; font-size: 1.6rem;">
                         <br/><table>
                           <tr>
-                          <td style="margin: 0;line-height: 210%;width: 20px; border-style: solid; border-color: #a6e22e; border-width: 0px 2px 0px 0px;">
-                          1
-                          2
-                          3
-                          4
-                          5
-                          6
-                          7
+                          <td style="display: block;padding-right: 28px;margin: 0;line-height: 234%;width: 20px; border-style: solid; border-color: #a6e22e; border-width: 0px 2px 0px 0px;">
+                          <div>1</div>
+                          <div>2</div>
+                          <div>3</div>
+                          <div>4</div>
+                          <div>5</div>
+                          <div>6</div>
+                          <div>7</div>
                           </td>
-                      <td>
-                        <pre style="margin: 0; line-height: 200%"><span style="color: #ca0256">private</span> <span style="color: #ca0256">static</span> <span style="color: #66d9ef">int</span> <span style="color: #a6e22e">updateDesktop</span> <span style="color: #f92672">(</span><span style="color: #66d9ef">Image</span> <span style="color: #f8f8f2">wallpaper</span><span style="color: #f92672">)</span> <span style="color: #f92672">{</span>
-                        <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">happyness</span><span style="color: #f92672">;</span>
-                        <span style="color: #66d9ef">MyDesktop</span> <span style="color: #f8f8f2">desktop</span> <span style="color: #f92672">=</span> <span style="color: #66d9ef">new</span> <span style="color: #f8f8f2">MyDesktop</span><span style="color: #f92672">();</span>
-                        <span style="color: #f8f8f2">desktop</span><span style="color: #f92672">.</span><span style="color: #a6e22e">apply</span><span style="color: #f92672">(</span><span style="color: #f8f8f2">wallpaper</span><span style="color: #f92672">);</span>
-                        <span style="color: #f8f8f2">happyness</span> <span style="color: #f92672">=</span> <span style="color: #6b06d4">INFINITY</span><span style="color: #f92672">;</span>
-                        <span style="color: #f92672">return</span> <span style="color: #f8f8f2">happyness</span><span style="color: #f92672">;</span>
-                        <span style="color: #f92672;">}</span>
-                      </pre></td>
-                      </tr>
+                          <td>
+                            <pre style="margin: 0; line-height: 90%">
+                            <li><span style="color: #ca0256">private</span> <span style="color: #ca0256">static</span> <span style="color: #66d9ef">int</span> <span style="color: #a6e22e">updateDesktop</span> <span style="color: #f92672">(</span><span style="color: #66d9ef">Image</span> <span style="color: #f8f8f2">wallpaper</span><span style="color: #f92672">)</span> <span style="color: #f92672">{</span></li>
+                            <li style="margin-left: 42px"><span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">happyness</span><span style="color: #f92672">;</span></li>
+                            <li style="margin-left: 42px"><span style="color: #66d9ef">MyDesktop</span> <span style="color: #f8f8f2">desktop</span> <span style="color: #f92672">=</span> <span style="color: #66d9ef">new</span> <span style="color: #f8f8f2">MyDesktop</span><span style="color: #f92672">();</span></li>
+                            <li style="margin-left: 42px"><span style="color: #f8f8f2">desktop</span><span style="color: #f92672">.</span><span style="color: #a6e22e">apply</span><span style="color: #f92672">(</span><span style="color: #f8f8f2">wallpaper</span><span style="color: #f92672">);</span></li>
+                            <li style="margin-left: 42px"><span style="color: #f8f8f2">happyness</span> <span style="color: #f92672">=</span> <span style="color: #6b06d4">INFINITY</span><span style="color: #f92672">;</span></li>
+                            <li style="margin-left: 42px"><span style="color: #f92672">return</span> <span style="color: #f8f8f2">happyness</span><span style="color: #f92672">;</span></li>
+                            <li><span style="color: #f92672;">}</span></li>
+                            </pre>
+                          </td>
+                          </tr>
                       </table>
                     </div>
                   </div>
@@ -134,9 +136,10 @@
                     <div class="card-header">
                       <div class="row">
                         <div class="col-12">
-                          <h5 class="mb-0" >
+                          <h5 class="mb-0 text-left" >
                               {{item.title}}
                           </h5>
+                          <>
                         </div>
                       </div>
                     </div>
