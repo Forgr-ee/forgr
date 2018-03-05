@@ -140,8 +140,11 @@
                               {{item.title}}
                           </h5>
                         </div>
-                        <div class="col-1">
-                          <i :class="item.getIcon()" class="forgr-text"></i>
+                        <div class="col-1" v-show="item.collapsed.indexOf('show') < 0">
+                          <i class="fas fa-plus forgr-text"></i>
+                        </div>
+                        <div class="col-1" v-show="item.collapsed.indexOf('show') !== -1" >
+                          <i class="fas fa-minus forgr-text"></i>
                         </div>
                       </div>
                     </div>
@@ -225,10 +228,6 @@ export default {
         faqs.push({
           id: i18n.t(`faq.${index + 1}.id`),
           collapsed: "collapse",
-          icon: "fas fa-plus",
-          getIcon() {
-            return this.icon;
-          },
           isCollapsed() {
             return this.collapsed;
           },
@@ -238,10 +237,10 @@ export default {
                 element.collapsed = "collapse";
               } else if (element.collapsed === "collapse") {
                 element.collapsed = "collapse show";
-                element.icon = "fas fa-minus";
+                element.icon = "fas fa-minus forgr-text";
               } else {
                 element.collapsed = "collapse";
-                element.icon = "fas fa-plus";
+                element.icon = "fas fa-plus forgr-text";
               }
             });
             parent.$forceUpdate();
