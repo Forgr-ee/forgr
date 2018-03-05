@@ -138,13 +138,13 @@ const fr = {
       content: [
         '<p>',
         'Eh non ! Tout est fait par nous en France. Nous facturons moins cher pour deux raisons :',
-        '</p><p>',
+        '</p><ul><li>',
         '1- Nous forgeons des application hybride, un seul code pour 2 app',
-        '</p><p>',
+        '</li><li>',
         '2- nous réutilisons notre code ce qui nous permet de nous concentrer seulement sur vos "core features". ',
-        '</p><p>',
+        '</li></ul><p>',
         'C’est pour cela que nous développons rapidement.',
-        '<p>'
+        '</p>'
       ]
     },
     4: {
