@@ -6,7 +6,6 @@
               <div class="row">
                 <div class="col-xl-9 mx-auto">
                   <img src="../assets/logo.png" class="brand-logo"><br/>
-                  <!-- <img src="./assets/logo.png"> -->
                   <h1 class="mb-5">
                     <b>{{ $t("value_proposition.third") }}</b>
                   </h1>
@@ -16,7 +15,6 @@
                     <div class="form-row center-content">
                       <div class="col-12 col-md-5">
                         <a href="https://calendly.com/forgr/30min" class="button btn btn-lg btn-primary animated-button victoria-four" target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
-                          <!-- <a class="typeform-share button btn btn-lg btn-primary animated-button victoria-four" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a> -->
                       </div>
                     </div>
                   </form>
@@ -142,11 +140,8 @@
                         </div>
                       </div>
                     </div>
-                    <!-- <div v-bind:class="item.isCollapsed()"> -->
                     <div :class="item.isCollapsed()">
-                    <!-- <div v-class="{'collapse': item.collapsed, 'collapse show': !item.collapsed}"> -->
                       <div class="card-body" v-html="item.content.join(' ')">
-                          <!-- {{ item.content.toString() }} -->
                       </div>
                     </div>
                   </div>
@@ -163,14 +158,12 @@
                     <h2 class="mb-5">{{ $t("cta.first") }} <br/>
                       <b>{{ $t("cta.second") }}</b>
                     </h2>
-                  <!-- <h2 class="mb-4">{{ $t("common.signup_sentence") }}</h2> -->
                 </div>
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
                   <form>
                     <div class="form-row center-content">
                       <div class="col-12 col-md-5">
                         <a href="https://calendly.com/forgr/30min" class="button btn btn-lg btn-primary animated-button victoria-four" target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
-                          <!-- <a class="typeform-share button btn btn-lg btn-primary animated-button victoria-four" :href="typeform_url" data-mode="popup" data-hide-headers=true data-hide-footer=true target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a> -->
                       </div>
                     </div>
                   </form>
@@ -187,7 +180,6 @@ import { three } from "../setup/dotcloud";
 
 export default {
   name: "Home",
-  // props: [i18n],
   metaInfo() {
     return {
       meta: [
@@ -212,21 +204,12 @@ export default {
     switchLocale(loc) {
       i18n.locale = loc;
     }
-    // collapse(item) {
-    //   console.log("test", item);
-    //   if (item.collapsed === "collapse") {
-    //     item.collapsed = "collapse show";
-    //   } else {
-    //     item.collapsed = "collapse";
-    //   }
-    // }
   },
   computed: {
     dialowflow_url() {
       const url = `https://app.talky.cards/?api=${
         translations[i18n.locale].common.dialogflow_id
       }`;
-      // console.log(url);
       return url;
     },
     faqs() {
