@@ -135,7 +135,7 @@
                     <div class="card" v-on:click="item.collapse()">
                     <div class="card-header">
                       <div class="row">
-                        <div class="col-11">
+                        <div class="col-10">
                           <h5 class="mb-0 text-left pointer" >
                               {{item.title}}
                           </h5>
