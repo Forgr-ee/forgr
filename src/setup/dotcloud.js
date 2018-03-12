@@ -6,6 +6,7 @@ export const three = function () {
     camera,
     renderer;
   let container,
+    resizeInterval,
     aspectRatio,
     HEIGHT,
     WIDTH,
@@ -27,7 +28,8 @@ export const three = function () {
   function init() {
     container = document.querySelector("div.skycloud");
 
-    HEIGHT = 500;
+    // HEIGHT = 500;
+    HEIGHT = window.innerHeight;
     WIDTH = window.innerWidth;
     aspectRatio = WIDTH / HEIGHT;
     fieldOfView = 75;
@@ -68,8 +70,22 @@ export const three = function () {
   function animate() {
     requestAnimationFrame(animate);
     render();
+    intervalResize();
   }
 
+  function intervalResize(params) {
+    resizeInterval = setInterval(() => {
+      if (HEIGHT < 500) {
+        clearInterval(resizeInterval);
+        return;
+      } else {
+        HEIGHT = HEIGHT - 5;
+        camera.aspect = aspectRatio;
+        // camera.updateProjectionMatrix();
+        renderer.setSize(WIDTH, HEIGHT);
+      }
+    }, 200)
+  }
 
   function render() {
     camera.position.x += (mouseX - camera.position.x) * 0.005;
@@ -92,7 +108,9 @@ export const three = function () {
 
   function onWindowResize() {
     let WIDTH = window.innerWidth,
-      HEIGHT = 400;
+      HEIGHT = 500;
+    // HEIGHT = window.innerHeight;
+
 
     camera.aspect = aspectRatio;
     camera.updateProjectionMatrix();
@@ -104,7 +122,7 @@ export const three = function () {
     geometry = new THREE.SphereGeometry(1000, 100, 50);
 
     materialOptions = {
-      size: 2,
+      size: 3,
       transparency: true,
       opacity: 0.7
     };
