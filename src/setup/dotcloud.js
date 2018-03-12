@@ -28,8 +28,8 @@ export const three = function () {
   function init() {
     container = document.querySelector("div.skycloud");
 
-    // HEIGHT = 500;
-    HEIGHT = window.innerHeight;
+    HEIGHT = 500;
+    // HEIGHT = window.innerHeight;
     WIDTH = window.innerWidth;
     aspectRatio = WIDTH / HEIGHT;
     fieldOfView = 75;
@@ -70,7 +70,7 @@ export const three = function () {
   function animate() {
     requestAnimationFrame(animate);
     render();
-    intervalResize();
+    // intervalResize();
   }
 
   function intervalResize(params) {
