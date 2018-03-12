@@ -16,7 +16,7 @@ const fr = {
   },
   meta: {
     og_title: 'Forgr',
-    og_description: 'Moins de code, plus de business',
+    og_description: 'Less code, more business',
     og_locale: 'fr_FR'
   },
   value_proposition: {
