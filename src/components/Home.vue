@@ -2,7 +2,8 @@
     <!-- Masthead -->
     <div class="home">
     <header class="masthead text-white text-center">
-            <div class="container">
+            <div class="skycloud">
+            <div class="container rawcloud2">
               <div class="row">
                 <div class="col-xl-9 mx-auto">
                   <img src="../assets/logo.png" class="brand-logo"><br/>
@@ -13,13 +14,12 @@
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
                   <form>
                     <div class="form-row center-content">
-                      <div class="col-12 col-md-5">
                         <a href="https://calendly.com/forgr/30min" class="button btn btn-lg btn-primary animated-button victoria-four" target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
-                      </div>
                     </div>
                   </form>
                 </div>
               </div>
+            </div>
             </div>
           </header>
 
@@ -160,7 +160,8 @@
 
           <!-- Call to Action -->
           <section class="text-white text-center">
-            <div class="skycloud">
+            <div class="">
+            <!-- <div class="skycloud"> -->
               <div class="row rawcloud">
                 <div class="col-xl-9 mx-auto">
                     <h2 class="mb-5">{{ $t("cta.first") }} <br/>
@@ -170,9 +171,7 @@
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
                   <form>
                     <div class="form-row center-content">
-                      <div class="col-12 col-md-5">
                         <a href="https://calendly.com/forgr/30min" class="button btn btn-lg btn-primary animated-button victoria-four" target="_blank" style="z-index: 1;">{{ $t("common.signup") }}</a>
-                      </div>
                     </div>
                   </form>
                 </div>

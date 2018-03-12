@@ -27,7 +27,7 @@ export const three = function () {
   function init() {
     container = document.querySelector("div.skycloud");
 
-    HEIGHT = 400;
+    HEIGHT = 500;
     WIDTH = window.innerWidth;
     aspectRatio = WIDTH / HEIGHT;
     fieldOfView = 75;
@@ -54,7 +54,8 @@ export const three = function () {
       renderer = new THREE.CanvasRenderer();
     }
 
-    renderer.setClearColor(0x000011, 1);
+    // renderer.setClearColor(0x000011, 1);
+    renderer.setClearColor('#1d2355');
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(WIDTH, HEIGHT);
     container.appendChild(renderer.domElement);
