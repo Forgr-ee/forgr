@@ -39,7 +39,7 @@ const fr = {
     },
     3: {
       title: 'Facile à utiliser',
-      subtitle: 'Prêt à l\'emploi, simple à personnaliser pour votre équipe!',
+      subtitle: 'Prêt à l\'emploi, simple à personnaliser par votre équipe!',
     },
   },
   showcase: {
@@ -113,7 +113,7 @@ const fr = {
       title: 'Est-ce qu’il y a des projets que vous ne développez pas ?',
       content: [
         '<p>',
-        'Oui, nous faisons que des projets Btoc mobile, ne développons pas de jeux, ou tout ce qui a un rapport avec l’intelligence artificielle.',
+        'Oui, nous ne faisons que des projets BtoC mobile, ne développons pas de jeux, ou tout ce qui est en rapport avec l’intelligence artificielle.',
         '</p><p>',
         'Ecrivez-nous si vous avez plus de questions.',
         '</p>'
@@ -126,7 +126,7 @@ const fr = {
         '<p>',
         'Nous pensons que des coûts modérés permettent de se lancer plus facilement.',
         '</p><p>',
-        'C’est pourquoi nous demandons seulement 8 000 EUR pour construire votre app et la lancer sur les store.',
+        'C’est pourquoi nous demandons seulement 8 000 EUR pour construire votre app et la lancer sur les stores.',
         '</p><p>',
         'Nous faisons un pari sur votre succès, et demandons de l’equity sur le <a href="https://www.thefamily.co/air">modèle AIR</a> de TheFamilly.',
         '</p>',
@@ -139,7 +139,7 @@ const fr = {
         '<p>',
         'Eh non ! Tout est fait par nous en France. Nous facturons moins cher pour deux raisons :',
         '</p><ul><li>',
-        '1- Nous forgeons des application hybride, un seul code pour 2 app',
+        '1- Nous forgeons des application hybride, un seul code pour 2 apps',
         '</li><li>',
         '2- nous réutilisons notre code ce qui nous permet de nous concentrer seulement sur vos "core features". ',
         '</li></ul><p>',
