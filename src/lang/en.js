@@ -111,7 +111,7 @@ const en = {
       title: 'Is there anything you can\'t build ?',
       content: [
         '<p>',
-        'Yes! We build only BtoC mobile project, we don\'t build games, or anything to do with artificial intelligence.',
+        'Yes! We build only BtoC mobile projects, we don\'t build games, or anything related to artificial intelligence.',
         '</p><p>',
         'Email us if you have any questions.',
         '</p>'
@@ -139,7 +139,7 @@ const en = {
         '</p><p>',
         'By doing hybrid development',
         '</p><p>',
-        'By reusing Code, that allow us to stay focus on your core features',
+        'By reusing Code, this allow us to stay focus on your core features',
         '</p>'
       ]
     },
@@ -161,7 +161,7 @@ const en = {
         '<p>',
         'Take your rendez-vous right now by using the form below !',
         '</p><p>',
-        'It will be helpful if you fill our trello template and sketch some wireframes  about your app, but it\'s not a necessity. ',
+        'It will be helpful if you fill our trello template and sketch some wireframes about your app, but it\'s not a necessity. ',
         '</p>'
       ]
     },
@@ -172,7 +172,7 @@ const en = {
         '<p>',
         'Besides technology, Forgr provide video creation to make your app viral',
         '</p><p>',
-        'also we support you on long term with our chat, where all entrepreneurs we have help are.',
+        'also we support you on the long term with our chat, where all entrepreneurs we have help are.',
         '</p>'
       ]
     },
@@ -181,7 +181,7 @@ const en = {
       title: 'How do you handle bugs?',
       content: [
         '<p>',
-        'All bugs are fixed free of charge up to two month after the software is delivered. ',
+        'All bugs are fixed free of charge up to two months after the software is delivered. ',
         '</p>'
       ]
     }

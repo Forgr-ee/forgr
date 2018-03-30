@@ -53,7 +53,7 @@
 
                   <div class="col-lg-6 text-white showcase-img tile4"></div>
                   <div class="col-lg-6 my-auto showcase-text">
-                    <h2>{{ $t("showcase.4.title") }}</h2>
+                    <h1>{{ $t("showcase.4.title") }}</h1>
                     <h3 class="quote">{{ $t("showcase.4.subtitle") }}</h3>
                     <br>
                     <p class="lead mb-0 space">
@@ -76,7 +76,7 @@
                           <div>7</div>
                           </td>
                           <td>
-                            <pre style="margin: 0; line-height: 90%">
+                            <pre style="margin: 0; line-height: 90%; overflow: hidden;">
                             <li><span style="color: #ca0256">private</span> <span style="color: #ca0256">static</span> <span style="color: #66d9ef">int</span> <span style="color: #a6e22e">updateDesktop</span> <span style="color: #f92672">(</span><span style="color: #66d9ef">Image</span> <span style="color: #f8f8f2">wallpaper</span><span style="color: #f92672">)</span> <span style="color: #f92672">{</span></li>
                             <li style="margin-left: 42px"><span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">happyness</span><span style="color: #f92672">;</span></li>
                             <li style="margin-left: 42px"><span style="color: #66d9ef">MyDesktop</span> <span style="color: #f8f8f2">desktop</span> <span style="color: #f92672">=</span> <span style="color: #66d9ef">new</span> <span style="color: #f8f8f2">MyDesktop</span><span style="color: #f92672">();</span></li>
@@ -149,7 +149,7 @@
                       </div>
                     </div>
                     <div :class="item.isCollapsed()">
-                      <div class="card-body" v-html="item.content.join(' ')">
+                      <div class="card-body text-justify" v-html="item.content.join(' ')">
                       </div>
                     </div>
                   </div>
@@ -164,7 +164,7 @@
             <!-- <div class="skycloud"> -->
               <div class="row">
                 <div class="col-xl-9 mx-auto">
-                    <h2 class="mb-5">{{ $t("cta.first") }} <br/>
+                    <h2 class="mb-5">{{ $t("cta.first") }} <br/><br/>
                       <b>{{ $t("cta.second") }}</b>
                     </h2>
                 </div>
