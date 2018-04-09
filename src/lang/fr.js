@@ -126,7 +126,7 @@ const fr = {
         '<p>',
         'Nous pensons que des coûts modérés permettent de se lancer plus facilement.',
         '</p><p>',
-        'C’est pourquoi nous demandons seulement 8 000 EUR pour construire votre app et la lancer sur les stores.',
+        'C’est pourquoi nous demandons seulement 16 000 EUR pour construire votre app et la lancer sur les stores.',
         '</p><p>',
         'Nous faisons un pari sur votre succès, et demandons de l’equity sur le <a href="https://www.thefamily.co/air">modèle AIR</a> de TheFamilly.',
         '</p>',

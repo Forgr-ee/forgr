@@ -124,7 +124,7 @@ const en = {
         '<p>',
         'We think that moderate costs make it easier to get started.',
         '</p><p>',
-        'That\'s why we are asking for only 8 000 EUR to build your app and launch it on the store.',
+        'That\'s why we are asking for only 16 000 EUR to build your app and launch it on the store.',
         '</p><p>',
         'We bet on your success, and ask for equity on TheFamilly\'s <a href="https://www.thefamily.co/air">AIR model</a>.',
         '</p>'
