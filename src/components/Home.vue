@@ -6,7 +6,7 @@
             <div class="container rawcloud2">
               <div class="row">
                 <div class="col-xl-9 mx-auto">
-                  <img src="../assets/logo.png" class="brand-logo"><br/>
+                  <img src="../assets/logo-forgr-w.png" class="brand-logo"><br/>
                   <h1 class="mb-5">
                     <b>{{ $t("value_proposition.third") }}</b>
                   </h1>
