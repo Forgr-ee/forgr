@@ -7,8 +7,8 @@
               <div class="row">
                 <div class="col-xl-9 mx-auto">
                   <img src="../assets/logo-forgr-w.png" class="brand-logo"><br/>
-                  <h1 class="mb-5">
-                    <b>{{ $t("value_proposition.third") }}</b>
+                  <h1 class="mb-5">{{ $t("cta.first") }}<br/>
+                    <b>{{ $t("cta.second") }}</b>
                   </h1>
                 </div>
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
@@ -164,8 +164,8 @@
             <!-- <div class="skycloud"> -->
               <div class="row">
                 <div class="col-xl-9 mx-auto">
-                    <h2 class="mb-5">{{ $t("cta.first") }} <br/><br/>
-                      <b>{{ $t("cta.second") }}</b>
+                    <h2 class="mb-5">
+                      <b>{{$t("value_proposition.third")}}</b>
                     </h2>
                 </div>
                 <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
