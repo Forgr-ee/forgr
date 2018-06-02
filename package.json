@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "description": "forgr landing page",
   "author": "digitalshift.ee",
-  "homepage": "https://github.com/riderx/forgr",
+  "homepage": "https://github.com/Forgr-ee/forgr",
   "private": true,
   "scripts": {
-    "gh-pages": "node build/gh-pages.js",
+    "gh-pages": "node ./build/gh-pages.js",
     "deploy": "node ./node_modules/vue-gh-pages/index.js",
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "prod": "webpack-dev-server --inline --progress --config build/webpack.prod.conf.js",
+    "dev": "webpack-dev-server --inline --progress --config ./build/webpack.dev.conf.js",
+    "prod": "webpack-dev-server --inline --progress --config ./build/webpack.prod.conf.js",
     "start": "yarn run dev",
     "lint": "eslint --ext .js,.vue src",
-    "build": "node build/build.js"
+    "build": "node ./build/build.js"
   },
   "dependencies": {
     "args": "^3.0.8",
