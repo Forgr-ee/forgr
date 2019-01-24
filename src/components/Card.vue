@@ -147,7 +147,7 @@ export default {
   },
   computed: {
     isAbleToAddme() {
-      return true;
+      return !navigator.userAgent.match("CriOS");
     }
   },
   ready() {},
