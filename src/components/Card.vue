@@ -44,7 +44,7 @@
       </div>
       <div class="col-sm-3 col-6 text-center tile-left">
         <div >
-          <a class="white-text" :href="'tel:' + usr.mobile">
+          <a class="white-text" :href="'tel:' + usr().mobile">
           <i class="fa fa-phone fa-4x fa-fw"></i>
           </a>
         </div>
@@ -52,7 +52,7 @@
       </div>
       <div class="col-sm-3 col-6 text-center tile-right">
         <div >
-          <a class="white-text" :href="'mailto:' + usr.email">
+          <a class="white-text" :href="'mailto:' + usr().email">
           <i class="fa fa-envelope-open fa-4x fa-fw"></i>
           </a>
         </div>
