@@ -1,69 +1,78 @@
 <template>
-    <!-- Masthead -->
-    <div class="home">
+  <!-- Masthead -->
+  <div class="home">
     <header class="masthead text-white text-center">
-            <div class="container">
-              <div class="row">
-                <div class="col-xl-9 mx-auto">
-                  <img :src="twitterImg(usr().twitter)" class="user-icon"><br/>
-                  <h2 class="mb-5">
-                    {{usr().firstName}} {{usr().lastName}} <br/>
-                    {{usr().mobile}}<br/>
-                    {{usr().email}}<br/>
-                  </h2>
-                </div>
-                <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-                  <form>
-                    <div class="form-row center-content">
-                      <div v-if="isAbleToAddme" class="col-12 col-md-5">
-                        <a @click="vcard()" download class="button btn btn-lg btn-primary animated-button victoria-four" style="z-index: 1;"> {{$t("card.addme")}} </a>
-                      </div>
-                    </div>
-                  </form>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <img :src="twitterImg(usr().twitter)" class="user-icon">
+            <br>
+            <h2 class="mb-5">
+              {{usr().firstName}} {{usr().lastName}}
+              <br>
+              {{usr().mobile}}
+              <br>
+              {{usr().email}}
+              <br>
+            </h2>
+          </div>
+          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+            <form>
+              <div class="form-row center-content">
+                <div v-if="isAbleToAddme" class="col-12 col-md-5">
+                  <a
+                    @click="vcard()"
+                    download
+                    class="button btn btn-lg btn-primary animated-button victoria-four"
+                    style="z-index: 1;"
+                  >{{$t("card.addme")}}</a>
                 </div>
               </div>
-            </div>
-          </header>
-  <div class="container tiles">
-    <div class="row justify-content-center">
-      <div class="col-sm-3 col-6 text-center tile-right">
-        <div>
-          <a class="white-text" href="https://calendly.com/forgr/30min">
-          <i class="fa fa-calendar-plus fa-4x fa-fw"></i>
-          </a>
+            </form>
+          </div>
         </div>
-        <br/> {{$t("card.meet")}}
       </div>
-      <div class="col-sm-3 col-6 text-center tile-left">
+    </header>
+    <div class="container tiles">
+      <div class="row justify-content-center">
+        <div class="col-sm-3 col-6 text-center tile-right">
+          <div>
+            <a class="white-text" href="https://calendly.com/forgr/30min">
+              <i class="fa fa-calendar-plus fa-4x fa-fw"></i>
+            </a>
+          </div>
+          <br>
+          {{$t("card.meet")}}
+        </div>
+        <div class="col-sm-3 col-6 text-center tile-left">
           <div>
             <a class="white-text" href="/">
-            <img src="../assets/logo.png" class="brand-logo-icon"/>
+              <img src="../assets/logo.png" class="brand-logo-icon">
             </a>
           </div>
           {{$t("card.visit")}}
-      </div>
-      <div class="col-sm-3 col-6 text-center tile-left">
-        <div >
-          <a class="white-text" :href="'tel:' + usr().mobile">
-          <i class="fa fa-phone fa-4x fa-fw"></i>
-          </a>
         </div>
-        <br/>{{$t("card.call")}}
-      </div>
-      <div class="col-sm-3 col-6 text-center tile-right">
-        <div >
-          <a class="white-text" :href="'mailto:' + usr().email">
-          <i class="fa fa-envelope-open fa-4x fa-fw"></i>
-          </a>
+        <div class="col-sm-3 col-6 text-center tile-left">
+          <div>
+            <a class="white-text" :href="'tel:' + usr().mobile">
+              <i class="fa fa-phone fa-4x fa-fw"></i>
+            </a>
+          </div>
+          <br>
+          {{$t("card.call")}}
         </div>
-        <br/>{{$t("card.email")}}
+        <div class="col-sm-3 col-6 text-center tile-right">
+          <div>
+            <a class="white-text" :href="'mailto:' + usr().email">
+              <i class="fa fa-envelope-open fa-4x fa-fw"></i>
+            </a>
+          </div>
+          <br>
+          {{$t("card.email")}}
+        </div>
       </div>
     </div>
-
   </div>
-
-</div>
-
 </template>
 
 <script>
@@ -138,7 +147,7 @@ export default {
   },
   computed: {
     isAbleToAddme() {
-      return !navigator.userAgent.match("CriOS");
+      return true;
     }
   },
   ready() {},
