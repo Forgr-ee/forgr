@@ -92,7 +92,7 @@ export default {
       i18n.locale = loc;
     },
     twitterImg(id) {
-      return `https://avatars.io/twitter/${id}`;
+      return `https://unavatar.io/${id}`;
     },
     usr() {
       const index = this.$route.params.id || 0;
